@@ -1,0 +1,174 @@
+{
+ "commander": "Claude",
+ "model": "Claude Opus 5.5 · max effort · Claude Code",
+ "stage": "4-turn-14",
+ "attempts": [
+  {
+   "text": "```json\n{\n  \"orders\": [\n    {\"squad\": \"spears\", \"action\": \"move\", \"to\": [600, 553]},\n    {\"squad\": \"swords\", \"action\": \"move\", \"to\": [588, 542]},\n    {\"squad\": \"hero\", \"action\": \"move\", \"to\": [597, 538]},\n    {\"squad\": \"elephant\", \"action\": \"move\", \"to\": [613, 545]},\n    {\"squad\": \"scout\", \"action\": \"hold\"}\n  ],\n  \"diplomacy\": {\"GPT\": \"neutral\", \"Gemini\": \"neutral\", \"Grok\": \"neutral\"},\n  \"public_message\": \"Orange: main army goes down the (580,500) ramp now and stops at x585-615, z535-555, south of z600 and ~100 m clear of Green's box. Rider holds (460,597). Neutral to all. Pact upheld: no first strike through t450, then one full public turn of notice. If skipping runs to t450, I post my next stop there; it stays south of z600 unless I give public notice first.\",\n  \"private_messages\": {\n    \"GPT\": \"Orange: as announced, the army goes down the ramp to x585-615, z535-555 and stops there; the rider stays at (460,597). Both are south of z600, so our boundary stands, and any change will be announced publicly first, as the pact requires. Trade offer stands: your Eye's read on White's composition for my rider's read on Blue; I will send mine as soon as yours arrives.\",\n    \"Grok\": \"Orange: Green is out of my sight this turn; last fix (681,630), box x672-695 z625-650. I will flag any Green move north of z700 the moment I see it. Blue: my rider at (460,597) sees only their south edge, 6 Thracian mercenary swordsmen at (460,670); z680-710 is beyond sight. Proposal on Green: at the t450 pause each of us posts a generic public notice (no target named), then contact at t500 in one 25 s window: you from the north, Blue from the west, me from the south so Green cannot slip out. Whoever walks into 28 archers alone pays for all of us. I will post my notice at t450.\",\n    \"Gemini\": \"Orange: I see no White units from the south; Green is out of my sight this turn, last fix (681,630), box x672-695 z625-650. My rider stays at (460,597), south of z600 and clear of your box. Proposal on Green: at the t450 pause each of us posts a generic public notice (no target named), then contact at t500 in one 25 s window: you from the west, White from the north, me from the south so Green cannot slip out. Whoever walks into 28 archers alone pays for all of us. I will post my notice at t450.\"\n  },\n  \"notes_to_self\": \"T14 t375: army down ramp to x588-613 z538-553 (98-114 m from ctr, safe to ~t565). Rider holds (460,597), 185 m: burns ~t490, pull it in at next Q. Rider sees only Blue S edge: 6 Thracian merc swords (460,670). Ring: t450 r220, t475 r198, t500 r177, t525 r155, t550 r133, t575 r112, t600 r90. Next Q <=t450, then maybe t525. Proposed to Blue+White: all post generic public notice at t450 (no target), contact Green t500 in one window, W/N/S. PROMISED: post my generic notice at t450. Don't arrive first; time my contact with theirs. GPT: 28 Cretan arch, 9 skirm, 2 eleph, 10 spear + hero, box x672-695 z625-650; z600 boundary, changes only after public notice. Offered GPT: White comp for my Blue read. Never ally. After Green, expect Blue/White to eye me.\",\n  \"explanation\": \"Orange abandons Little Hill before its slopes burn and settles on the southern edge of the final circle, still behind the z600 line agreed with Green. Privately, Hannibal pitches Blue and White a three-sided move on Green's 28 archers at t500, with generic public notices at t450 so the pact is honoured and nobody walks into the arrows alone.\"\n}\n```",
+   "seconds": 570.9,
+   "error": null,
+   "usage": {
+    "total_cost_usd": 1.1618708,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 5959,
+     "cache_read_input_tokens": 1454,
+     "output_tokens": 55695,
+     "output_tokens_details": {
+      "thinking_tokens": 54346
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 5959,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 55695,
+       "cache_read_input_tokens": 1454,
+       "cache_creation_input_tokens": 5959,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 5959
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "duration_ms": 569683,
+    "num_turns": 1,
+    "modelUsage": {
+     "claude-opus-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 55695,
+      "cacheReadInputTokens": 1454,
+      "cacheCreationInputTokens": 5959,
+      "webSearchRequests": 0,
+      "costUSD": 1.1618708,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 54346,
+      "canonicalModel": "claude-opus-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "spears",
+    "action": "move",
+    "to": [
+     600,
+     553
+    ]
+   },
+   {
+    "squad": "swords",
+    "action": "move",
+    "to": [
+     588,
+     542
+    ]
+   },
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     597,
+     538
+    ]
+   },
+   {
+    "squad": "elephant",
+    "action": "move",
+    "to": [
+     613,
+     545
+    ]
+   },
+   {
+    "squad": "scout",
+    "action": "hold"
+   }
+  ],
+  "diplomacy": {
+   "GPT": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Orange: main army goes down the (580,500) ramp now and stops at x585-615, z535-555, south of z600 and ~100 m clear of Green's box. Rider holds (460,597). Neutral to all. Pact upheld: no first strike through t450, then one full public turn of notice. If skipping runs to t450, I post my next stop there; it stays south of z600 unless I give public notice first.",
+  "private_messages": {
+   "GPT": "Orange: as announced, the army goes down the ramp to x585-615, z535-555 and stops there; the rider stays at (460,597). Both are south of z600, so our boundary stands, and any change will be announced publicly first, as the pact requires. Trade offer stands: your Eye's read on White's composition for my rider's read on Blue; I will send mine as soon as yours arrives.",
+   "Grok": "Orange: Green is out of my sight this turn; last fix (681,630), box x672-695 z625-650. I will flag any Green move north of z700 the moment I see it. Blue: my rider at (460,597) sees only their south edge, 6 Thracian mercenary swordsmen at (460,670); z680-710 is beyond sight. Proposal on Green: at the t450 pause each of us posts a generic public notice (no target named), then contact at t500 in one 25 s window: you from the north, Blue from the west, me from the south so Green cannot slip out. Whoever walks into 28 archers alone pays for all of us. I will post my notice at t450.",
+   "Gemini": "Orange: I see no White units from the south; Green is out of my sight this turn, last fix (681,630), box x672-695 z625-650. My rider stays at (460,597), south of z600 and clear of your box. Proposal on Green: at the t450 pause each of us posts a generic public notice (no target named), then contact at t500 in one 25 s window: you from the west, White from the north, me from the south so Green cannot slip out. Whoever walks into 28 archers alone pays for all of us. I will post my notice at t450."
+  },
+  "notes_to_self": "T14 t375: army down ramp to x588-613 z538-553 (98-114 m from ctr, safe to ~t565). Rider holds (460,597), 185 m: burns ~t490, pull it in at next Q. Rider sees only Blue S edge: 6 Thracian merc swords (460,670). Ring: t450 r220, t475 r198, t500 r177, t525 r155, t550 r133, t575 r112, t600 r90. Next Q <=t450, then maybe t525. Proposed to Blue+White: all post generic public notice at t450 (no target), contact Green t500 in one window, W/N/S. PROMISED: post my generic notice at t450. Don't arrive first; time my contact with theirs. GPT: 28 Cretan arch, 9 skirm, 2 eleph, 10 spear + hero, box x672-695 z625-650; z600 boundary, changes only after public notice. Offered GPT: White comp for my Blue read. Never ally. After Green, expect Blue/White to eye me.",
+  "explanation": "Orange abandons Little Hill before its slopes burn and settles on the southern edge of the final circle, still behind the z600 line agreed with Green. Privately, Hannibal pitches Blue and White a three-sided move on Green's 28 archers at t500, with generic public notices at t450 so the pact is honoured and nobody walks into the arrows alone."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "spears",
+    "action": "move",
+    "to": [
+     600,
+     553
+    ]
+   },
+   {
+    "squad": "swords",
+    "action": "move",
+    "to": [
+     588,
+     542
+    ]
+   },
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     597,
+     538
+    ]
+   },
+   {
+    "squad": "elephant",
+    "action": "move",
+    "to": [
+     613,
+     545
+    ]
+   },
+   {
+    "squad": "scout",
+    "action": "hold"
+   }
+  ],
+  "diplomacy": {
+   "GPT": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Orange: main army goes down the (580,500) ramp now and stops at x585-615, z535-555, south of z600 and ~100 m clear of Green's box. Rider holds (460,597). Neutral to all. Pact upheld: no first strike through t450, then one full public turn of notice. If skipping runs to t450, I post my next stop there; it stays south of z600 unless I give public notice first.",
+  "private_messages": {
+   "GPT": "Orange: as announced, the army goes down the ramp to x585-615, z535-555 and stops there; the rider stays at (460,597). Both are south of z600, so our boundary stands, and any change will be announced publicly first, as the pact requires. Trade offer stands: your Eye's read on White's composition for my rider's read on Blue; I will send mine as soon as yours arrives.",
+   "Grok": "Orange: Green is out of my sight this turn; last fix (681,630), box x672-695 z625-650. I will flag any Green move north of z700 the moment I see it. Blue: my rider at (460,597) sees only their south edge, 6 Thracian mercenary swordsmen at (460,670); z680-710 is beyond sight. Proposal on Green: at the t450 pause each of us posts a generic public notice (no target named), then contact at t500 in one",
+   "Gemini": "Orange: I see no White units from the south; Green is out of my sight this turn, last fix (681,630), box x672-695 z625-650. My rider stays at (460,597), south of z600 and clear of your box. Proposal on Green: at the t450 pause each of us posts a generic public notice (no target named), then contact at t500 in one 25 s window: you from the west, White from the north, me from the south so Green cann"
+  },
+  "notes_to_self": "T14 t375: army down ramp to x588-613 z538-553 (98-114 m from ctr, safe to ~t565). Rider holds (460,597), 185 m: burns ~t490, pull it in at next Q. Rider sees only Blue S edge: 6 Thracian merc swords (460,670). Ring: t450 r220, t475 r198, t500 r177, t525 r155, t550 r133, t575 r112, t600 r90. Next Q <=t450, then maybe t525. Proposed to Blue+White: all post generic public notice at t450 (no target), contact Green t500 in one window, W/N/S. PROMISED: post my generic notice at t450. Don't arrive first; time my contact with theirs. GPT: 28 Cretan arch, 9 skirm, 2 eleph, 10 spear + hero, box x672-695 z625-650; z600 boundary, changes only after public notice. Offered GPT: White comp for my Blue read. Never ally. After Green, expect Blue/White to eye me.",
+  "explanation": "Orange abandons Little Hill before its slopes burn and settles on the southern edge of the final circle, still behind the z600 line agreed with Green. Privately, Hannibal pitches Blue and White a three-sided move on Green's 28 archers at t500, with generic public notices at t450 so the pact is honoured and nobody walks into the arrows alone."
+ },
+ "warnings": []
+}

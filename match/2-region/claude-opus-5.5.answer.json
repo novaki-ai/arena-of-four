@@ -1,0 +1,98 @@
+{
+ "commander": "Claude",
+ "model": "Claude Opus 5.5 · max effort · Claude Code",
+ "stage": "2-region",
+ "attempts": [
+  {
+   "text": "{\n  \"regions\": [\"central_heights\", \"little_hill\", \"west_plateau\"],\n  \"bid\": 340,\n  \"public_message\": \"Orange (Carthage) offers all three of you the same terms: mutual non-aggression through t=300 s (end of turn 12), renewable. Accept by word or by stance, and we set neutral toward you as soon as we see it. We won't strike anyone who hasn't struck us. While the truce runs, any switch back to enemy gets a full turn of public notice. Hold the line, keep your word.\",\n  \"private_messages\": {\n    \"GPT\": \"Green: Orange accepts reciprocal non-aggression on your terms: through t=300 s, renewable by public confirmation, one turn of notice before it ends. Boundary once regions are known: neither army comes within 150 m of the other's starting centre while the truce runs. Later, I'd rather whoever overreaches face us both than either of us face them alone.\",\n    \"Gemini\": \"Argon: agreed, early attrition only feeds whoever waits. Orange offers you the public terms: mutual non-aggression through t=300 s, renewable, one turn of notice before any change. I'm also open to the coordinated flank you described against whoever overextends first. Once regions are drawn, let's set a boundary.\",\n    \"Grok\": \"Pale Fire: Orange offers a truce kept to the letter too: no attacks between us through t=300 s, renewable, one turn of public notice before any change. No pretence about shared victory. Just no wasted blood before the fire does its work.\"\n  },\n  \"explanation\": \"I rank Central Heights first with a 340 bid. If a higher bidder takes it, I'm likely next in line for Little Hill, the other high ground beside the centre, and I pay nothing, because only a first choice is paid for. Either hill keeps my army high and safe until roughly t=460-500 s and lets me choose when to step down into the flat final circle, the ideal seat for letting others bleed first. If both hills go, West Plateau is a quiet fallback with the full 4000 budget and an open road to the centre.\"\n}",
+   "seconds": 617.8,
+   "error": null,
+   "usage": {
+    "total_cost_usd": 1.1758468,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 4396,
+     "cache_read_input_tokens": 1454,
+     "output_tokens": 57019,
+     "output_tokens_details": {
+      "thinking_tokens": 56334
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 4396,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 57019,
+       "cache_read_input_tokens": 1454,
+       "cache_creation_input_tokens": 4396,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 4396
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "duration_ms": 616164,
+    "num_turns": 1,
+    "modelUsage": {
+     "claude-opus-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 57019,
+      "cacheReadInputTokens": 1454,
+      "cacheCreationInputTokens": 4396,
+      "webSearchRequests": 0,
+      "costUSD": 1.1758468,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 56334,
+      "canonicalModel": "claude-opus-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "regions": [
+   "central_heights",
+   "little_hill",
+   "west_plateau"
+  ],
+  "bid": 340,
+  "public_message": "Orange (Carthage) offers all three of you the same terms: mutual non-aggression through t=300 s (end of turn 12), renewable. Accept by word or by stance, and we set neutral toward you as soon as we see it. We won't strike anyone who hasn't struck us. While the truce runs, any switch back to enemy gets a full turn of public notice. Hold the line, keep your word.",
+  "private_messages": {
+   "GPT": "Green: Orange accepts reciprocal non-aggression on your terms: through t=300 s, renewable by public confirmation, one turn of notice before it ends. Boundary once regions are known: neither army comes within 150 m of the other's starting centre while the truce runs. Later, I'd rather whoever overreaches face us both than either of us face them alone.",
+   "Gemini": "Argon: agreed, early attrition only feeds whoever waits. Orange offers you the public terms: mutual non-aggression through t=300 s, renewable, one turn of notice before any change. I'm also open to the coordinated flank you described against whoever overextends first. Once regions are drawn, let's set a boundary.",
+   "Grok": "Pale Fire: Orange offers a truce kept to the letter too: no attacks between us through t=300 s, renewable, one turn of public notice before any change. No pretence about shared victory. Just no wasted blood before the fire does its work."
+  },
+  "explanation": "I rank Central Heights first with a 340 bid. If a higher bidder takes it, I'm likely next in line for Little Hill, the other high ground beside the centre, and I pay nothing, because only a first choice is paid for. Either hill keeps my army high and safe until roughly t=460-500 s and lets me choose when to step down into the flat final circle, the ideal seat for letting others bleed first. If both hills go, West Plateau is a quiet fallback with the full 4000 budget and an open road to the centre."
+ },
+ "applied": {
+  "regions": [
+   "central_heights",
+   "little_hill",
+   "west_plateau"
+  ],
+  "bid": 340,
+  "public_message": "Orange (Carthage) offers all three of you the same terms: mutual non-aggression through t=300 s (end of turn 12), renewable. Accept by word or by stance, and we set neutral toward you as soon as we see it. We won't strike anyone who hasn't struck us. While the truce runs, any switch back to enemy gets a full turn of public notice. Hold the line, keep your word.",
+  "private_messages": {
+   "GPT": "Green: Orange accepts reciprocal non-aggression on your terms: through t=300 s, renewable by public confirmation, one turn of notice before it ends. Boundary once regions are known: neither army comes within 150 m of the other's starting centre while the truce runs. Later, I'd rather whoever overreaches face us both than either of us face them alone.",
+   "Gemini": "Argon: agreed, early attrition only feeds whoever waits. Orange offers you the public terms: mutual non-aggression through t=300 s, renewable, one turn of notice before any change. I'm also open to the coordinated flank you described against whoever overextends first. Once regions are drawn, let's set a boundary.",
+   "Grok": "Pale Fire: Orange offers a truce kept to the letter too: no attacks between us through t=300 s, renewable, one turn of public notice before any change. No pretence about shared victory. Just no wasted blood before the fire does its work."
+  },
+  "explanation": "I rank Central Heights first with a 340 bid. If a higher bidder takes it, I'm likely next in line for Little Hill, the other high ground beside the centre, and I pay nothing, because only a first choice is paid for. Either hill keeps my army high and safe until roughly t=460-500 s and lets me choose when to step down into the flat final circle, the ideal seat for letting others bleed first. If both hills go, West Plateau is a quiet fallback with the full 4000 budget and an open road to the centre."
+ },
+ "warnings": []
+}

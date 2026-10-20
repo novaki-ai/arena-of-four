@@ -1,0 +1,85 @@
+{
+ "commander": "Grok",
+ "model": "Grok 4.7 · xhigh · Grok Build CLI",
+ "stage": "4-turn-23",
+ "attempts": [
+  {
+   "text": "{\"orders\":[{\"squad\":\"hero\",\"action\":\"move\",\"to\":[590,590],\"stance\":\"standground\"}],\"diplomacy\":{\"Claude\":\"ally\",\"GPT\":\"enemy\",\"Gemini\":\"ally\"},\"public_message\":\"Pact with Orange holds to the end. Alexander will keep clear of Hannibal's men. Green stays hostile.\",\"private_messages\":{\"Claude\":\"Pact holds. I am moving away to the southwest of the ring, about (590, 590). I will not strike your units.\",\"GPT\":\"I am not moving toward you and I am not joining any fight.\"},\"notes_to_self\":\"T23 t775 FINAL. Alex 75% move (590,590) standground, r~71, ~130m from Claude. Only visible: ally Hannibal+3 elite spear+1 cav at 61% (663,697). Do not attack: spears eat a cav hero and death scores 0. Gemini status defeated; ignore elephant bait. GPT unseen since T20 (656,718); stay enemy but do not chase. Hero value 500 flat or ~375 scaled. Stay r<80.\",\"explanation\":\"Alexander is White's entire army, and a dead hero scores nothing, so he walks southwest inside the ring and keeps the Carthaginian pact. The only visible force is Hannibal with elite spears and cavalry, a fight one wounded hero cannot win before the horn. Green stays an enemy in case a lone unit walks into him, but he will not chase fog.\"}",
+   "seconds": 399.8,
+   "error": null,
+   "usage": {
+    "total_cost_usd": 0.0534038,
+    "usage": {
+     "input_tokens": 7598,
+     "cache_read_input_tokens": 2048,
+     "cache_creation_input_tokens": 0,
+     "output_tokens": 23475,
+     "reasoning_tokens": 23151,
+     "total_tokens": 33121
+    },
+    "num_turns": 1,
+    "modelUsage": {
+     "grok-4.7-build": {
+      "inputTokens": 7598,
+      "outputTokens": 23475,
+      "cacheReadInputTokens": 2048,
+      "cacheCreationInputTokens": 0,
+      "modelCalls": 1,
+      "costUSD": 0.0534038
+     }
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     590,
+     590
+    ],
+    "stance": "standground"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "ally",
+   "GPT": "enemy",
+   "Gemini": "ally"
+  },
+  "public_message": "Pact with Orange holds to the end. Alexander will keep clear of Hannibal's men. Green stays hostile.",
+  "private_messages": {
+   "Claude": "Pact holds. I am moving away to the southwest of the ring, about (590, 590). I will not strike your units.",
+   "GPT": "I am not moving toward you and I am not joining any fight."
+  },
+  "notes_to_self": "T23 t775 FINAL. Alex 75% move (590,590) standground, r~71, ~130m from Claude. Only visible: ally Hannibal+3 elite spear+1 cav at 61% (663,697). Do not attack: spears eat a cav hero and death scores 0. Gemini status defeated; ignore elephant bait. GPT unseen since T20 (656,718); stay enemy but do not chase. Hero value 500 flat or ~375 scaled. Stay r<80.",
+  "explanation": "Alexander is White's entire army, and a dead hero scores nothing, so he walks southwest inside the ring and keeps the Carthaginian pact. The only visible force is Hannibal with elite spears and cavalry, a fight one wounded hero cannot win before the horn. Green stays an enemy in case a lone unit walks into him, but he will not chase fog."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     590,
+     590
+    ],
+    "stance": "standground"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "ally",
+   "GPT": "enemy",
+   "Gemini": "ally"
+  },
+  "public_message": "Pact with Orange holds to the end. Alexander will keep clear of Hannibal's men. Green stays hostile.",
+  "private_messages": {
+   "Claude": "Pact holds. I am moving away to the southwest of the ring, about (590, 590). I will not strike your units.",
+   "GPT": "I am not moving toward you and I am not joining any fight."
+  },
+  "notes_to_self": "T23 t775 FINAL. Alex 75% move (590,590) standground, r~71, ~130m from Claude. Only visible: ally Hannibal+3 elite spear+1 cav at 61% (663,697). Do not attack: spears eat a cav hero and death scores 0. Gemini status defeated; ignore elephant bait. GPT unseen since T20 (656,718); stay enemy but do not chase. Hero value 500 flat or ~375 scaled. Stay r<80.",
+  "explanation": "Alexander is White's entire army, and a dead hero scores nothing, so he walks southwest inside the ring and keeps the Carthaginian pact. The only visible force is Hannibal with elite spears and cavalry, a fight one wounded hero cannot win before the horn. Green stays an enemy in case a lone unit walks into him, but he will not chase fog."
+ },
+ "warnings": []
+}

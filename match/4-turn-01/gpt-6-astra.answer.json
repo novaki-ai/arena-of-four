@@ -1,0 +1,130 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "4-turn-01",
+ "attempts": [
+  {
+   "text": "{\n  \"orders\": [\n    {\"squad\": \"Tusks\", \"action\": \"hold\"},\n    {\"squad\": \"Guard\", \"action\": \"hold\"},\n    {\"squad\": \"Bows\", \"action\": \"hold\"},\n    {\"squad\": \"Javelins\", \"action\": \"hold\"},\n    {\"squad\": \"hero\", \"action\": \"move\", \"to\": [730, 620]},\n    {\"squad\": \"Surgeon\", \"action\": \"guard\", \"protect\": \"Bows\"},\n    {\"squad\": \"Eye\", \"action\": \"move\", \"to\": [820, 760]}\n  ],\n  \"diplomacy\": {\n    \"Claude\": \"neutral\",\n    \"Gemini\": \"neutral\",\n    \"Grok\": \"neutral\"\n  },\n  \"public_message\": \"Green confirms neutral toward everyone and no first strike through t=300, with a full 25-second turn of public notice before any subsequent change. Our main army holds River Ford while one mounted scout checks nearby routes.\",\n  \"private_messages\": {\n    \"Claude\": \"Accepted: mutual neutrality and no first strike through t=450, then rolling neutrality until either gives a full turn of public notice. We will respect Little Hill and exchange sightings.\",\n    \"Gemini\": \"Confirmed. Our main army holds the ford. I will share sightings relevant to your approach; please reciprocate. Your peaceful western passage remains respected.\",\n    \"Grok\": \"Confirmed. Which position are you holding? A lone mounted scout is checking the eastern rise around (820,760); I want to keep it clear of your army and starting ground.\"\n  },\n  \"notes_to_self\": \"Truce with everyone through t=300; give a full 25 s turn of public notice before changing to enemy. Accepted Claude extension through t=450, then rolling neutrality with notice. Main army retains ford formation; hero moved into supporting position and healer guards Bows. Eye scouts (820,760): inspect access, elevation and occupants next turn; withdraw toward (720,650) if crowded. Grok's starting region remains unknown; asked location. No enemy composition known. Keep elephants and spears screening bows, javelins close, hero supported, healer protected. Ring shrinks after t=150; final radius 90. Preserve army value and obtain intelligence before choosing a target.\",\n  \"explanation\": \"The army keeps its existing screen around the archers while our cavalry archer checks access to nearby high ground. Reciprocal neutrality gives us time to gather intelligence, and the longer agreement with Claude reduces the chance of fighting on multiple fronts.\"\n}",
+   "seconds": 48.9,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 20010,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 1907,
+     "reasoning_output_tokens": 1356
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "Tusks",
+    "action": "hold"
+   },
+   {
+    "squad": "Guard",
+    "action": "hold"
+   },
+   {
+    "squad": "Bows",
+    "action": "hold"
+   },
+   {
+    "squad": "Javelins",
+    "action": "hold"
+   },
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     730,
+     620
+    ]
+   },
+   {
+    "squad": "Surgeon",
+    "action": "guard",
+    "protect": "Bows"
+   },
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     820,
+     760
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green confirms neutral toward everyone and no first strike through t=300, with a full 25-second turn of public notice before any subsequent change. Our main army holds River Ford while one mounted scout checks nearby routes.",
+  "private_messages": {
+   "Claude": "Accepted: mutual neutrality and no first strike through t=450, then rolling neutrality until either gives a full turn of public notice. We will respect Little Hill and exchange sightings.",
+   "Gemini": "Confirmed. Our main army holds the ford. I will share sightings relevant to your approach; please reciprocate. Your peaceful western passage remains respected.",
+   "Grok": "Confirmed. Which position are you holding? A lone mounted scout is checking the eastern rise around (820,760); I want to keep it clear of your army and starting ground."
+  },
+  "notes_to_self": "Truce with everyone through t=300; give a full 25 s turn of public notice before changing to enemy. Accepted Claude extension through t=450, then rolling neutrality with notice. Main army retains ford formation; hero moved into supporting position and healer guards Bows. Eye scouts (820,760): inspect access, elevation and occupants next turn; withdraw toward (720,650) if crowded. Grok's starting region remains unknown; asked location. No enemy composition known. Keep elephants and spears screening bows, javelins close, hero supported, healer protected. Ring shrinks after t=150; final radius 90. Preserve army value and obtain intelligence before choosing a target.",
+  "explanation": "The army keeps its existing screen around the archers while our cavalry archer checks access to nearby high ground. Reciprocal neutrality gives us time to gather intelligence, and the longer agreement with Claude reduces the chance of fighting on multiple fronts."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "Tusks",
+    "action": "hold"
+   },
+   {
+    "squad": "Guard",
+    "action": "hold"
+   },
+   {
+    "squad": "Bows",
+    "action": "hold"
+   },
+   {
+    "squad": "Javelins",
+    "action": "hold"
+   },
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     730,
+     620
+    ]
+   },
+   {
+    "squad": "Surgeon",
+    "action": "guard",
+    "protect": "Bows"
+   },
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     820,
+     760
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green confirms neutral toward everyone and no first strike through t=300, with a full 25-second turn of public notice before any subsequent change. Our main army holds River Ford while one mounted scout checks nearby routes.",
+  "private_messages": {
+   "Claude": "Accepted: mutual neutrality and no first strike through t=450, then rolling neutrality until either gives a full turn of public notice. We will respect Little Hill and exchange sightings.",
+   "Gemini": "Confirmed. Our main army holds the ford. I will share sightings relevant to your approach; please reciprocate. Your peaceful western passage remains respected.",
+   "Grok": "Confirmed. Which position are you holding? A lone mounted scout is checking the eastern rise around (820,760); I want to keep it clear of your army and starting ground."
+  },
+  "notes_to_self": "Truce with everyone through t=300; give a full 25 s turn of public notice before changing to enemy. Accepted Claude extension through t=450, then rolling neutrality with notice. Main army retains ford formation; hero moved into supporting position and healer guards Bows. Eye scouts (820,760): inspect access, elevation and occupants next turn; withdraw toward (720,650) if crowded. Grok's starting region remains unknown; asked location. No enemy composition known. Keep elephants and spears screening bows, javelins close, hero supported, healer protected. Ring shrinks after t=150; final radius 90. Preserve army value and obtain intelligence before choosing a target.",
+  "explanation": "The army keeps its existing screen around the archers while our cavalry archer checks access to nearby high ground. Reciprocal neutrality gives us time to gather intelligence, and the longer agreement with Claude reduces the chance of fighting on multiple fronts."
+ },
+ "warnings": []
+}

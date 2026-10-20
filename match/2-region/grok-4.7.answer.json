@@ -1,0 +1,65 @@
+{
+ "commander": "Grok",
+ "model": "Grok 4.7 · xhigh · Grok Build CLI",
+ "stage": "2-region",
+ "attempts": [
+  {
+   "text": "{\"regions\": [\"central_heights\", \"little_hill\", \"river_ford\"], \"bid\": 800, \"public_message\": \"Pale Fire accepts a reciprocal truce until the ring reaches 420 m (t=300). I will not strike first at anyone who holds neutral or ally toward me until then. I came for the centre, not for an early scrap. After t=300 there is one winner.\", \"private_messages\": {\"Claude\": \"Orange Commonwealth: I accept your truce. Neutral or ally toward you until the ring hits 420 m (t=300), if you do the same. I will not strike first. After that the centre is the prize and there is only one winner.\", \"GPT\": \"Verdant Compact: reciprocal non-aggression until t=300, neutral or ally both ways. Boundary: no attacks and no moving into contact with my units before then. The ring will bring us together. One winner after the truce.\", \"Gemini\": \"Argon Hegemony: agreed, no early attrition. Neutral or ally toward you until t=300 if you do the same. I will not punish a commander who keeps that word. Anyone who breaks the truce is the common problem.\"}, \"explanation\": \"Central Heights is the Macedonian ground: a large high plateau with cliff flanks, 215 m from the centre, safe from the ring until about t=456. Little Hill is the backup height, and River Ford is the fallback because the last fight is fought there. I bid 800 so draft order cannot leave Pale Fire behind someone else on that plateau; the ground is worth more than the troops the bid costs.\"}",
+   "seconds": 271.2,
+   "error": null,
+   "usage": {
+    "total_cost_usd": 0.037774,
+    "usage": {
+     "input_tokens": 6492,
+     "cache_read_input_tokens": 2432,
+     "cache_creation_input_tokens": 0,
+     "output_tokens": 16150,
+     "reasoning_tokens": 15807,
+     "total_tokens": 25074
+    },
+    "num_turns": 1,
+    "modelUsage": {
+     "grok-4.7-build": {
+      "inputTokens": 6492,
+      "outputTokens": 16150,
+      "cacheReadInputTokens": 2432,
+      "cacheCreationInputTokens": 0,
+      "modelCalls": 1,
+      "costUSD": 0.037774
+     }
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "regions": [
+   "central_heights",
+   "little_hill",
+   "river_ford"
+  ],
+  "bid": 800,
+  "public_message": "Pale Fire accepts a reciprocal truce until the ring reaches 420 m (t=300). I will not strike first at anyone who holds neutral or ally toward me until then. I came for the centre, not for an early scrap. After t=300 there is one winner.",
+  "private_messages": {
+   "Claude": "Orange Commonwealth: I accept your truce. Neutral or ally toward you until the ring hits 420 m (t=300), if you do the same. I will not strike first. After that the centre is the prize and there is only one winner.",
+   "GPT": "Verdant Compact: reciprocal non-aggression until t=300, neutral or ally both ways. Boundary: no attacks and no moving into contact with my units before then. The ring will bring us together. One winner after the truce.",
+   "Gemini": "Argon Hegemony: agreed, no early attrition. Neutral or ally toward you until t=300 if you do the same. I will not punish a commander who keeps that word. Anyone who breaks the truce is the common problem."
+  },
+  "explanation": "Central Heights is the Macedonian ground: a large high plateau with cliff flanks, 215 m from the centre, safe from the ring until about t=456. Little Hill is the backup height, and River Ford is the fallback because the last fight is fought there. I bid 800 so draft order cannot leave Pale Fire behind someone else on that plateau; the ground is worth more than the troops the bid costs."
+ },
+ "applied": {
+  "regions": [
+   "central_heights",
+   "little_hill",
+   "river_ford"
+  ],
+  "bid": 800,
+  "public_message": "Pale Fire accepts a reciprocal truce until the ring reaches 420 m (t=300). I will not strike first at anyone who holds neutral or ally toward me until then. I came for the centre, not for an early scrap. After t=300 there is one winner.",
+  "private_messages": {
+   "Claude": "Orange Commonwealth: I accept your truce. Neutral or ally toward you until the ring hits 420 m (t=300), if you do the same. I will not strike first. After that the centre is the prize and there is only one winner.",
+   "GPT": "Verdant Compact: reciprocal non-aggression until t=300, neutral or ally both ways. Boundary: no attacks and no moving into contact with my units before then. The ring will bring us together. One winner after the truce.",
+   "Gemini": "Argon Hegemony: agreed, no early attrition. Neutral or ally toward you until t=300 if you do the same. I will not punish a commander who keeps that word. Anyone who breaks the truce is the common problem."
+  },
+  "explanation": "Central Heights is the Macedonian ground: a large high plateau with cliff flanks, 215 m from the centre, safe from the ring until about t=456. Little Hill is the backup height, and River Ford is the fallback because the last fight is fought there. I bid 800 so draft order cannot leave Pale Fire behind someone else on that plateau; the ground is worth more than the troops the bid costs."
+ },
+ "warnings": []
+}

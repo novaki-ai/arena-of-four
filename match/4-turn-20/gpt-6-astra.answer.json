@@ -1,0 +1,72 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "4-turn-20",
+ "attempts": [
+  {
+   "text": "{\n  \"orders\": [\n    {\n      \"squad\": \"hero\",\n      \"action\": \"move\",\n      \"to\": [685, 714],\n      \"stance\": \"standground\"\n    }\n  ],\n  \"diplomacy\": {\n    \"Claude\": \"neutral\",\n    \"Gemini\": \"enemy\",\n    \"Grok\": \"neutral\"\n  },\n  \"public_message\": \"Orange has destroyed Green's ranged army; only Ptolemy remains. Green sets Orange and White neutral. Blue still has three elephants, cavalry, swordsmen, archers and surgeons, and appears to lead on army value. With 175 seconds left, pursuing my lone hero gives Blue time to secure the match.\",\n  \"private_messages\": {\n    \"Claude\": \"I will stay clear of your fight and will not attack Orange while you engage Blue. Your attack on Blue is now the decisive battle.\",\n    \"Grok\": \"I will not attack Alexander. Blue's army and surviving Seleucus will beat either lone hero on value at 800. Supporting Orange against Blue is your best chance to change that outcome.\"\n  },\n  \"notes_to_self\": \"t625: Actual roster ONLY Ptolemy at30%,664713. All regular squads disappeared despite zero casualty counters. Move685714, radius86.6, standground to prevent pursuit into fire. Orange18 units98% at641630; Blue21 units88% at641650 including3 elephants,3 cavalry,6 swords,6 archers,2 surgeons,Seleucus; White only Alexander75% at576685. Orange announced war on Blue. Neutral Orange/White; enemy Blue. Next pause675. Prioritize survival and reassess actual positions; cannot win a direct engagement.\",\n  \"explanation\": \"Ptolemy's survival depends on the larger armies fighting each other. He moves farther from their current positions while remaining inside the fire ring, and stops treating Orange and White as targets.\"\n}",
+   "seconds": 60.2,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 20104,
+     "cached_input_tokens": 15744,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 2903,
+     "reasoning_output_tokens": 2491
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     685,
+     714
+    ],
+    "stance": "standground"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "enemy",
+   "Grok": "neutral"
+  },
+  "public_message": "Orange has destroyed Green's ranged army; only Ptolemy remains. Green sets Orange and White neutral. Blue still has three elephants, cavalry, swordsmen, archers and surgeons, and appears to lead on army value. With 175 seconds left, pursuing my lone hero gives Blue time to secure the match.",
+  "private_messages": {
+   "Claude": "I will stay clear of your fight and will not attack Orange while you engage Blue. Your attack on Blue is now the decisive battle.",
+   "Grok": "I will not attack Alexander. Blue's army and surviving Seleucus will beat either lone hero on value at 800. Supporting Orange against Blue is your best chance to change that outcome."
+  },
+  "notes_to_self": "t625: Actual roster ONLY Ptolemy at30%,664713. All regular squads disappeared despite zero casualty counters. Move685714, radius86.6, standground to prevent pursuit into fire. Orange18 units98% at641630; Blue21 units88% at641650 including3 elephants,3 cavalry,6 swords,6 archers,2 surgeons,Seleucus; White only Alexander75% at576685. Orange announced war on Blue. Neutral Orange/White; enemy Blue. Next pause675. Prioritize survival and reassess actual positions; cannot win a direct engagement.",
+  "explanation": "Ptolemy's survival depends on the larger armies fighting each other. He moves farther from their current positions while remaining inside the fire ring, and stops treating Orange and White as targets."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     685,
+     714
+    ],
+    "stance": "standground"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "enemy",
+   "Grok": "neutral"
+  },
+  "public_message": "Orange has destroyed Green's ranged army; only Ptolemy remains. Green sets Orange and White neutral. Blue still has three elephants, cavalry, swordsmen, archers and surgeons, and appears to lead on army value. With 175 seconds left, pursuing my lone hero gives Blue time to secure the match.",
+  "private_messages": {
+   "Claude": "I will stay clear of your fight and will not attack Orange while you engage Blue. Your attack on Blue is now the decisive battle.",
+   "Grok": "I will not attack Alexander. Blue's army and surviving Seleucus will beat either lone hero on value at 800. Supporting Orange against Blue is your best chance to change that outcome."
+  },
+  "notes_to_self": "t625: Actual roster ONLY Ptolemy at30%,664713. All regular squads disappeared despite zero casualty counters. Move685714, radius86.6, standground to prevent pursuit into fire. Orange18 units98% at641630; Blue21 units88% at641650 including3 elephants,3 cavalry,6 swords,6 archers,2 surgeons,Seleucus; White only Alexander75% at576685. Orange announced war on Blue. Neutral Orange/White; enemy Blue. Next pause675. Prioritize survival and reassess actual positions; cannot win a direct engagement.",
+  "explanation": "Ptolemy's survival depends on the larger armies fighting each other. He moves farther from their current positions while remaining inside the fire ring, and stops treating Orange and White as targets."
+ },
+ "warnings": []
+}

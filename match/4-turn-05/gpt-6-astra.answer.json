@@ -1,0 +1,114 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "4-turn-05",
+ "attempts": [
+  {
+   "text": "{\n  \"orders\": [\n    {\"squad\": \"Bows\", \"action\": \"move\", \"to\": [675, 625]},\n    {\"squad\": \"hero\", \"action\": \"move\", \"to\": [680, 625]},\n    {\"squad\": \"Surgeon\", \"action\": \"guard\", \"protect\": \"Bows\"},\n    {\"squad\": \"Eye\", \"action\": \"move\", \"to\": [740, 960]}\n  ],\n  \"diplomacy\": {\n    \"Claude\": \"neutral\",\n    \"Gemini\": \"neutral\",\n    \"Grok\": \"neutral\"\n  },\n  \"public_message\": \"Green remains neutral. We accept Blue's extension: mutual no-first-strike through t450, then rolling neutrality with one full 25-second public turn of notice before any stance change. Same terms with Orange and White. Main army holds the central lowland; our lone rider stays off occupied heights.\",\n  \"private_messages\": {\n    \"Claude\": \"Your scout is visible at (670,600); neutrality holds. We see one White skirmish cavalry at (664,828), but no White main force. This sighting alone does not indicate an advance.\",\n    \"Gemini\": \"Agreed: extend our mutual no-first-strike through t450, then rolling neutrality with one full 25-second public turn of notice. Current sightings are only Orange's central scout and one White skirmish cavalry at (664,828).\",\n    \"Grok\": \"Confirmed on the t450 truce and subsequent full-turn notice. Our lone rider is continuing north through the eastern lowland toward (740,960), staying off your crest.\"\n  },\n  \"notes_to_self\": \"t100: all 52 units including hero healthy; no losses or kills. Bows moving to (675,625), hero to (680,625), healer guarding Bows; melee screen and javelins remain in place. This brings ranged core farther inside final radius90; check actual unit spread later. Eye moves from (740,841) north to (740,960), avoiding Central Heights. Actual sightings: Claude cavalry (670,600), Grok skirmish cavalry (664,828); no enemy main army observed. All three mutual no-first-strike arrangements now through t450, followed by rolling neutrality requiring one full25s public turn of notice. Blue extension accepted this turn. Consider scouting west around northern ridge via lowland next.\",\n  \"explanation\": \"I move the archers and commander closer to the ring centre while preserving the existing melee screen. The mounted scout continues around the northern ridge to improve visibility without entering Grok's claimed heights. Extending the remaining truce preserves our full army while we gather information.\"\n}",
+   "seconds": 61.3,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 20141,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 2583,
+     "reasoning_output_tokens": 2004
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "Bows",
+    "action": "move",
+    "to": [
+     675,
+     625
+    ]
+   },
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     680,
+     625
+    ]
+   },
+   {
+    "squad": "Surgeon",
+    "action": "guard",
+    "protect": "Bows"
+   },
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     740,
+     960
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green remains neutral. We accept Blue's extension: mutual no-first-strike through t450, then rolling neutrality with one full 25-second public turn of notice before any stance change. Same terms with Orange and White. Main army holds the central lowland; our lone rider stays off occupied heights.",
+  "private_messages": {
+   "Claude": "Your scout is visible at (670,600); neutrality holds. We see one White skirmish cavalry at (664,828), but no White main force. This sighting alone does not indicate an advance.",
+   "Gemini": "Agreed: extend our mutual no-first-strike through t450, then rolling neutrality with one full 25-second public turn of notice. Current sightings are only Orange's central scout and one White skirmish cavalry at (664,828).",
+   "Grok": "Confirmed on the t450 truce and subsequent full-turn notice. Our lone rider is continuing north through the eastern lowland toward (740,960), staying off your crest."
+  },
+  "notes_to_self": "t100: all 52 units including hero healthy; no losses or kills. Bows moving to (675,625), hero to (680,625), healer guarding Bows; melee screen and javelins remain in place. This brings ranged core farther inside final radius90; check actual unit spread later. Eye moves from (740,841) north to (740,960), avoiding Central Heights. Actual sightings: Claude cavalry (670,600), Grok skirmish cavalry (664,828); no enemy main army observed. All three mutual no-first-strike arrangements now through t450, followed by rolling neutrality requiring one full25s public turn of notice. Blue extension accepted this turn. Consider scouting west around northern ridge via lowland next.",
+  "explanation": "I move the archers and commander closer to the ring centre while preserving the existing melee screen. The mounted scout continues around the northern ridge to improve visibility without entering Grok's claimed heights. Extending the remaining truce preserves our full army while we gather information."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "Bows",
+    "action": "move",
+    "to": [
+     675,
+     625
+    ]
+   },
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     680,
+     625
+    ]
+   },
+   {
+    "squad": "Surgeon",
+    "action": "guard",
+    "protect": "Bows"
+   },
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     740,
+     960
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green remains neutral. We accept Blue's extension: mutual no-first-strike through t450, then rolling neutrality with one full 25-second public turn of notice before any stance change. Same terms with Orange and White. Main army holds the central lowland; our lone rider stays off occupied heights.",
+  "private_messages": {
+   "Claude": "Your scout is visible at (670,600); neutrality holds. We see one White skirmish cavalry at (664,828), but no White main force. This sighting alone does not indicate an advance.",
+   "Gemini": "Agreed: extend our mutual no-first-strike through t450, then rolling neutrality with one full 25-second public turn of notice. Current sightings are only Orange's central scout and one White skirmish cavalry at (664,828).",
+   "Grok": "Confirmed on the t450 truce and subsequent full-turn notice. Our lone rider is continuing north through the eastern lowland toward (740,960), staying off your crest."
+  },
+  "notes_to_self": "t100: all 52 units including hero healthy; no losses or kills. Bows moving to (675,625), hero to (680,625), healer guarding Bows; melee screen and javelins remain in place. This brings ranged core farther inside final radius90; check actual unit spread later. Eye moves from (740,841) north to (740,960), avoiding Central Heights. Actual sightings: Claude cavalry (670,600), Grok skirmish cavalry (664,828); no enemy main army observed. All three mutual no-first-strike arrangements now through t450, followed by rolling neutrality requiring one full25s public turn of notice. Blue extension accepted this turn. Consider scouting west around northern ridge via lowland next.",
+  "explanation": "I move the archers and commander closer to the ring centre while preserving the existing melee screen. The mounted scout continues around the northern ridge to improve visibility without entering Grok's claimed heights. Extending the remaining truce preserves our full army while we gather information."
+ },
+ "warnings": []
+}

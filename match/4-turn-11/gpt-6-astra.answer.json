@@ -1,0 +1,114 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "4-turn-11",
+ "attempts": [
+  {
+   "text": "{\n  \"orders\": [\n    {\"squad\": \"hero\", \"action\": \"hold\"},\n    {\"squad\": \"Tusks\", \"action\": \"hold\"},\n    {\"squad\": \"Guard\", \"action\": \"hold\"},\n    {\"squad\": \"Bows\", \"action\": \"hold\"},\n    {\"squad\": \"Javelins\", \"action\": \"hold\"},\n    {\"squad\": \"Surgeon\", \"action\": \"guard\", \"protect\": \"Bows\"},\n    {\"squad\": \"Eye\", \"action\": \"hold\"}\n  ],\n  \"diplomacy\": {\n    \"Claude\": \"neutral\",\n    \"Gemini\": \"neutral\",\n    \"Grok\": \"neutral\"\n  },\n  \"public_message\": \"Green holds around x672-695, z625-650; scout holds at (780,830). No advance or obstruction of the announced western lanes. Pact reaffirmed: no first strike through t450, then a full 25-second public notice before hostilities; immediate self-defence reserved.\",\n  \"private_messages\": {\n    \"Claude\": \"Acknowledged, and thanks for the corridor information. Our positions and z600 boundary remain unchanged; revisit around t425.\",\n    \"Grok\": \"Scout remains at (780,830). Please include your intended stopping point when announcing descent, so we can preserve spacing beside Green's position at x672-695, z625-650.\",\n    \"Gemini\": \"Your announced x440-500, z640-720 lane remains clear of Green. We are holding our central position.\"\n  },\n  \"notes_to_self\": \"t250: All 52 units full health; zero losses/kills. Hold main: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guards Bows. Main squad centres within final radius90. Eye780830 holds east of White's x760 clearance line; withdraw before ring threatens it near t450. Visible Orange cavalry678584. Last White sighting4 cavalry658825 at t200; other armies unseen. All reciprocal neutral. Pact no first strike through450, then full25s public notice before hostilities; self-defence immediate. Orange boundary z600, revisit425. Blue descent lane440-500,640-720; White eventual corridor520-660, endpoint requested. Watch for stance changes and approaching forces.\",\n  \"explanation\": \"Our central position requires no movement as the ring contracts. Holding preserves the intact army while the scout maintains observation from its agreed position and opponents prepare to leave their outer positions.\"\n}",
+   "seconds": 33.0,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 20165,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 1504,
+     "reasoning_output_tokens": 959
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "hold"
+   },
+   {
+    "squad": "Tusks",
+    "action": "hold"
+   },
+   {
+    "squad": "Guard",
+    "action": "hold"
+   },
+   {
+    "squad": "Bows",
+    "action": "hold"
+   },
+   {
+    "squad": "Javelins",
+    "action": "hold"
+   },
+   {
+    "squad": "Surgeon",
+    "action": "guard",
+    "protect": "Bows"
+   },
+   {
+    "squad": "Eye",
+    "action": "hold"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green holds around x672-695, z625-650; scout holds at (780,830). No advance or obstruction of the announced western lanes. Pact reaffirmed: no first strike through t450, then a full 25-second public notice before hostilities; immediate self-defence reserved.",
+  "private_messages": {
+   "Claude": "Acknowledged, and thanks for the corridor information. Our positions and z600 boundary remain unchanged; revisit around t425.",
+   "Grok": "Scout remains at (780,830). Please include your intended stopping point when announcing descent, so we can preserve spacing beside Green's position at x672-695, z625-650.",
+   "Gemini": "Your announced x440-500, z640-720 lane remains clear of Green. We are holding our central position."
+  },
+  "notes_to_self": "t250: All 52 units full health; zero losses/kills. Hold main: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guards Bows. Main squad centres within final radius90. Eye780830 holds east of White's x760 clearance line; withdraw before ring threatens it near t450. Visible Orange cavalry678584. Last White sighting4 cavalry658825 at t200; other armies unseen. All reciprocal neutral. Pact no first strike through450, then full25s public notice before hostilities; self-defence immediate. Orange boundary z600, revisit425. Blue descent lane440-500,640-720; White eventual corridor520-660, endpoint requested. Watch for stance changes and approaching forces.",
+  "explanation": "Our central position requires no movement as the ring contracts. Holding preserves the intact army while the scout maintains observation from its agreed position and opponents prepare to leave their outer positions."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "hold"
+   },
+   {
+    "squad": "Tusks",
+    "action": "hold"
+   },
+   {
+    "squad": "Guard",
+    "action": "hold"
+   },
+   {
+    "squad": "Bows",
+    "action": "hold"
+   },
+   {
+    "squad": "Javelins",
+    "action": "hold"
+   },
+   {
+    "squad": "Surgeon",
+    "action": "guard",
+    "protect": "Bows"
+   },
+   {
+    "squad": "Eye",
+    "action": "hold"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green holds around x672-695, z625-650; scout holds at (780,830). No advance or obstruction of the announced western lanes. Pact reaffirmed: no first strike through t450, then a full 25-second public notice before hostilities; immediate self-defence reserved.",
+  "private_messages": {
+   "Claude": "Acknowledged, and thanks for the corridor information. Our positions and z600 boundary remain unchanged; revisit around t425.",
+   "Grok": "Scout remains at (780,830). Please include your intended stopping point when announcing descent, so we can preserve spacing beside Green's position at x672-695, z625-650.",
+   "Gemini": "Your announced x440-500, z640-720 lane remains clear of Green. We are holding our central position."
+  },
+  "notes_to_self": "t250: All 52 units full health; zero losses/kills. Hold main: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guards Bows. Main squad centres within final radius90. Eye780830 holds east of White's x760 clearance line; withdraw before ring threatens it near t450. Visible Orange cavalry678584. Last White sighting4 cavalry658825 at t200; other armies unseen. All reciprocal neutral. Pact no first strike through450, then full25s public notice before hostilities; self-defence immediate. Orange boundary z600, revisit425. Blue descent lane440-500,640-720; White eventual corridor520-660, endpoint requested. Watch for stance changes and approaching forces.",
+  "explanation": "Our central position requires no movement as the ring contracts. Holding preserves the intact army while the scout maintains observation from its agreed position and opponents prepare to leave their outer positions."
+ },
+ "warnings": []
+}

@@ -1,0 +1,119 @@
+{
+ "commander": "Grok",
+ "model": "Grok 4.7 · xhigh · Grok Build CLI",
+ "stage": "4-turn-09",
+ "attempts": [
+  {
+   "text": "{\"orders\":[{\"squad\":\"hero\",\"action\":\"guard\",\"protect\":\"sarissa\"},{\"squad\":\"sarissa\",\"action\":\"hold\"},{\"squad\":\"crete\",\"action\":\"hold\"},{\"squad\":\"volley\",\"action\":\"hold\"},{\"squad\":\"thessaly\",\"action\":\"hold\"},{\"squad\":\"odrysia\",\"action\":\"hold\"}],\"diplomacy\":{\"Claude\":\"neutral\",\"GPT\":\"neutral\",\"Gemini\":\"neutral\"},\"public_message\":\"White holds the Central Heights and reaffirms the four-way pact: neutral to all, no first strike through t=450, then one full public turn of notice. No movement this turn. We will not enter the south lowland. Green's scout to our east is noted; we hold fire.\",\"private_messages\":{\"Claude\":\"Holding the crest, no step this turn. We will not enter the south lowland. If anyone climbs toward the Heights from the south, please tell me.\",\"GPT\":\"Your camel archer at (730,830) is about 70 m from our eastern riders. We stay neutral, hold fire, and are not moving this turn. Please keep that scout east of x=760 and off the crest so the gap stays clear.\",\"Gemini\":\"Heights are quiet and we are not moving. Pact stands: neutral through t=450, then one full public turn of notice before any stance change.\"},\"notes_to_self\":\"T9 t=200. Pact LOCKED: neutral to all until t=450, then 1 full public turn of notice. If attacked: set that commander enemy the same turn, fight in place, no chase. HOLD all on crest. Ring 740 now, 660 at t=225. Burn if unmoved: crete 235m ~t439, thessaly 233m ~t440, volley 206m ~t461, hero 198m ~t475, sarissa 187m ~t488, odrysia 186m ~t489. T17 t=400: move ONLY crete+thessaly ~30m toward centre, stay on high ground N of cliff z~780. Main descent ~t470 via S corridor x=520-660; do not enter Claude's south lowland. GPT camel (730,830) ~72m E of odrysia: watch, do not chase; asked them east of x=760. GPT main claimed ~(680,630). Gemini holds West Plateau. End focus: heroes, elephants, champions, ranged. Losses 0.\",\"explanation\":\"The four-way ceasefire still holds, so White stands on the Central Heights and does not approach Green's camel scout just east of the crest.\"}",
+   "seconds": 125.0,
+   "error": null,
+   "usage": {
+    "total_cost_usd": 0.02342192,
+    "usage": {
+     "input_tokens": 7960,
+     "cache_read_input_tokens": 1536,
+     "cache_creation_input_tokens": 0,
+     "output_tokens": 8700,
+     "reasoning_tokens": 8125,
+     "total_tokens": 18196
+    },
+    "num_turns": 1,
+    "modelUsage": {
+     "grok-4.7-build": {
+      "inputTokens": 7960,
+      "outputTokens": 8700,
+      "cacheReadInputTokens": 1536,
+      "cacheCreationInputTokens": 0,
+      "modelCalls": 1,
+      "costUSD": 0.02342192
+     }
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "guard",
+    "protect": "sarissa"
+   },
+   {
+    "squad": "sarissa",
+    "action": "hold"
+   },
+   {
+    "squad": "crete",
+    "action": "hold"
+   },
+   {
+    "squad": "volley",
+    "action": "hold"
+   },
+   {
+    "squad": "thessaly",
+    "action": "hold"
+   },
+   {
+    "squad": "odrysia",
+    "action": "hold"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "GPT": "neutral",
+   "Gemini": "neutral"
+  },
+  "public_message": "White holds the Central Heights and reaffirms the four-way pact: neutral to all, no first strike through t=450, then one full public turn of notice. No movement this turn. We will not enter the south lowland. Green's scout to our east is noted; we hold fire.",
+  "private_messages": {
+   "Claude": "Holding the crest, no step this turn. We will not enter the south lowland. If anyone climbs toward the Heights from the south, please tell me.",
+   "GPT": "Your camel archer at (730,830) is about 70 m from our eastern riders. We stay neutral, hold fire, and are not moving this turn. Please keep that scout east of x=760 and off the crest so the gap stays clear.",
+   "Gemini": "Heights are quiet and we are not moving. Pact stands: neutral through t=450, then one full public turn of notice before any stance change."
+  },
+  "notes_to_self": "T9 t=200. Pact LOCKED: neutral to all until t=450, then 1 full public turn of notice. If attacked: set that commander enemy the same turn, fight in place, no chase. HOLD all on crest. Ring 740 now, 660 at t=225. Burn if unmoved: crete 235m ~t439, thessaly 233m ~t440, volley 206m ~t461, hero 198m ~t475, sarissa 187m ~t488, odrysia 186m ~t489. T17 t=400: move ONLY crete+thessaly ~30m toward centre, stay on high ground N of cliff z~780. Main descent ~t470 via S corridor x=520-660; do not enter Claude's south lowland. GPT camel (730,830) ~72m E of odrysia: watch, do not chase; asked them east of x=760. GPT main claimed ~(680,630). Gemini holds West Plateau. End focus: heroes, elephants, champions, ranged. Losses 0.",
+  "explanation": "The four-way ceasefire still holds, so White stands on the Central Heights and does not approach Green's camel scout just east of the crest."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "guard",
+    "protect": "sarissa"
+   },
+   {
+    "squad": "sarissa",
+    "action": "hold"
+   },
+   {
+    "squad": "crete",
+    "action": "hold"
+   },
+   {
+    "squad": "volley",
+    "action": "hold"
+   },
+   {
+    "squad": "thessaly",
+    "action": "hold"
+   },
+   {
+    "squad": "odrysia",
+    "action": "hold"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "GPT": "neutral",
+   "Gemini": "neutral"
+  },
+  "public_message": "White holds the Central Heights and reaffirms the four-way pact: neutral to all, no first strike through t=450, then one full public turn of notice. No movement this turn. We will not enter the south lowland. Green's scout to our east is noted; we hold fire.",
+  "private_messages": {
+   "Claude": "Holding the crest, no step this turn. We will not enter the south lowland. If anyone climbs toward the Heights from the south, please tell me.",
+   "GPT": "Your camel archer at (730,830) is about 70 m from our eastern riders. We stay neutral, hold fire, and are not moving this turn. Please keep that scout east of x=760 and off the crest so the gap stays clear.",
+   "Gemini": "Heights are quiet and we are not moving. Pact stands: neutral through t=450, then one full public turn of notice before any stance change."
+  },
+  "notes_to_self": "T9 t=200. Pact LOCKED: neutral to all until t=450, then 1 full public turn of notice. If attacked: set that commander enemy the same turn, fight in place, no chase. HOLD all on crest. Ring 740 now, 660 at t=225. Burn if unmoved: crete 235m ~t439, thessaly 233m ~t440, volley 206m ~t461, hero 198m ~t475, sarissa 187m ~t488, odrysia 186m ~t489. T17 t=400: move ONLY crete+thessaly ~30m toward centre, stay on high ground N of cliff z~780. Main descent ~t470 via S corridor x=520-660; do not enter Claude's south lowland. GPT camel (730,830) ~72m E of odrysia: watch, do not chase; asked them east of x=760. GPT main claimed ~(680,630). Gemini holds West Plateau. End focus: heroes, elephants, champions, ranged. Losses 0.",
+  "explanation": "The four-way ceasefire still holds, so White stands on the Central Heights and does not approach Green's camel scout just east of the crest."
+ },
+ "warnings": []
+}

@@ -1,0 +1,129 @@
+{
+ "commander": "Grok",
+ "model": "Grok 4.7 · xhigh · Grok Build CLI",
+ "stage": "4-turn-18",
+ "attempts": [
+  {
+   "text": "{\"orders\":[{\"squad\":\"hero\",\"action\":\"move\",\"to\":[635,680],\"stance\":\"standground\"},{\"squad\":\"volley\",\"action\":\"move\",\"to\":[638,698],\"formation\":\"scattered\",\"stance\":\"standground\"},{\"squad\":\"thessaly\",\"action\":\"guard\",\"protect\":\"volley\",\"stance\":\"defensive\"},{\"squad\":\"odrysia\",\"action\":\"guard\",\"protect\":\"volley\",\"stance\":\"defensive\"}],\"diplomacy\":{\"Claude\":\"ally\",\"GPT\":\"enemy\",\"Gemini\":\"ally\"},\"public_message\":\"White holds the north side of the ring and remains allied to Orange and Blue. Green is the only enemy. I will stay out of the southern melee and out of Blue's corridor. Any stance change toward Orange or Blue will be announced one full turn in advance.\",\"private_messages\":{\"Claude\":\"Moving Alexander and the archers north of z680 so Green's Cretans are not shooting my line and your infantry is the nearer target. I stay allied and will not step into your melee. One full public turn of notice before any stance change.\",\"Gemini\":\"Staying north of z680, outside your corridor. Green is the only enemy; I will not target companions or elephants. Allied, with one full public turn of notice before any stance change.\"},\"notes_to_self\":\"T18 t525 EXTRACT. Alex 83, 7 arch 68, spear cav 89, jav cav 100. GPT b(696,639) 27 Cretan+tower ele 93%. Claude a(649,608) ~60 melee 100% S. Gemini c(632,648) 3 ele+7 comp+arch 100% W. Ally both, they neutral; GPT enemy. Rally hero(635,680) volley(638,698) standground scattered, cav guard volley. 40-58m from centre, safe at 90m ring. t575 r112 t625 r90. If GPT closes <60m: attack b, no chase x>710 or >75m from centre. If Gemini alone crosses z680: Gemini enemy, spear on comps, arrows on eles. If Claude alone crosses z680: Claude enemy. After GPT dies let them bleed; 1 notice before I strike. Later priority: surgeons, heroes, archers.\",\"explanation\":\"Grok's small Macedonian force steps north, out of the Cretan firing line, and leaves the Carthaginian and Seleucid armies to crush the Ptolemies in the centre. Spear and javelin cavalry stay with the archers. Alliances with Orange and Blue hold.\"}",
+   "seconds": 431.3,
+   "error": null,
+   "usage": {
+    "total_cost_usd": 0.04683228,
+    "usage": {
+     "input_tokens": 6694,
+     "cache_read_input_tokens": 3200,
+     "cache_creation_input_tokens": 0,
+     "output_tokens": 20459,
+     "reasoning_tokens": 19894,
+     "total_tokens": 30353
+    },
+    "num_turns": 1,
+    "modelUsage": {
+     "grok-4.7-build": {
+      "inputTokens": 6694,
+      "outputTokens": 20459,
+      "cacheReadInputTokens": 3200,
+      "cacheCreationInputTokens": 0,
+      "modelCalls": 1,
+      "costUSD": 0.04683228
+     }
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     635,
+     680
+    ],
+    "stance": "standground"
+   },
+   {
+    "squad": "volley",
+    "action": "move",
+    "to": [
+     638,
+     698
+    ],
+    "formation": "scattered",
+    "stance": "standground"
+   },
+   {
+    "squad": "thessaly",
+    "action": "guard",
+    "protect": "volley",
+    "stance": "defensive"
+   },
+   {
+    "squad": "odrysia",
+    "action": "guard",
+    "protect": "volley",
+    "stance": "defensive"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "ally",
+   "GPT": "enemy",
+   "Gemini": "ally"
+  },
+  "public_message": "White holds the north side of the ring and remains allied to Orange and Blue. Green is the only enemy. I will stay out of the southern melee and out of Blue's corridor. Any stance change toward Orange or Blue will be announced one full turn in advance.",
+  "private_messages": {
+   "Claude": "Moving Alexander and the archers north of z680 so Green's Cretans are not shooting my line and your infantry is the nearer target. I stay allied and will not step into your melee. One full public turn of notice before any stance change.",
+   "Gemini": "Staying north of z680, outside your corridor. Green is the only enemy; I will not target companions or elephants. Allied, with one full public turn of notice before any stance change."
+  },
+  "notes_to_self": "T18 t525 EXTRACT. Alex 83, 7 arch 68, spear cav 89, jav cav 100. GPT b(696,639) 27 Cretan+tower ele 93%. Claude a(649,608) ~60 melee 100% S. Gemini c(632,648) 3 ele+7 comp+arch 100% W. Ally both, they neutral; GPT enemy. Rally hero(635,680) volley(638,698) standground scattered, cav guard volley. 40-58m from centre, safe at 90m ring. t575 r112 t625 r90. If GPT closes <60m: attack b, no chase x>710 or >75m from centre. If Gemini alone crosses z680: Gemini enemy, spear on comps, arrows on eles. If Claude alone crosses z680: Claude enemy. After GPT dies let them bleed; 1 notice before I strike. Later priority: surgeons, heroes, archers.",
+  "explanation": "Grok's small Macedonian force steps north, out of the Cretan firing line, and leaves the Carthaginian and Seleucid armies to crush the Ptolemies in the centre. Spear and javelin cavalry stay with the archers. Alliances with Orange and Blue hold."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     635,
+     680
+    ],
+    "stance": "standground"
+   },
+   {
+    "squad": "volley",
+    "action": "move",
+    "to": [
+     638,
+     698
+    ],
+    "formation": "scattered",
+    "stance": "standground"
+   },
+   {
+    "squad": "thessaly",
+    "action": "guard",
+    "protect": "volley",
+    "stance": "defensive"
+   },
+   {
+    "squad": "odrysia",
+    "action": "guard",
+    "protect": "volley",
+    "stance": "defensive"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "ally",
+   "GPT": "enemy",
+   "Gemini": "ally"
+  },
+  "public_message": "White holds the north side of the ring and remains allied to Orange and Blue. Green is the only enemy. I will stay out of the southern melee and out of Blue's corridor. Any stance change toward Orange or Blue will be announced one full turn in advance.",
+  "private_messages": {
+   "Claude": "Moving Alexander and the archers north of z680 so Green's Cretans are not shooting my line and your infantry is the nearer target. I stay allied and will not step into your melee. One full public turn of notice before any stance change.",
+   "Gemini": "Staying north of z680, outside your corridor. Green is the only enemy; I will not target companions or elephants. Allied, with one full public turn of notice before any stance change."
+  },
+  "notes_to_self": "T18 t525 EXTRACT. Alex 83, 7 arch 68, spear cav 89, jav cav 100. GPT b(696,639) 27 Cretan+tower ele 93%. Claude a(649,608) ~60 melee 100% S. Gemini c(632,648) 3 ele+7 comp+arch 100% W. Ally both, they neutral; GPT enemy. Rally hero(635,680) volley(638,698) standground scattered, cav guard volley. 40-58m from centre, safe at 90m ring. t575 r112 t625 r90. If GPT closes <60m: attack b, no chase x>710 or >75m from centre. If Gemini alone crosses z680: Gemini enemy, spear on comps, arrows on eles. If Claude alone crosses z680: Claude enemy. After GPT dies let them bleed; 1 notice before I strike. Later priority: surgeons, heroes, archers.",
+  "explanation": "Grok's small Macedonian force steps north, out of the Cretan firing line, and leaves the Carthaginian and Seleucid armies to crush the Ptolemies in the centre. Spear and javelin cavalry stay with the archers. Alliances with Orange and Blue hold."
+ },
+ "warnings": []
+}

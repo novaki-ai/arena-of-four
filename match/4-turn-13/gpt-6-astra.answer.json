@@ -1,0 +1,72 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "4-turn-13",
+ "attempts": [
+  {
+   "text": "{\n  \"orders\": [\n    {\"squad\": \"Eye\", \"action\": \"move\", \"to\": [725, 805]}\n  ],\n  \"diplomacy\": {\n    \"Claude\": \"neutral\",\n    \"Gemini\": \"neutral\",\n    \"Grok\": \"neutral\"\n  },\n  \"public_message\": \"Green main holds x672–695, z625–650. Eye moves along the eastern corridor to (725,805), east of White's declared area. Pact upheld: no first strike through t450, then a full turn of public notice. Quiet-turn skipping may bypass t425; please announce intended inward stops at the next pause.\",\n  \"private_messages\": {\n    \"Claude\": \"Acknowledged your rider's route. Our z600 boundary remains unchanged. Let us revisit inward destinations at the next pause, since automatic advances may skip t425.\",\n    \"Gemini\": \"Acknowledged your western position. Please share your intended next inward destination when ready; Green continues holding its central eastern position.\",\n    \"Grok\": \"Eye's new stop is (725,805), remaining east of your x670 boundary. Our main body holds. Please announce your exact descent destination before moving, as agreed.\"\n  },\n  \"notes_to_self\": \"t300: All 52 units full health, zero losses/kills. Main unchanged: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guards Bows. Eye ordered725805, radius186, to observe White from eastern corridor. Next pause may be375; recall Eye toward710680 then, checking terrain and actual position. New stop safe through450 but not indefinitely. Main centres within final90; check unit spread. All reciprocal neutral. Pact no first strike through450, then full25s public notice; immediate self-defence. Quiet skipping can bypass425: requested lane review next pause. Orange stays south600; Blue440-460/670-710; White500-670 north800, promises descent notice. Last White658825 at t200; Orange678584 at t275.\",\n  \"explanation\": \"The main army preserves its central position and full health. The mounted scout moves closer to the northern approach while staying outside White's declared area and farther inside the shrinking ring. Coordination moves to the next pause because automatic advances could skip the previously planned discussion time.\"\n}",
+   "seconds": 75.6,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 15201,
+     "cached_input_tokens": 9856,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3411,
+     "reasoning_output_tokens": 2911
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     725,
+     805
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green main holds x672–695, z625–650. Eye moves along the eastern corridor to (725,805), east of White's declared area. Pact upheld: no first strike through t450, then a full turn of public notice. Quiet-turn skipping may bypass t425; please announce intended inward stops at the next pause.",
+  "private_messages": {
+   "Claude": "Acknowledged your rider's route. Our z600 boundary remains unchanged. Let us revisit inward destinations at the next pause, since automatic advances may skip t425.",
+   "Gemini": "Acknowledged your western position. Please share your intended next inward destination when ready; Green continues holding its central eastern position.",
+   "Grok": "Eye's new stop is (725,805), remaining east of your x670 boundary. Our main body holds. Please announce your exact descent destination before moving, as agreed."
+  },
+  "notes_to_self": "t300: All 52 units full health, zero losses/kills. Main unchanged: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guards Bows. Eye ordered725805, radius186, to observe White from eastern corridor. Next pause may be375; recall Eye toward710680 then, checking terrain and actual position. New stop safe through450 but not indefinitely. Main centres within final90; check unit spread. All reciprocal neutral. Pact no first strike through450, then full25s public notice; immediate self-defence. Quiet skipping can bypass425: requested lane review next pause. Orange stays south600; Blue440-460/670-710; White500-670 north800, promises descent notice. Last White658825 at t200; Orange678584 at t275.",
+  "explanation": "The main army preserves its central position and full health. The mounted scout moves closer to the northern approach while staying outside White's declared area and farther inside the shrinking ring. Coordination moves to the next pause because automatic advances could skip the previously planned discussion time."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     725,
+     805
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green main holds x672–695, z625–650. Eye moves along the eastern corridor to (725,805), east of White's declared area. Pact upheld: no first strike through t450, then a full turn of public notice. Quiet-turn skipping may bypass t425; please announce intended inward stops at the next pause.",
+  "private_messages": {
+   "Claude": "Acknowledged your rider's route. Our z600 boundary remains unchanged. Let us revisit inward destinations at the next pause, since automatic advances may skip t425.",
+   "Gemini": "Acknowledged your western position. Please share your intended next inward destination when ready; Green continues holding its central eastern position.",
+   "Grok": "Eye's new stop is (725,805), remaining east of your x670 boundary. Our main body holds. Please announce your exact descent destination before moving, as agreed."
+  },
+  "notes_to_self": "t300: All 52 units full health, zero losses/kills. Main unchanged: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guards Bows. Eye ordered725805, radius186, to observe White from eastern corridor. Next pause may be375; recall Eye toward710680 then, checking terrain and actual position. New stop safe through450 but not indefinitely. Main centres within final90; check unit spread. All reciprocal neutral. Pact no first strike through450, then full25s public notice; immediate self-defence. Quiet skipping can bypass425: requested lane review next pause. Orange stays south600; Blue440-460/670-710; White500-670 north800, promises descent notice. Last White658825 at t200; Orange678584 at t275.",
+  "explanation": "The main army preserves its central position and full health. The mounted scout moves closer to the northern approach while staying outside White's declared area and farther inside the shrinking ring. Coordination moves to the next pause because automatic advances could skip the previously planned discussion time."
+ },
+ "warnings": []
+}

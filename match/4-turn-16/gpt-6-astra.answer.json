@@ -1,0 +1,138 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "4-turn-16",
+ "attempts": [
+  {
+   "text": "{\n  \"orders\": [\n    {\"squad\": \"hero\", \"action\": \"hold\"},\n    {\"squad\": \"Tusks\", \"action\": \"hold\"},\n    {\"squad\": \"Guard\", \"action\": \"move\", \"to\": [672, 633]},\n    {\"squad\": \"Bows\", \"action\": \"hold\"},\n    {\"squad\": \"Javelins\", \"action\": \"move\", \"to\": [688, 631]},\n    {\"squad\": \"Surgeon\", \"action\": \"guard\", \"protect\": \"Bows\"},\n    {\"squad\": \"Eye\", \"action\": \"move\", \"to\": [656, 637]}\n  ],\n  \"diplomacy\": {\n    \"Claude\": \"neutral\",\n    \"Gemini\": \"neutral\",\n    \"Grok\": \"neutral\"\n  },\n  \"public_message\": \"Green remains neutral this turn. This is our formal notice: freedom to engage is reserved starting one full 25 game-seconds after this message is delivered; self-defence remains immediate. Our main army holds its eastern station, and our central scout withdraws east. Continued reciprocal neutrality is welcome.\",\n  \"private_messages\": {\n    \"Claude\": \"Updated White sighting at (601,708): Alexander, 9 Foot Companions, 17 Cretan archers, 4 Thessalian Lancers and 4 Odrysian Skirmish Cavalry, all full health. Your Blue report received, thank you. I favour continued reciprocal neutrality with Orange.\",\n    \"Gemini\": \"Green remains neutral to Blue and holds the eastern station. Our scout withdraws to (656,637). I favour continued reciprocal neutrality; no western advance is ordered.\",\n    \"Grok\": \"Green remains neutral to White this turn, with no northern advance. Our scout withdraws east to (656,637). I favour continued reciprocal neutrality despite our respective notices.\"\n  },\n  \"notes_to_self\": \"t475: All 52 units full HP, no combat. Issued formal notice: may initiate only 25 game-seconds after delivery, nominally t525 if delivered t500; check actual delivery if quiet fast-forward. All stances remain neutral. Others issued notices: Orange explicitly t500 earliest; Blue/White wording next pause, so watch for attacks. Eye withdrawing656637; Guard672633 screens Bows676625; Javs688631; Tusks672650; hero684625; Surgeon guards Bows. White visible601708: Alexander+9 pikes+17 archers+4 lancers+4 skirm cav, 35 total. Blue9 swords553648; Orange2 spears608556; main forces unknown. Sent updated White intel to Orange. Main centres inside final90m ring; check spread and incoming enemies next pause.\",\n  \"explanation\": \"The army preserves its compact eastern position inside the final ring while the spearmen move forward to screen the archers. Withdrawing the exposed scout reduces the chance of an isolated loss as the other commanders end their truces. Our notice preserves the option to attack later while leaving reciprocal neutrality available.\"\n}",
+   "seconds": 83.7,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 15336,
+     "cached_input_tokens": 9856,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3759,
+     "reasoning_output_tokens": 3106
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "hold"
+   },
+   {
+    "squad": "Tusks",
+    "action": "hold"
+   },
+   {
+    "squad": "Guard",
+    "action": "move",
+    "to": [
+     672,
+     633
+    ]
+   },
+   {
+    "squad": "Bows",
+    "action": "hold"
+   },
+   {
+    "squad": "Javelins",
+    "action": "move",
+    "to": [
+     688,
+     631
+    ]
+   },
+   {
+    "squad": "Surgeon",
+    "action": "guard",
+    "protect": "Bows"
+   },
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     656,
+     637
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green remains neutral this turn. This is our formal notice: freedom to engage is reserved starting one full 25 game-seconds after this message is delivered; self-defence remains immediate. Our main army holds its eastern station, and our central scout withdraws east. Continued reciprocal neutrality is welcome.",
+  "private_messages": {
+   "Claude": "Updated White sighting at (601,708): Alexander, 9 Foot Companions, 17 Cretan archers, 4 Thessalian Lancers and 4 Odrysian Skirmish Cavalry, all full health. Your Blue report received, thank you. I favour continued reciprocal neutrality with Orange.",
+   "Gemini": "Green remains neutral to Blue and holds the eastern station. Our scout withdraws to (656,637). I favour continued reciprocal neutrality; no western advance is ordered.",
+   "Grok": "Green remains neutral to White this turn, with no northern advance. Our scout withdraws east to (656,637). I favour continued reciprocal neutrality despite our respective notices."
+  },
+  "notes_to_self": "t475: All 52 units full HP, no combat. Issued formal notice: may initiate only 25 game-seconds after delivery, nominally t525 if delivered t500; check actual delivery if quiet fast-forward. All stances remain neutral. Others issued notices: Orange explicitly t500 earliest; Blue/White wording next pause, so watch for attacks. Eye withdrawing656637; Guard672633 screens Bows676625; Javs688631; Tusks672650; hero684625; Surgeon guards Bows. White visible601708: Alexander+9 pikes+17 archers+4 lancers+4 skirm cav, 35 total. Blue9 swords553648; Orange2 spears608556; main forces unknown. Sent updated White intel to Orange. Main centres inside final90m ring; check spread and incoming enemies next pause.",
+  "explanation": "The army preserves its compact eastern position inside the final ring while the spearmen move forward to screen the archers. Withdrawing the exposed scout reduces the chance of an isolated loss as the other commanders end their truces. Our notice preserves the option to attack later while leaving reciprocal neutrality available."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "hold"
+   },
+   {
+    "squad": "Tusks",
+    "action": "hold"
+   },
+   {
+    "squad": "Guard",
+    "action": "move",
+    "to": [
+     672,
+     633
+    ]
+   },
+   {
+    "squad": "Bows",
+    "action": "hold"
+   },
+   {
+    "squad": "Javelins",
+    "action": "move",
+    "to": [
+     688,
+     631
+    ]
+   },
+   {
+    "squad": "Surgeon",
+    "action": "guard",
+    "protect": "Bows"
+   },
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     656,
+     637
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green remains neutral this turn. This is our formal notice: freedom to engage is reserved starting one full 25 game-seconds after this message is delivered; self-defence remains immediate. Our main army holds its eastern station, and our central scout withdraws east. Continued reciprocal neutrality is welcome.",
+  "private_messages": {
+   "Claude": "Updated White sighting at (601,708): Alexander, 9 Foot Companions, 17 Cretan archers, 4 Thessalian Lancers and 4 Odrysian Skirmish Cavalry, all full health. Your Blue report received, thank you. I favour continued reciprocal neutrality with Orange.",
+   "Gemini": "Green remains neutral to Blue and holds the eastern station. Our scout withdraws to (656,637). I favour continued reciprocal neutrality; no western advance is ordered.",
+   "Grok": "Green remains neutral to White this turn, with no northern advance. Our scout withdraws east to (656,637). I favour continued reciprocal neutrality despite our respective notices."
+  },
+  "notes_to_self": "t475: All 52 units full HP, no combat. Issued formal notice: may initiate only 25 game-seconds after delivery, nominally t525 if delivered t500; check actual delivery if quiet fast-forward. All stances remain neutral. Others issued notices: Orange explicitly t500 earliest; Blue/White wording next pause, so watch for attacks. Eye withdrawing656637; Guard672633 screens Bows676625; Javs688631; Tusks672650; hero684625; Surgeon guards Bows. White visible601708: Alexander+9 pikes+17 archers+4 lancers+4 skirm cav, 35 total. Blue9 swords553648; Orange2 spears608556; main forces unknown. Sent updated White intel to Orange. Main centres inside final90m ring; check spread and incoming enemies next pause.",
+  "explanation": "The army preserves its compact eastern position inside the final ring while the spearmen move forward to screen the archers. Withdrawing the exposed scout reduces the chance of an isolated loss as the other commanders end their truces. Our notice preserves the option to attack later while leaving reciprocal neutrality available."
+ },
+ "warnings": []
+}

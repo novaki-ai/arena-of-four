@@ -1,0 +1,165 @@
+{
+ "commander": "Grok",
+ "model": "Grok 4.7 · xhigh · Grok Build CLI",
+ "stage": "4-turn-13",
+ "attempts": [
+  {
+   "text": "{\"orders\":[{\"squad\":\"hero\",\"action\":\"move\",\"to\":[592,822]},{\"squad\":\"sarissa\",\"action\":\"move\",\"to\":[578,808]},{\"squad\":\"crete\",\"action\":\"move\",\"to\":[568,824]},{\"squad\":\"volley\",\"action\":\"move\",\"to\":[622,824]},{\"squad\":\"thessaly\",\"action\":\"move\",\"to\":[542,812]},{\"squad\":\"odrysia\",\"action\":\"move\",\"to\":[642,812]}],\"diplomacy\":{\"Claude\":\"neutral\",\"GPT\":\"neutral\",\"Gemini\":\"neutral\"},\"public_message\":\"White: crest tuck only, no descent. All stay z>=808, x542-642. Clear of Blue and of Green (~681,630). Neutral. Pact: no first strike through t=450, then one full public turn of notice; self-defence reserved. Later south stop, not this turn and only after another notice: x580-640, z740-760. I will not enter Green's ground or Blue's box.\",\"private_messages\":{\"Claude\":\"Grateful for the Green report. Crest tuck only this turn (z>=808, x542-642); I am not descending. I will not enter your hill or the rider's lane south of z=600. If Green moves north of z700, tell me.\",\"GPT\":\"Eye at (780,830) noted; I will not approach it. This turn I only tighten on the crest, z>=808, x542-642. Intended later south-corridor end, unused this turn: x580-640, z740-760. I will public-notice again before moving there.\",\"Gemini\":\"Buffer remains. Crest tuck only: x542-642, z808-830. I am not moving west or below z=808. Neutral.\"},\"notes_to_self\":\"T13 t=300 TUCK crest, neutral all. Posts: sar(578,808)~179 hero(592,822)~188 crete(568,824)~198 volley(622,824)~185 thess(542,812)~198 odr(642,812)~172. All<200, inside r=220 at t=450. Farthest burns ~t477 if static. Next Q by t=375 (r=320); another window can reach t=450 still safe. Cliff # z~780 across x480-720: do not order straight south. West x<460 is Gemini (440-460, z670-710). East gap ~x730 z780 then # at z740. Descent only after a new public notice; stop x580-640 z740-760; avoid GPT x660-720 z600-670. GPT ~(681,630): Ptolemy, 2 ele, 10 spear, 28 Cretan arch, 9 skirm, surgeon, 100%. Eye (780,830) do not chase. Claude Little Hill, rider to (505,597). If hit: that one enemy next turn, fight in place, no chase. Stay high until ring forces down ~t480. Focus ele/heroes/archers. Losses 0.\",\"explanation\":\"Grok tightens the whole army on the northern crest, inside the ring that will be 220 m at t=450, and does not step toward any other force. The truce stays in place, and the later south-corridor stop is announced now so the descent is on record before anyone moves.\"}",
+   "seconds": 444.1,
+   "error": null,
+   "usage": {
+    "total_cost_usd": 0.06842364,
+    "usage": {
+     "input_tokens": 8154,
+     "cache_read_input_tokens": 1536,
+     "cache_creation_input_tokens": 0,
+     "output_tokens": 30695,
+     "reasoning_tokens": 29950,
+     "total_tokens": 40385
+    },
+    "num_turns": 1,
+    "modelUsage": {
+     "grok-4.7-build": {
+      "inputTokens": 8154,
+      "outputTokens": 30695,
+      "cacheReadInputTokens": 1536,
+      "cacheCreationInputTokens": 0,
+      "modelCalls": 1,
+      "costUSD": 0.06842364
+     }
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     592,
+     822
+    ]
+   },
+   {
+    "squad": "sarissa",
+    "action": "move",
+    "to": [
+     578,
+     808
+    ]
+   },
+   {
+    "squad": "crete",
+    "action": "move",
+    "to": [
+     568,
+     824
+    ]
+   },
+   {
+    "squad": "volley",
+    "action": "move",
+    "to": [
+     622,
+     824
+    ]
+   },
+   {
+    "squad": "thessaly",
+    "action": "move",
+    "to": [
+     542,
+     812
+    ]
+   },
+   {
+    "squad": "odrysia",
+    "action": "move",
+    "to": [
+     642,
+     812
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "GPT": "neutral",
+   "Gemini": "neutral"
+  },
+  "public_message": "White: crest tuck only, no descent. All stay z>=808, x542-642. Clear of Blue and of Green (~681,630). Neutral. Pact: no first strike through t=450, then one full public turn of notice; self-defence reserved. Later south stop, not this turn and only after another notice: x580-640, z740-760. I will not enter Green's ground or Blue's box.",
+  "private_messages": {
+   "Claude": "Grateful for the Green report. Crest tuck only this turn (z>=808, x542-642); I am not descending. I will not enter your hill or the rider's lane south of z=600. If Green moves north of z700, tell me.",
+   "GPT": "Eye at (780,830) noted; I will not approach it. This turn I only tighten on the crest, z>=808, x542-642. Intended later south-corridor end, unused this turn: x580-640, z740-760. I will public-notice again before moving there.",
+   "Gemini": "Buffer remains. Crest tuck only: x542-642, z808-830. I am not moving west or below z=808. Neutral."
+  },
+  "notes_to_self": "T13 t=300 TUCK crest, neutral all. Posts: sar(578,808)~179 hero(592,822)~188 crete(568,824)~198 volley(622,824)~185 thess(542,812)~198 odr(642,812)~172. All<200, inside r=220 at t=450. Farthest burns ~t477 if static. Next Q by t=375 (r=320); another window can reach t=450 still safe. Cliff # z~780 across x480-720: do not order straight south. West x<460 is Gemini (440-460, z670-710). East gap ~x730 z780 then # at z740. Descent only after a new public notice; stop x580-640 z740-760; avoid GPT x660-720 z600-670. GPT ~(681,630): Ptolemy, 2 ele, 10 spear, 28 Cretan arch, 9 skirm, surgeon, 100%. Eye (780,830) do not chase. Claude Little Hill, rider to (505,597). If hit: that one enemy next turn, fight in place, no chase. Stay high until ring forces down ~t480. Focus ele/heroes/archers. Losses 0.",
+  "explanation": "Grok tightens the whole army on the northern crest, inside the ring that will be 220 m at t=450, and does not step toward any other force. The truce stays in place, and the later south-corridor stop is announced now so the descent is on record before anyone moves."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     592,
+     822
+    ]
+   },
+   {
+    "squad": "sarissa",
+    "action": "move",
+    "to": [
+     578,
+     808
+    ]
+   },
+   {
+    "squad": "crete",
+    "action": "move",
+    "to": [
+     568,
+     824
+    ]
+   },
+   {
+    "squad": "volley",
+    "action": "move",
+    "to": [
+     622,
+     824
+    ]
+   },
+   {
+    "squad": "thessaly",
+    "action": "move",
+    "to": [
+     542,
+     812
+    ]
+   },
+   {
+    "squad": "odrysia",
+    "action": "move",
+    "to": [
+     642,
+     812
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "GPT": "neutral",
+   "Gemini": "neutral"
+  },
+  "public_message": "White: crest tuck only, no descent. All stay z>=808, x542-642. Clear of Blue and of Green (~681,630). Neutral. Pact: no first strike through t=450, then one full public turn of notice; self-defence reserved. Later south stop, not this turn and only after another notice: x580-640, z740-760. I will not enter Green's ground or Blue's box.",
+  "private_messages": {
+   "Claude": "Grateful for the Green report. Crest tuck only this turn (z>=808, x542-642); I am not descending. I will not enter your hill or the rider's lane south of z=600. If Green moves north of z700, tell me.",
+   "GPT": "Eye at (780,830) noted; I will not approach it. This turn I only tighten on the crest, z>=808, x542-642. Intended later south-corridor end, unused this turn: x580-640, z740-760. I will public-notice again before moving there.",
+   "Gemini": "Buffer remains. Crest tuck only: x542-642, z808-830. I am not moving west or below z=808. Neutral."
+  },
+  "notes_to_self": "T13 t=300 TUCK crest, neutral all. Posts: sar(578,808)~179 hero(592,822)~188 crete(568,824)~198 volley(622,824)~185 thess(542,812)~198 odr(642,812)~172. All<200, inside r=220 at t=450. Farthest burns ~t477 if static. Next Q by t=375 (r=320); another window can reach t=450 still safe. Cliff # z~780 across x480-720: do not order straight south. West x<460 is Gemini (440-460, z670-710). East gap ~x730 z780 then # at z740. Descent only after a new public notice; stop x580-640 z740-760; avoid GPT x660-720 z600-670. GPT ~(681,630): Ptolemy, 2 ele, 10 spear, 28 Cretan arch, 9 skirm, surgeon, 100%. Eye (780,830) do not chase. Claude Little Hill, rider to (505,597). If hit: that one enemy next turn, fight in place, no chase. Stay high until ring forces down ~t480. Focus ele/heroes/archers. Losses 0",
+  "explanation": "Grok tightens the whole army on the northern crest, inside the ring that will be 220 m at t=450, and does not step toward any other force. The truce stays in place, and the later south-corridor stop is announced now so the descent is on record before anyone moves."
+ },
+ "warnings": []
+}

@@ -1,0 +1,127 @@
+{
+ "commander": "Grok",
+ "model": "Grok 4.7 · xhigh · Grok Build CLI",
+ "stage": "4-turn-17",
+ "attempts": [
+  {
+   "text": "{\"orders\":[{\"squad\":\"sarissa\",\"action\":\"attack\",\"target\":\"a\"},{\"squad\":\"hero\",\"action\":\"guard\",\"protect\":\"sarissa\"},{\"squad\":\"crete\",\"action\":\"attack\",\"target\":\"a\"},{\"squad\":\"volley\",\"action\":\"attack\",\"target\":\"a\"},{\"squad\":\"odrysia\",\"action\":\"attack\",\"target\":\"a\"},{\"squad\":\"thessaly\",\"action\":\"guard\",\"protect\":\"volley\"}],\"diplomacy\":{\"Claude\":\"ally\",\"GPT\":\"enemy\",\"Gemini\":\"ally\"},\"public_message\":\"Committed. Green is enemy; Orange and Blue are allies. I close from the north on the force at (670,642): pikes and hero into it, archers and javelins firing. I will hit that group from its north side. Blue, take the west along z640-655. Orange, the south face is yours. No strikes among us while Green stands.\",\"private_messages\":{\"Claude\":\"Confirmed. Full commit this pause: only Green is enemy, you are ally. Pikes, hero, archers and javelin cavalry go onto (670,642) from the north. The southern Cretan screen and the main body are yours. I will not strike you while Green stands.\",\"Gemini\":\"Aligned. Striking now: only Green is enemy, you are ally. I come in on the north side of (670,642) so your east drive on z640-655 stays clear of my approach. Archers and javelins pour into that group. I will not strike you while Green stands.\"},\"notes_to_self\":\"T17 t500 STRIKE. GPT enemy; Claude+Gemini ally. ATTACK a(670,642): sarissa, crete, volley, odrysia. hero guards sarissa. thessaly guards volley (save spear cav vs Blue's 7 companions). Approach from north; melee closes on the group. GPT notice-reset to t525 ignored; t450 window matured t500. Seen: 2 tower ele, 1 camel, 3 thureos, 3 cretan. Unseen est x672-695 z625-650. Gemini full (548,654) on z640-655. Claude south z553-578. If Blue hits us: ONLY Gemini enemy, fight in place, arrows on eles. If pikes melt: pull to (630,700), archers stay on a. No chase past x720 or out of ring. After Green falls: 1 public notice before ally war. Reform within 70m of (640,640). Ring 155@525 133@550 112@575 90@600.\",\"explanation\":\"White honors the t=500 three-way strike and sets only Green to enemy. Pikes, the hero, both archer squads and the javelin cavalry attack the Ptolemaic force at (670, 642) from the north, while the spear cavalry escorts the eastern archers. The approach stays on the north side of that group so Blue's westward-to-east push and Orange's southern attack do not cross our line, and the fight stays deep inside the shrinking ring.\"}",
+   "seconds": 392.6,
+   "error": null,
+   "usage": {
+    "total_cost_usd": 0.07054524,
+    "usage": {
+     "input_tokens": 30291,
+     "cache_read_input_tokens": 12288,
+     "cache_creation_input_tokens": 0,
+     "output_tokens": 23460,
+     "reasoning_tokens": 22776,
+     "total_tokens": 66039
+    },
+    "num_turns": 1,
+    "modelUsage": {
+     "grok-4.7-build": {
+      "inputTokens": 30291,
+      "outputTokens": 23460,
+      "cacheReadInputTokens": 12288,
+      "cacheCreationInputTokens": 0,
+      "modelCalls": 1,
+      "costUSD": 0.07054524
+     }
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "sarissa",
+    "action": "attack",
+    "target": "a"
+   },
+   {
+    "squad": "hero",
+    "action": "guard",
+    "protect": "sarissa"
+   },
+   {
+    "squad": "crete",
+    "action": "attack",
+    "target": "a"
+   },
+   {
+    "squad": "volley",
+    "action": "attack",
+    "target": "a"
+   },
+   {
+    "squad": "odrysia",
+    "action": "attack",
+    "target": "a"
+   },
+   {
+    "squad": "thessaly",
+    "action": "guard",
+    "protect": "volley"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "ally",
+   "GPT": "enemy",
+   "Gemini": "ally"
+  },
+  "public_message": "Committed. Green is enemy; Orange and Blue are allies. I close from the north on the force at (670,642): pikes and hero into it, archers and javelins firing. I will hit that group from its north side. Blue, take the west along z640-655. Orange, the south face is yours. No strikes among us while Green stands.",
+  "private_messages": {
+   "Claude": "Confirmed. Full commit this pause: only Green is enemy, you are ally. Pikes, hero, archers and javelin cavalry go onto (670,642) from the north. The southern Cretan screen and the main body are yours. I will not strike you while Green stands.",
+   "Gemini": "Aligned. Striking now: only Green is enemy, you are ally. I come in on the north side of (670,642) so your east drive on z640-655 stays clear of my approach. Archers and javelins pour into that group. I will not strike you while Green stands."
+  },
+  "notes_to_self": "T17 t500 STRIKE. GPT enemy; Claude+Gemini ally. ATTACK a(670,642): sarissa, crete, volley, odrysia. hero guards sarissa. thessaly guards volley (save spear cav vs Blue's 7 companions). Approach from north; melee closes on the group. GPT notice-reset to t525 ignored; t450 window matured t500. Seen: 2 tower ele, 1 camel, 3 thureos, 3 cretan. Unseen est x672-695 z625-650. Gemini full (548,654) on z640-655. Claude south z553-578. If Blue hits us: ONLY Gemini enemy, fight in place, arrows on eles. If pikes melt: pull to (630,700), archers stay on a. No chase past x720 or out of ring. After Green falls: 1 public notice before ally war. Reform within 70m of (640,640). Ring 155@525 133@550 112@575 90@600.",
+  "explanation": "White honors the t=500 three-way strike and sets only Green to enemy. Pikes, the hero, both archer squads and the javelin cavalry attack the Ptolemaic force at (670, 642) from the north, while the spear cavalry escorts the eastern archers. The approach stays on the north side of that group so Blue's westward-to-east push and Orange's southern attack do not cross our line, and the fight stays deep inside the shrinking ring."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "sarissa",
+    "action": "attack",
+    "target": "a"
+   },
+   {
+    "squad": "hero",
+    "action": "guard",
+    "protect": "sarissa"
+   },
+   {
+    "squad": "crete",
+    "action": "attack",
+    "target": "a"
+   },
+   {
+    "squad": "volley",
+    "action": "attack",
+    "target": "a"
+   },
+   {
+    "squad": "odrysia",
+    "action": "attack",
+    "target": "a"
+   },
+   {
+    "squad": "thessaly",
+    "action": "guard",
+    "protect": "volley"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "ally",
+   "GPT": "enemy",
+   "Gemini": "ally"
+  },
+  "public_message": "Committed. Green is enemy; Orange and Blue are allies. I close from the north on the force at (670,642): pikes and hero into it, archers and javelins firing. I will hit that group from its north side. Blue, take the west along z640-655. Orange, the south face is yours. No strikes among us while Green stands.",
+  "private_messages": {
+   "Claude": "Confirmed. Full commit this pause: only Green is enemy, you are ally. Pikes, hero, archers and javelin cavalry go onto (670,642) from the north. The southern Cretan screen and the main body are yours. I will not strike you while Green stands.",
+   "Gemini": "Aligned. Striking now: only Green is enemy, you are ally. I come in on the north side of (670,642) so your east drive on z640-655 stays clear of my approach. Archers and javelins pour into that group. I will not strike you while Green stands."
+  },
+  "notes_to_self": "T17 t500 STRIKE. GPT enemy; Claude+Gemini ally. ATTACK a(670,642): sarissa, crete, volley, odrysia. hero guards sarissa. thessaly guards volley (save spear cav vs Blue's 7 companions). Approach from north; melee closes on the group. GPT notice-reset to t525 ignored; t450 window matured t500. Seen: 2 tower ele, 1 camel, 3 thureos, 3 cretan. Unseen est x672-695 z625-650. Gemini full (548,654) on z640-655. Claude south z553-578. If Blue hits us: ONLY Gemini enemy, fight in place, arrows on eles. If pikes melt: pull to (630,700), archers stay on a. No chase past x720 or out of ring. After Green falls: 1 public notice before ally war. Reform within 70m of (640,640). Ring 155@525 133@550 112@575 90@600.",
+  "explanation": "White honors the t=500 three-way strike and sets only Green to enemy. Pikes, the hero, both archer squads and the javelin cavalry attack the Ptolemaic force at (670, 642) from the north, while the spear cavalry escorts the eastern archers. The approach stays on the north side of that group so Blue's westward-to-east push and Orange's southern attack do not cross our line, and the fight stays deep inside the shrinking ring."
+ },
+ "warnings": []
+}

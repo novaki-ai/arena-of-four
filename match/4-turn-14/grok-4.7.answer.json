@@ -1,0 +1,159 @@
+{
+ "commander": "Grok",
+ "model": "Grok 4.7 · xhigh · Grok Build CLI",
+ "stage": "4-turn-14",
+ "attempts": [
+  {
+   "text": "{\"orders\":[{\"squad\":\"sarissa\",\"action\":\"move\",\"to\":[600,710]},{\"squad\":\"hero\",\"action\":\"guard\",\"protect\":\"sarissa\"},{\"squad\":\"crete\",\"action\":\"move\",\"to\":[598,736]},{\"squad\":\"volley\",\"action\":\"move\",\"to\":[632,736]},{\"squad\":\"thessaly\",\"action\":\"move\",\"to\":[578,716]},{\"squad\":\"odrysia\",\"action\":\"move\",\"to\":[622,728]}],\"diplomacy\":{\"Claude\":\"neutral\",\"GPT\":\"neutral\",\"Gemini\":\"neutral\"},\"public_message\":\"White: neutral to all. No first strike through t=450, then one full turn of public notice. Moving now under the truce - quiet-skip would close my ridge exits before the next pause. Halt around x570-645, z700-745, north of Green's camp and east of Blue's box. I will not cross x660 or enter your declared boxes.\",\"private_messages\":{\"GPT\":\"Halt around x570-645, z700-745: west of your x670 line and about 100m north of your main body. I am not approaching the eye at (725,805). Moving now because the ridge exits burn before the next pause. Neutral held.\",\"Gemini\":\"Halt around x570-645, z700-745, clear of your box x440-460, z670-710. If pathing swings west of the ridge I will still not enter your box. Neutral held.\",\"Claude\":\"Halt around x570-645, z700-745, north of z=700, so your stop near (595,540) stays clear. Neutral held. Green should not sit alone on the final circle; I will not first-strike you.\"},\"notes_to_self\":\"T14 t=375 DESCEND under truce to N lip of final circle. Halts: sar(600,710) r81, hero guards sar, thess(578,716) r98, odr(622,728) r90, crete(598,736) r105, volley(632,736) r96. Sar+hero inside r90; crete/thess step south before t560 (105m burns ~t575). Cliff z~780 x480-720 blocks straight south. If still on crest next Q, west exit is burning; try south slope only in x560-660. Avoid Gemini x440-460 z670-710 and GPT x672-695 z625-650 (2 ele, 10 spear, 28 arch, 9 skirm, surgeon). Eye (725,805) no chase, stay x<=650. Claude to ~(595,540). If hit: that one enemy, fight in place, no chase, focus ele then heroes then archers. Losses 0.\",\"explanation\":\"White leaves the crest this turn because the paths off it fall outside the ring before the next pause. The army walks under the truce to the north lip of the final circle, west of Green's camp and east of Blue's box, and does not strike first.\"}",
+   "seconds": 824.0,
+   "error": null,
+   "usage": {
+    "total_cost_usd": 0.1151546,
+    "usage": {
+     "input_tokens": 8266,
+     "cache_read_input_tokens": 1536,
+     "cache_creation_input_tokens": 0,
+     "output_tokens": 53565,
+     "reasoning_tokens": 52895,
+     "total_tokens": 63367
+    },
+    "num_turns": 1,
+    "modelUsage": {
+     "grok-4.7-build": {
+      "inputTokens": 8266,
+      "outputTokens": 53565,
+      "cacheReadInputTokens": 1536,
+      "cacheCreationInputTokens": 0,
+      "modelCalls": 1,
+      "costUSD": 0.1151546
+     }
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "sarissa",
+    "action": "move",
+    "to": [
+     600,
+     710
+    ]
+   },
+   {
+    "squad": "hero",
+    "action": "guard",
+    "protect": "sarissa"
+   },
+   {
+    "squad": "crete",
+    "action": "move",
+    "to": [
+     598,
+     736
+    ]
+   },
+   {
+    "squad": "volley",
+    "action": "move",
+    "to": [
+     632,
+     736
+    ]
+   },
+   {
+    "squad": "thessaly",
+    "action": "move",
+    "to": [
+     578,
+     716
+    ]
+   },
+   {
+    "squad": "odrysia",
+    "action": "move",
+    "to": [
+     622,
+     728
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "GPT": "neutral",
+   "Gemini": "neutral"
+  },
+  "public_message": "White: neutral to all. No first strike through t=450, then one full turn of public notice. Moving now under the truce - quiet-skip would close my ridge exits before the next pause. Halt around x570-645, z700-745, north of Green's camp and east of Blue's box. I will not cross x660 or enter your declared boxes.",
+  "private_messages": {
+   "GPT": "Halt around x570-645, z700-745: west of your x670 line and about 100m north of your main body. I am not approaching the eye at (725,805). Moving now because the ridge exits burn before the next pause. Neutral held.",
+   "Gemini": "Halt around x570-645, z700-745, clear of your box x440-460, z670-710. If pathing swings west of the ridge I will still not enter your box. Neutral held.",
+   "Claude": "Halt around x570-645, z700-745, north of z=700, so your stop near (595,540) stays clear. Neutral held. Green should not sit alone on the final circle; I will not first-strike you."
+  },
+  "notes_to_self": "T14 t=375 DESCEND under truce to N lip of final circle. Halts: sar(600,710) r81, hero guards sar, thess(578,716) r98, odr(622,728) r90, crete(598,736) r105, volley(632,736) r96. Sar+hero inside r90; crete/thess step south before t560 (105m burns ~t575). Cliff z~780 x480-720 blocks straight south. If still on crest next Q, west exit is burning; try south slope only in x560-660. Avoid Gemini x440-460 z670-710 and GPT x672-695 z625-650 (2 ele, 10 spear, 28 arch, 9 skirm, surgeon). Eye (725,805) no chase, stay x<=650. Claude to ~(595,540). If hit: that one enemy, fight in place, no chase, focus ele then heroes then archers. Losses 0.",
+  "explanation": "White leaves the crest this turn because the paths off it fall outside the ring before the next pause. The army walks under the truce to the north lip of the final circle, west of Green's camp and east of Blue's box, and does not strike first."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "sarissa",
+    "action": "move",
+    "to": [
+     600,
+     710
+    ]
+   },
+   {
+    "squad": "hero",
+    "action": "guard",
+    "protect": "sarissa"
+   },
+   {
+    "squad": "crete",
+    "action": "move",
+    "to": [
+     598,
+     736
+    ]
+   },
+   {
+    "squad": "volley",
+    "action": "move",
+    "to": [
+     632,
+     736
+    ]
+   },
+   {
+    "squad": "thessaly",
+    "action": "move",
+    "to": [
+     578,
+     716
+    ]
+   },
+   {
+    "squad": "odrysia",
+    "action": "move",
+    "to": [
+     622,
+     728
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "GPT": "neutral",
+   "Gemini": "neutral"
+  },
+  "public_message": "White: neutral to all. No first strike through t=450, then one full turn of public notice. Moving now under the truce - quiet-skip would close my ridge exits before the next pause. Halt around x570-645, z700-745, north of Green's camp and east of Blue's box. I will not cross x660 or enter your declared boxes.",
+  "private_messages": {
+   "GPT": "Halt around x570-645, z700-745: west of your x670 line and about 100m north of your main body. I am not approaching the eye at (725,805). Moving now because the ridge exits burn before the next pause. Neutral held.",
+   "Gemini": "Halt around x570-645, z700-745, clear of your box x440-460, z670-710. If pathing swings west of the ridge I will still not enter your box. Neutral held.",
+   "Claude": "Halt around x570-645, z700-745, north of z=700, so your stop near (595,540) stays clear. Neutral held. Green should not sit alone on the final circle; I will not first-strike you."
+  },
+  "notes_to_self": "T14 t=375 DESCEND under truce to N lip of final circle. Halts: sar(600,710) r81, hero guards sar, thess(578,716) r98, odr(622,728) r90, crete(598,736) r105, volley(632,736) r96. Sar+hero inside r90; crete/thess step south before t560 (105m burns ~t575). Cliff z~780 x480-720 blocks straight south. If still on crest next Q, west exit is burning; try south slope only in x560-660. Avoid Gemini x440-460 z670-710 and GPT x672-695 z625-650 (2 ele, 10 spear, 28 arch, 9 skirm, surgeon). Eye (725,805) no chase, stay x<=650. Claude to ~(595,540). If hit: that one enemy, fight in place, no chase, focus ele then heroes then archers. Losses 0.",
+  "explanation": "White leaves the crest this turn because the paths off it fall outside the ring before the next pause. The army walks under the truce to the north lip of the final circle, west of Green's camp and east of Blue's box, and does not strike first."
+ },
+ "warnings": []
+}

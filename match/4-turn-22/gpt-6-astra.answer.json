@@ -1,0 +1,74 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "4-turn-22",
+ "attempts": [
+  {
+   "text": "{\n  \"orders\": [\n    {\n      \"squad\": \"hero\",\n      \"action\": \"move\",\n      \"to\": [690, 585],\n      \"stance\": \"standground\"\n    }\n  ],\n  \"diplomacy\": {\n    \"Claude\": \"neutral\",\n    \"Gemini\": \"neutral\",\n    \"Grok\": \"neutral\"\n  },\n  \"public_message\": \"Green's current controllable roster is one Ptolemy at 30% health, with no archers. I am disengaging and setting everyone neutral. Reports of a large Green army are outdated.\",\n  \"private_messages\": {\n    \"Claude\": \"Blue's two elephants and surgeon are now at (653,708), close to my hero. I am withdrawing south past your western flank. Intercept them while they are separated from any cavalry; killing their surgeon prevents recovery.\",\n    \"Gemini\": \"Orange currently has Hannibal, three elite spearmen and one cavalry at (707,655). Hannibal alone contributes 500 points. I am setting you neutral and withdrawing; your report of Green archers does not match my current roster.\",\n    \"Grok\": \"I am withdrawing south and staying away from your western position. Blue's surgeon accompanies two wounded elephants at (653,708). An opportunity to eliminate the surgeon could decide their fight with Orange.\"\n  },\n  \"notes_to_self\": \"t725: Only controllable unit is Ptolemy, 30% HP at684714. Ordered move690585, radius74, standground; explicitly set all neutral. Actual incoming stance table had Blue and White enemy despite previous notes claiming neutrality. Orange neutral. Visible Orange Hannibal+3 elite spears+1 cavalry, group64%,707655. Blue surgeon+2 armored elephants, group40%,653708; cavalry whereabouts unknown. White last seen one unit576685 atturn20. Destination passes west of Orange, potentially drawing pursuing Blue into Orange. Next normal pause775; only25s then remain. Living hero counts500 regardless HP. Reassess exposed enemy heroes and remaining army values before final orders.\",\n  \"explanation\": \"Ptolemy withdraws south inside the ring, passing close enough to Orange that pursuing elephants may encounter its troops. At 30% health, preserving his 500-point contribution while the larger armies fight offers the best remaining chance.\"\n}",
+   "seconds": 86.5,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 15177,
+     "cached_input_tokens": 9856,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 4071,
+     "reasoning_output_tokens": 3576
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     690,
+     585
+    ],
+    "stance": "standground"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green's current controllable roster is one Ptolemy at 30% health, with no archers. I am disengaging and setting everyone neutral. Reports of a large Green army are outdated.",
+  "private_messages": {
+   "Claude": "Blue's two elephants and surgeon are now at (653,708), close to my hero. I am withdrawing south past your western flank. Intercept them while they are separated from any cavalry; killing their surgeon prevents recovery.",
+   "Gemini": "Orange currently has Hannibal, three elite spearmen and one cavalry at (707,655). Hannibal alone contributes 500 points. I am setting you neutral and withdrawing; your report of Green archers does not match my current roster.",
+   "Grok": "I am withdrawing south and staying away from your western position. Blue's surgeon accompanies two wounded elephants at (653,708). An opportunity to eliminate the surgeon could decide their fight with Orange."
+  },
+  "notes_to_self": "t725: Only controllable unit is Ptolemy, 30% HP at684714. Ordered move690585, radius74, standground; explicitly set all neutral. Actual incoming stance table had Blue and White enemy despite previous notes claiming neutrality. Orange neutral. Visible Orange Hannibal+3 elite spears+1 cavalry, group64%,707655. Blue surgeon+2 armored elephants, group40%,653708; cavalry whereabouts unknown. White last seen one unit576685 atturn20. Destination passes west of Orange, potentially drawing pursuing Blue into Orange. Next normal pause775; only25s then remain. Living hero counts500 regardless HP. Reassess exposed enemy heroes and remaining army values before final orders.",
+  "explanation": "Ptolemy withdraws south inside the ring, passing close enough to Orange that pursuing elephants may encounter its troops. At 30% health, preserving his 500-point contribution while the larger armies fight offers the best remaining chance."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     690,
+     585
+    ],
+    "stance": "standground"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green's current controllable roster is one Ptolemy at 30% health, with no archers. I am disengaging and setting everyone neutral. Reports of a large Green army are outdated.",
+  "private_messages": {
+   "Claude": "Blue's two elephants and surgeon are now at (653,708), close to my hero. I am withdrawing south past your western flank. Intercept them while they are separated from any cavalry; killing their surgeon prevents recovery.",
+   "Gemini": "Orange currently has Hannibal, three elite spearmen and one cavalry at (707,655). Hannibal alone contributes 500 points. I am setting you neutral and withdrawing; your report of Green archers does not match my current roster.",
+   "Grok": "I am withdrawing south and staying away from your western position. Blue's surgeon accompanies two wounded elephants at (653,708). An opportunity to eliminate the surgeon could decide their fight with Orange."
+  },
+  "notes_to_self": "t725: Only controllable unit is Ptolemy, 30% HP at684714. Ordered move690585, radius74, standground; explicitly set all neutral. Actual incoming stance table had Blue and White enemy despite previous notes claiming neutrality. Orange neutral. Visible Orange Hannibal+3 elite spears+1 cavalry, group64%,707655. Blue surgeon+2 armored elephants, group40%,653708; cavalry whereabouts unknown. White last seen one unit576685 atturn20. Destination passes west of Orange, potentially drawing pursuing Blue into Orange. Next normal pause775; only25s then remain. Living hero counts500 regardless HP. Reassess exposed enemy heroes and remaining army values before final orders.",
+  "explanation": "Ptolemy withdraws south inside the ring, passing close enough to Orange that pursuing elephants may encounter its troops. At 30% health, preserving his 500-point contribution while the larger armies fight offers the best remaining chance."
+ },
+ "warnings": []
+}

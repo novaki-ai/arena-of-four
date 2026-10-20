@@ -1,0 +1,249 @@
+{
+ "opus": {
+  "komut": [
+   {
+    "type": "walk",
+    "entities": [
+     7419
+    ],
+    "x": 678.0,
+    "z": 584.0,
+    "queued": false
+   },
+   {
+    "type": "diplomacy",
+    "player": 2,
+    "to": "neutral"
+   },
+   {
+    "type": "diplomacy",
+    "player": 3,
+    "to": "neutral"
+   },
+   {
+    "type": "diplomacy",
+    "player": 4,
+    "to": "neutral"
+   }
+  ],
+  "notlar": []
+ },
+ "astra": {
+  "komut": [
+   {
+    "type": "stop",
+    "entities": [
+     7471
+    ],
+    "queued": false
+   },
+   {
+    "type": "stance",
+    "entities": [
+     7471
+    ],
+    "name": "standground"
+   },
+   {
+    "type": "diplomacy",
+    "player": 1,
+    "to": "neutral"
+   },
+   {
+    "type": "diplomacy",
+    "player": 3,
+    "to": "neutral"
+   },
+   {
+    "type": "diplomacy",
+    "player": 4,
+    "to": "neutral"
+   }
+  ],
+  "notlar": []
+ },
+ "argon": {
+  "komut": [
+   {
+    "type": "diplomacy",
+    "player": 1,
+    "to": "neutral"
+   },
+   {
+    "type": "diplomacy",
+    "player": 2,
+    "to": "neutral"
+   },
+   {
+    "type": "diplomacy",
+    "player": 4,
+    "to": "neutral"
+   }
+  ],
+  "notlar": []
+ },
+ "grok": {
+  "komut": [
+   {
+    "type": "guard",
+    "entities": [
+     7546
+    ],
+    "target": 7508,
+    "queued": false
+   },
+   {
+    "type": "stop",
+    "entities": [
+     7508,
+     7509,
+     7510,
+     7511,
+     7512,
+     7513,
+     7514,
+     7515,
+     7516
+    ],
+    "queued": false
+   },
+   {
+    "type": "stance",
+    "entities": [
+     7508,
+     7509,
+     7510,
+     7511,
+     7512,
+     7513,
+     7514,
+     7515,
+     7516
+    ],
+    "name": "standground"
+   },
+   {
+    "type": "stop",
+    "entities": [
+     7517,
+     7518,
+     7519,
+     7520,
+     7521,
+     7522,
+     7523,
+     7524,
+     7525,
+     7526,
+     7527
+    ],
+    "queued": false
+   },
+   {
+    "type": "stance",
+    "entities": [
+     7517,
+     7518,
+     7519,
+     7520,
+     7521,
+     7522,
+     7523,
+     7524,
+     7525,
+     7526,
+     7527
+    ],
+    "name": "standground"
+   },
+   {
+    "type": "stop",
+    "entities": [
+     7528,
+     7529,
+     7530,
+     7531,
+     7532,
+     7533,
+     7534,
+     7535,
+     7536,
+     7537
+    ],
+    "queued": false
+   },
+   {
+    "type": "stance",
+    "entities": [
+     7528,
+     7529,
+     7530,
+     7531,
+     7532,
+     7533,
+     7534,
+     7535,
+     7536,
+     7537
+    ],
+    "name": "standground"
+   },
+   {
+    "type": "stop",
+    "entities": [
+     7538,
+     7539,
+     7540,
+     7541
+    ],
+    "queued": false
+   },
+   {
+    "type": "stance",
+    "entities": [
+     7538,
+     7539,
+     7540,
+     7541
+    ],
+    "name": "standground"
+   },
+   {
+    "type": "stop",
+    "entities": [
+     7542,
+     7543,
+     7544,
+     7545
+    ],
+    "queued": false
+   },
+   {
+    "type": "stance",
+    "entities": [
+     7542,
+     7543,
+     7544,
+     7545
+    ],
+    "name": "standground"
+   },
+   {
+    "type": "diplomacy",
+    "player": 1,
+    "to": "neutral"
+   },
+   {
+    "type": "diplomacy",
+    "player": 2,
+    "to": "neutral"
+   },
+   {
+    "type": "diplomacy",
+    "player": 3,
+    "to": "neutral"
+   }
+  ],
+  "notlar": []
+ }
+}

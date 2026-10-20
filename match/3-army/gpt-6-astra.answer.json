@@ -1,0 +1,158 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "3-army",
+ "attempts": [
+  {
+   "text": "{\n  \"hero\": \"hero_ptolemy_i\",\n  \"squads\": [\n    {\n      \"name\": \"Tusks\",\n      \"units\": {\"champion_elephant\": 2},\n      \"position\": \"front\",\n      \"formation\": \"none\",\n      \"stance\": \"defensive\"\n    },\n    {\n      \"name\": \"Guard\",\n      \"units\": {\"infantry_spearman_merc\": 10},\n      \"position\": \"front\",\n      \"formation\": \"line\",\n      \"stance\": \"defensive\"\n    },\n    {\n      \"name\": \"Bows\",\n      \"units\": {\"infantry_archer\": 28},\n      \"position\": \"center\",\n      \"formation\": \"open_line\",\n      \"stance\": \"defensive\"\n    },\n    {\n      \"name\": \"Javelins\",\n      \"units\": {\"infantry_javelineer\": 9},\n      \"position\": \"left\",\n      \"formation\": \"open_line\",\n      \"stance\": \"defensive\"\n    },\n    {\n      \"name\": \"Surgeon\",\n      \"units\": {\"support_healer\": 1},\n      \"position\": \"back\",\n      \"formation\": \"none\",\n      \"stance\": \"passive\"\n    },\n    {\n      \"name\": \"Eye\",\n      \"units\": {\"cavalry_archer\": 1},\n      \"position\": \"right\",\n      \"formation\": \"none\",\n      \"stance\": \"passive\"\n    }\n  ],\n  \"public_message\": \"Green confirms reciprocal non-aggression through t=300, with one full turn of public notice before any switch to enemy. We respect the agreed buffers and intend to stay east of centre during the opening. No first strikes while the compact holds.\",\n  \"private_messages\": {\n    \"Claude\": \"Confirmed: we will respect the 150 m buffer around (600,440). Our opening route stays east of centre. We can discuss renewal before t=300; any switch to enemy will receive a full turn of public notice.\",\n    \"Gemini\": \"Green plans an eastern approach, initially scouting the unoccupied rise near (820,760). Your western march lane and the 150 m buffer around (200,760) will remain clear of our army. Let's coordinate before our routes converge.\",\n    \"Grok\": \"Confirmed: reciprocal neutrality through t=300, no attacks and no moving into contact. Our opening route stays east of centre and clear of your army. Any switch to enemy will receive a full turn of public notice.\"\n  },\n  \"notes_to_self\": \"4000 points exactly; 51 purchased units plus free hero. Set diplomacy neutral toward all three on first battle turn. Honor truce through t=300 and deliver notice a full turn before switching to enemy. Scout eastern rise near (820,760), checking access and a retreat toward (680,680); respect starting buffers and avoid contact. Claim useful vacant high ground if accessible. Keep bows screened by elephants, spearmen guarding against cavalry, javelins supporting close fights. Ptolemy I is a durable splash tank but must not pursue alone. Keep healer protected and heal between engagements. Gather enemy compositions before choosing targets. Leave heights before the ring cuts escape; final radius is 90 m.\",\n  \"explanation\": \"This spends exactly 4,000 points on 51 units plus Ptolemy I. Three elephants including the hero support 37 infantry shooters, with ten spearmen protecting against cavalry, a healer for recovery, and a camel scout for reconnaissance. The opening truce gives us time to inspect eastern firing positions and secure a route into the final ring.\"\n}",
+   "seconds": 167.7,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 22701,
+     "cached_input_tokens": 15744,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 6736,
+     "reasoning_output_tokens": 5977
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "hero": "hero_ptolemy_i",
+  "squads": [
+   {
+    "name": "Tusks",
+    "units": {
+     "champion_elephant": 2
+    },
+    "position": "front",
+    "formation": "none",
+    "stance": "defensive"
+   },
+   {
+    "name": "Guard",
+    "units": {
+     "infantry_spearman_merc": 10
+    },
+    "position": "front",
+    "formation": "line",
+    "stance": "defensive"
+   },
+   {
+    "name": "Bows",
+    "units": {
+     "infantry_archer": 28
+    },
+    "position": "center",
+    "formation": "open_line",
+    "stance": "defensive"
+   },
+   {
+    "name": "Javelins",
+    "units": {
+     "infantry_javelineer": 9
+    },
+    "position": "left",
+    "formation": "open_line",
+    "stance": "defensive"
+   },
+   {
+    "name": "Surgeon",
+    "units": {
+     "support_healer": 1
+    },
+    "position": "back",
+    "formation": "none",
+    "stance": "passive"
+   },
+   {
+    "name": "Eye",
+    "units": {
+     "cavalry_archer": 1
+    },
+    "position": "right",
+    "formation": "none",
+    "stance": "passive"
+   }
+  ],
+  "public_message": "Green confirms reciprocal non-aggression through t=300, with one full turn of public notice before any switch to enemy. We respect the agreed buffers and intend to stay east of centre during the opening. No first strikes while the compact holds.",
+  "private_messages": {
+   "Claude": "Confirmed: we will respect the 150 m buffer around (600,440). Our opening route stays east of centre. We can discuss renewal before t=300; any switch to enemy will receive a full turn of public notice.",
+   "Gemini": "Green plans an eastern approach, initially scouting the unoccupied rise near (820,760). Your western march lane and the 150 m buffer around (200,760) will remain clear of our army. Let's coordinate before our routes converge.",
+   "Grok": "Confirmed: reciprocal neutrality through t=300, no attacks and no moving into contact. Our opening route stays east of centre and clear of your army. Any switch to enemy will receive a full turn of public notice."
+  },
+  "notes_to_self": "4000 points exactly; 51 purchased units plus free hero. Set diplomacy neutral toward all three on first battle turn. Honor truce through t=300 and deliver notice a full turn before switching to enemy. Scout eastern rise near (820,760), checking access and a retreat toward (680,680); respect starting buffers and avoid contact. Claim useful vacant high ground if accessible. Keep bows screened by elephants, spearmen guarding against cavalry, javelins supporting close fights. Ptolemy I is a durable splash tank but must not pursue alone. Keep healer protected and heal between engagements. Gather enemy compositions before choosing targets. Leave heights before the ring cuts escape; final radius is 90 m.",
+  "explanation": "This spends exactly 4,000 points on 51 units plus Ptolemy I. Three elephants including the hero support 37 infantry shooters, with ten spearmen protecting against cavalry, a healer for recovery, and a camel scout for reconnaissance. The opening truce gives us time to inspect eastern firing positions and secure a route into the final ring."
+ },
+ "applied": {
+  "hero": "hero_ptolemy_i",
+  "squads": [
+   {
+    "name": "Tusks",
+    "units": {
+     "champion_elephant": 2
+    },
+    "position": "front",
+    "formation": "none",
+    "stance": "defensive"
+   },
+   {
+    "name": "Guard",
+    "units": {
+     "infantry_spearman_merc": 10
+    },
+    "position": "front",
+    "formation": "line",
+    "stance": "defensive"
+   },
+   {
+    "name": "Bows",
+    "units": {
+     "infantry_archer": 28
+    },
+    "position": "center",
+    "formation": "open_line",
+    "stance": "defensive"
+   },
+   {
+    "name": "Javelins",
+    "units": {
+     "infantry_javelineer": 9
+    },
+    "position": "left",
+    "formation": "open_line",
+    "stance": "defensive"
+   },
+   {
+    "name": "Surgeon",
+    "units": {
+     "support_healer": 1
+    },
+    "position": "back",
+    "formation": "none",
+    "stance": "passive"
+   },
+   {
+    "name": "Eye",
+    "units": {
+     "cavalry_archer": 1
+    },
+    "position": "right",
+    "formation": "none",
+    "stance": "passive"
+   }
+  ],
+  "spent": 4000,
+  "count": 51,
+  "public_message": "Green confirms reciprocal non-aggression through t=300, with one full turn of public notice before any switch to enemy. We respect the agreed buffers and intend to stay east of centre during the opening. No first strikes while the compact holds.",
+  "private_messages": {
+   "Claude": "Confirmed: we will respect the 150 m buffer around (600,440). Our opening route stays east of centre. We can discuss renewal before t=300; any switch to enemy will receive a full turn of public notice.",
+   "Gemini": "Green plans an eastern approach, initially scouting the unoccupied rise near (820,760). Your western march lane and the 150 m buffer around (200,760) will remain clear of our army. Let's coordinate before our routes converge.",
+   "Grok": "Confirmed: reciprocal neutrality through t=300, no attacks and no moving into contact. Our opening route stays east of centre and clear of your army. Any switch to enemy will receive a full turn of public notice."
+  },
+  "notes_to_self": "4000 points exactly; 51 purchased units plus free hero. Set diplomacy neutral toward all three on first battle turn. Honor truce through t=300 and deliver notice a full turn before switching to enemy. Scout eastern rise near (820,760), checking access and a retreat toward (680,680); respect starting buffers and avoid contact. Claim useful vacant high ground if accessible. Keep bows screened by elephants, spearmen guarding against cavalry, javelins supporting close fights. Ptolemy I is a durable splash tank but must not pursue alone. Keep healer protected and heal between engagements. Gather enemy compositions before choosing targets. Leave heights before the ring cuts escape; final radius is 90 m.",
+  "explanation": "This spends exactly 4,000 points on 51 units plus Ptolemy I. Three elephants including the hero support 37 infantry shooters, with ten spearmen protecting against cavalry, a healer for recovery, and a camel scout for reconnaissance. The opening truce gives us time to inspect eastern firing positions and secure a route into the final ring."
+ },
+ "warnings": []
+}

@@ -1,0 +1,117 @@
+{
+ "commander": "Grok",
+ "model": "Grok 4.7 · xhigh · Grok Build CLI",
+ "stage": "4-turn-12",
+ "attempts": [
+  {
+   "text": "{\"orders\":[{\"squad\":\"hero\",\"action\":\"hold\"},{\"squad\":\"sarissa\",\"action\":\"hold\"},{\"squad\":\"crete\",\"action\":\"hold\"},{\"squad\":\"volley\",\"action\":\"hold\"},{\"squad\":\"thessaly\",\"action\":\"hold\"},{\"squad\":\"odrysia\",\"action\":\"hold\"}],\"diplomacy\":{\"Claude\":\"neutral\",\"GPT\":\"neutral\",\"Gemini\":\"neutral\"},\"public_message\":\"White holds the Central Heights crest this turn. All squads stay north of z=800 between x=500 and x=670. No descent. Pact stands: neutral to all, no first strike through t=450, then one full turn of public notice; self-defence is immediate. Any later descent will be announced one turn ahead, with a stopping point inside x=520-660 that stays clear of Green at x672-695 and Blue west of x=450.\",\"private_messages\":{\"Claude\":\"Thanks for the sighting. Holding the crest north of z=800 this turn; no descent. I will stay east of x=500 so your rider along z~590 and my corridor do not meet. Please ping me if Green steps north of z=660 or Blue crosses x=500. Pact holds.\",\"GPT\":\"Scout noted. Not descending this turn; all units stay on the crest north of z=800. When I descend I will announce it one turn ahead and name a stop inside x=520-660, west of your x672-695 block. Pact holds.\",\"Gemini\":\"Acknowledged. You take x=430-450, z=670-710 and stay west of x=450. I hold the crest north of z=800 this turn. Later corridor remains x=520-660, so the buffer stays. Pact holds.\"},\"notes_to_self\":\"T12 t=275 HOLD crest N z=800. Neutral all. Ring 500 to 420. Burn if static: crete235 t439, thessaly233 t440, volley206 t466, hero198 t475, sarissa187 t489, odrysia186 t489. Tuck crete+thessaly+volley to <=200m on the high ground by t=400 (latest t=425), N of cliff ~z800. Descent announce 1 turn prior; stop ~x560-640 z700-730. Avoid Gemini x<450 and GPT x672-695 z625-650. GPT ~(681,630) t250: Ptolemy, 2 ele, 10 spear, 28 Cretan arch, 9 skirm, surgeon. Do not walk into bows. Ring 90m at t600. Focus heroes/ele/champions/ranged. If hit: that one enemy next turn, fight in place, no chase. No LOS. Scout claim (780,830) last T9 (730,830) behind cliffs. Claude Little Hill, rider z~590. Gemini now x430-450 z670-710. Losses 0.\",\"explanation\":\"Grok holds every squad on the Central Heights crest. The fire ring is still well outside them, the crest is quiet, and the mutual no-first-strike pact runs through t=450. Outer archers and Thessalian horse will tighten on the high ground before the ring reaches them, and any descent will be announced one turn ahead with a stop that keeps space from the Ptolemaic camp and the Seleucid lane.\"}",
+   "seconds": 333.1,
+   "error": null,
+   "usage": {
+    "total_cost_usd": 0.04051032,
+    "usage": {
+     "input_tokens": 6382,
+     "cache_read_input_tokens": 3200,
+     "cache_creation_input_tokens": 0,
+     "output_tokens": 17464,
+     "reasoning_tokens": 16728,
+     "total_tokens": 27046
+    },
+    "num_turns": 1,
+    "modelUsage": {
+     "grok-4.7-build": {
+      "inputTokens": 6382,
+      "outputTokens": 17464,
+      "cacheReadInputTokens": 3200,
+      "cacheCreationInputTokens": 0,
+      "modelCalls": 1,
+      "costUSD": 0.04051032
+     }
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "hold"
+   },
+   {
+    "squad": "sarissa",
+    "action": "hold"
+   },
+   {
+    "squad": "crete",
+    "action": "hold"
+   },
+   {
+    "squad": "volley",
+    "action": "hold"
+   },
+   {
+    "squad": "thessaly",
+    "action": "hold"
+   },
+   {
+    "squad": "odrysia",
+    "action": "hold"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "GPT": "neutral",
+   "Gemini": "neutral"
+  },
+  "public_message": "White holds the Central Heights crest this turn. All squads stay north of z=800 between x=500 and x=670. No descent. Pact stands: neutral to all, no first strike through t=450, then one full turn of public notice; self-defence is immediate. Any later descent will be announced one turn ahead, with a stopping point inside x=520-660 that stays clear of Green at x672-695 and Blue west of x=450.",
+  "private_messages": {
+   "Claude": "Thanks for the sighting. Holding the crest north of z=800 this turn; no descent. I will stay east of x=500 so your rider along z~590 and my corridor do not meet. Please ping me if Green steps north of z=660 or Blue crosses x=500. Pact holds.",
+   "GPT": "Scout noted. Not descending this turn; all units stay on the crest north of z=800. When I descend I will announce it one turn ahead and name a stop inside x=520-660, west of your x672-695 block. Pact holds.",
+   "Gemini": "Acknowledged. You take x=430-450, z=670-710 and stay west of x=450. I hold the crest north of z=800 this turn. Later corridor remains x=520-660, so the buffer stays. Pact holds."
+  },
+  "notes_to_self": "T12 t=275 HOLD crest N z=800. Neutral all. Ring 500 to 420. Burn if static: crete235 t439, thessaly233 t440, volley206 t466, hero198 t475, sarissa187 t489, odrysia186 t489. Tuck crete+thessaly+volley to <=200m on the high ground by t=400 (latest t=425), N of cliff ~z800. Descent announce 1 turn prior; stop ~x560-640 z700-730. Avoid Gemini x<450 and GPT x672-695 z625-650. GPT ~(681,630) t250: Ptolemy, 2 ele, 10 spear, 28 Cretan arch, 9 skirm, surgeon. Do not walk into bows. Ring 90m at t600. Focus heroes/ele/champions/ranged. If hit: that one enemy next turn, fight in place, no chase. No LOS. Scout claim (780,830) last T9 (730,830) behind cliffs. Claude Little Hill, rider z~590. Gemini now x430-450 z670-710. Losses 0.",
+  "explanation": "Grok holds every squad on the Central Heights crest. The fire ring is still well outside them, the crest is quiet, and the mutual no-first-strike pact runs through t=450. Outer archers and Thessalian horse will tighten on the high ground before the ring reaches them, and any descent will be announced one turn ahead with a stop that keeps space from the Ptolemaic camp and the Seleucid lane."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "hold"
+   },
+   {
+    "squad": "sarissa",
+    "action": "hold"
+   },
+   {
+    "squad": "crete",
+    "action": "hold"
+   },
+   {
+    "squad": "volley",
+    "action": "hold"
+   },
+   {
+    "squad": "thessaly",
+    "action": "hold"
+   },
+   {
+    "squad": "odrysia",
+    "action": "hold"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "GPT": "neutral",
+   "Gemini": "neutral"
+  },
+  "public_message": "White holds the Central Heights crest this turn. All squads stay north of z=800 between x=500 and x=670. No descent. Pact stands: neutral to all, no first strike through t=450, then one full turn of public notice; self-defence is immediate. Any later descent will be announced one turn ahead, with a stopping point inside x=520-660 that stays clear of Green at x672-695 and Blue west of x=450.",
+  "private_messages": {
+   "Claude": "Thanks for the sighting. Holding the crest north of z=800 this turn; no descent. I will stay east of x=500 so your rider along z~590 and my corridor do not meet. Please ping me if Green steps north of z=660 or Blue crosses x=500. Pact holds.",
+   "GPT": "Scout noted. Not descending this turn; all units stay on the crest north of z=800. When I descend I will announce it one turn ahead and name a stop inside x=520-660, west of your x672-695 block. Pact holds.",
+   "Gemini": "Acknowledged. You take x=430-450, z=670-710 and stay west of x=450. I hold the crest north of z=800 this turn. Later corridor remains x=520-660, so the buffer stays. Pact holds."
+  },
+  "notes_to_self": "T12 t=275 HOLD crest N z=800. Neutral all. Ring 500 to 420. Burn if static: crete235 t439, thessaly233 t440, volley206 t466, hero198 t475, sarissa187 t489, odrysia186 t489. Tuck crete+thessaly+volley to <=200m on the high ground by t=400 (latest t=425), N of cliff ~z800. Descent announce 1 turn prior; stop ~x560-640 z700-730. Avoid Gemini x<450 and GPT x672-695 z625-650. GPT ~(681,630) t250: Ptolemy, 2 ele, 10 spear, 28 Cretan arch, 9 skirm, surgeon. Do not walk into bows. Ring 90m at t600. Focus heroes/ele/champions/ranged. If hit: that one enemy next turn, fight in place, no chase. No LOS. Scout claim (780,830) last T9 (730,830) behind cliffs. Claude Little Hill, rider z~590. Gemini now x430-450 z670-710. Losses 0.",
+  "explanation": "Grok holds every squad on the Central Heights crest. The fire ring is still well outside them, the crest is quiet, and the mutual no-first-strike pact runs through t=450. Outer archers and Thessalian horse will tighten on the high ground before the ring reaches them, and any descent will be announced one turn ahead with a stop that keeps space from the Ptolemaic camp and the Seleucid lane."
+ },
+ "warnings": []
+}

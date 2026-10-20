@@ -1,0 +1,64 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "4-turn-10",
+ "attempts": [
+  {
+   "text": "{\n  \"orders\": [\n    {\"squad\": \"Eye\", \"action\": \"hold\"}\n  ],\n  \"diplomacy\": {\n    \"Claude\": \"neutral\",\n    \"Gemini\": \"neutral\",\n    \"Grok\": \"neutral\"\n  },\n  \"public_message\": \"Green holds the central lowland. Pact unchanged: no first strike through t=450, then a full turn of public notice before initiating hostility. Blue's western descent lane remains clear of Green. Our eastern scout holds position off the crest.\",\n  \"private_messages\": {\n    \"Claude\": \"No new White sightings. The last confirmed contact remains four Odrysian cavalry near (658,825); their main body is still unlocated. Our z=600 separation remains unchanged.\",\n    \"Gemini\": \"Your planned x=440-500, z=640-720 descent lane remains clear of Green. Please let us know when your descent begins.\",\n    \"Grok\": \"Eye now holds at (780,830), east of your requested x=760 boundary. No movement toward the crest.\"\n  },\n  \"notes_to_self\": \"t225: All 52 units full health; zero losses/kills. Main force inside final radius90: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guarding Bows. Eye780830 holds east of White's x760 clearance line. Only visible enemy Orange cavalry648566. Last White sighting4 Odrysian cavalry658825 at t200; main armies unknown. All reciprocal neutral. Pact no first strike through450, then full25s public notice before hostility; immediate self-defence allowed. Orange south/Green north z600; revisit425, announce adjustments25s ahead. Blue plans descent275-300 into x440-500,z640-720. White eventual descent x520-660. Preserve central formation and monitor approaching armies.\",\n  \"explanation\": \"Our main force is healthy and already positioned inside the final ring. Holding preserves that position while the scout respects White's clearance request and remains available to observe movement from the heights.\"\n}",
+   "seconds": 53.9,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 20203,
+     "cached_input_tokens": 15744,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 1997,
+     "reasoning_output_tokens": 1552
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "Eye",
+    "action": "hold"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green holds the central lowland. Pact unchanged: no first strike through t=450, then a full turn of public notice before initiating hostility. Blue's western descent lane remains clear of Green. Our eastern scout holds position off the crest.",
+  "private_messages": {
+   "Claude": "No new White sightings. The last confirmed contact remains four Odrysian cavalry near (658,825); their main body is still unlocated. Our z=600 separation remains unchanged.",
+   "Gemini": "Your planned x=440-500, z=640-720 descent lane remains clear of Green. Please let us know when your descent begins.",
+   "Grok": "Eye now holds at (780,830), east of your requested x=760 boundary. No movement toward the crest."
+  },
+  "notes_to_self": "t225: All 52 units full health; zero losses/kills. Main force inside final radius90: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guarding Bows. Eye780830 holds east of White's x760 clearance line. Only visible enemy Orange cavalry648566. Last White sighting4 Odrysian cavalry658825 at t200; main armies unknown. All reciprocal neutral. Pact no first strike through450, then full25s public notice before hostility; immediate self-defence allowed. Orange south/Green north z600; revisit425, announce adjustments25s ahead. Blue plans descent275-300 into x440-500,z640-720. White eventual descent x520-660. Preserve central formation and monitor approaching armies.",
+  "explanation": "Our main force is healthy and already positioned inside the final ring. Holding preserves that position while the scout respects White's clearance request and remains available to observe movement from the heights."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "Eye",
+    "action": "hold"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green holds the central lowland. Pact unchanged: no first strike through t=450, then a full turn of public notice before initiating hostility. Blue's western descent lane remains clear of Green. Our eastern scout holds position off the crest.",
+  "private_messages": {
+   "Claude": "No new White sightings. The last confirmed contact remains four Odrysian cavalry near (658,825); their main body is still unlocated. Our z=600 separation remains unchanged.",
+   "Gemini": "Your planned x=440-500, z=640-720 descent lane remains clear of Green. Please let us know when your descent begins.",
+   "Grok": "Eye now holds at (780,830), east of your requested x=760 boundary. No movement toward the crest."
+  },
+  "notes_to_self": "t225: All 52 units full health; zero losses/kills. Main force inside final radius90: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guarding Bows. Eye780830 holds east of White's x760 clearance line. Only visible enemy Orange cavalry648566. Last White sighting4 Odrysian cavalry658825 at t200; main armies unknown. All reciprocal neutral. Pact no first strike through450, then full25s public notice before hostility; immediate self-defence allowed. Orange south/Green north z600; revisit425, announce adjustments25s ahead. Blue plans descent275-300 into x440-500,z640-720. White eventual descent x520-660. Preserve central formation and monitor approaching armies.",
+  "explanation": "Our main force is healthy and already positioned inside the final ring. Holding preserves that position while the scout respects White's clearance request and remains available to observe movement from the heights."
+ },
+ "warnings": []
+}

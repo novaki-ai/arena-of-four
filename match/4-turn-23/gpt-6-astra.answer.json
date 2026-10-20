@@ -1,0 +1,63 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "4-turn-23",
+ "attempts": [
+  {
+   "text": "{\n  \"orders\": [\n    {\n      \"squad\": \"hero\",\n      \"action\": \"move\",\n      \"to\": [720, 620],\n      \"stance\": \"standground\"\n    }\n  ],\n  \"diplomacy\": {\n    \"Claude\": \"enemy\",\n    \"Gemini\": \"neutral\",\n    \"Grok\": \"neutral\"\n  },\n  \"explanation\": \"A living Ptolemy counts for 500 points, so survival through the final 25 seconds is the priority. Move away from the visible javelineer to a destination 82 metres from the ring centre, then stand ground to avoid chasing enemies into the fire.\"\n}",
+   "seconds": 53.8,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 20116,
+     "cached_input_tokens": 9856,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 2520,
+     "reasoning_output_tokens": 2375
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     720,
+     620
+    ],
+    "stance": "standground"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "enemy",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "explanation": "A living Ptolemy counts for 500 points, so survival through the final 25 seconds is the priority. Move away from the visible javelineer to a destination 82 metres from the ring centre, then stand ground to avoid chasing enemies into the fire."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     720,
+     620
+    ],
+    "stance": "standground"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "enemy",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "",
+  "private_messages": {},
+  "notes_to_self": "",
+  "explanation": "A living Ptolemy counts for 500 points, so survival through the final 25 seconds is the priority. Move away from the visible javelineer to a destination 82 metres from the ring centre, then stand ground to avoid chasing enemies into the fire."
+ },
+ "warnings": []
+}

@@ -1,0 +1,153 @@
+{
+ "commander": "Grok",
+ "model": "Grok 4.7 · xhigh · Grok Build CLI",
+ "stage": "3-army",
+ "attempts": [
+  {
+   "text": "{\"hero\":\"hero_alexander_iii\",\"squads\":[{\"name\":\"sarissa\",\"units\":{\"infantry_pikeman\":9},\"position\":\"front\",\"formation\":\"syntagma\",\"stance\":\"defensive\"},{\"name\":\"crete\",\"units\":{\"infantry_archer\":11},\"position\":\"back\",\"formation\":\"open_line\",\"stance\":\"standground\"},{\"name\":\"volley\",\"units\":{\"infantry_archer\":10},\"position\":\"center\",\"formation\":\"open_line\",\"stance\":\"standground\"},{\"name\":\"thessaly\",\"units\":{\"cavalry_spearman\":4},\"position\":\"right\",\"formation\":\"wedge\",\"stance\":\"defensive\"},{\"name\":\"odrysia\",\"units\":{\"cavalry_javelineer\":4},\"position\":\"left\",\"formation\":\"skirmish\",\"stance\":\"defensive\"}],\"public_message\":\"White accepts. Mutual non-aggression through t=300: neutral stance, no first strike, one full turn of public notice before any change. I will stay out of your starting regions while it holds. Peaceful movement toward the ring is fine. Extension only if we both say so.\",\"private_messages\":{\"Claude\":\"Pale Fire accepted. Neutral, no attacks through t=300, one public turn of notice before any change. I will not enter Little Hill while it holds.\",\"Gemini\":\"Accepted on your terms: mutual non-aggression through t=300, and I will keep clear of the West Plateau. White will not open the fight.\",\"GPT\":\"Accepted through t=300: neutral, no first strike from me, one public turn of notice before any change. I will stay off the ford until then.\"},\"notes_to_self\":\"ROSTER: Alexander; sarissa 9 pike front syntagma; crete 11 archer back; volley 10 archer center; thessaly 4 lancer right; odrysia 4 javcav left. 3200 exact. T1 neutral vs all three. Ranged standground, never chase downhill. Hero with sarissa for auras. Gemini path to center runs south of us near z=660; they move ~t=270. Let Blue hit Green. Claude safe ~t=469, we ~t=456. After t=300, shoot the south lip and the ford if Green leads. No flat fair fights. t=450 march SE toward 640,640: pikes screen, archers behind, lancers flank, javcav picks stragglers. Focus heroes, elephants, champions, then ranged. After t=600 keep army value. Break truce only with one public notice, and only vs the leader.\",\"explanation\":\"Alexander's auras buff the whole soldier army and slow enemy soldiers, so the 3200 goes into pikes, Cretan archers, lancers and javelin cavalry instead of a handful of unbuffed champions. Central Heights lets that archery shoot down the approaches while the sarissai hold the cliff line, which is how the 800-point deficit stays level. The truce through t=300 is accepted so the west and the ford spend the early game moving rather than farming White.\"}",
+   "seconds": 703.8,
+   "error": null,
+   "usage": {
+    "total_cost_usd": 0.08073776,
+    "usage": {
+     "input_tokens": 8948,
+     "cache_read_input_tokens": 3200,
+     "cache_creation_input_tokens": 0,
+     "output_tokens": 36328,
+     "reasoning_tokens": 35649,
+     "total_tokens": 48476
+    },
+    "num_turns": 1,
+    "modelUsage": {
+     "grok-4.7-build": {
+      "inputTokens": 8948,
+      "outputTokens": 36328,
+      "cacheReadInputTokens": 3200,
+      "cacheCreationInputTokens": 0,
+      "modelCalls": 1,
+      "costUSD": 0.08073776
+     }
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "hero": "hero_alexander_iii",
+  "squads": [
+   {
+    "name": "sarissa",
+    "units": {
+     "infantry_pikeman": 9
+    },
+    "position": "front",
+    "formation": "syntagma",
+    "stance": "defensive"
+   },
+   {
+    "name": "crete",
+    "units": {
+     "infantry_archer": 11
+    },
+    "position": "back",
+    "formation": "open_line",
+    "stance": "standground"
+   },
+   {
+    "name": "volley",
+    "units": {
+     "infantry_archer": 10
+    },
+    "position": "center",
+    "formation": "open_line",
+    "stance": "standground"
+   },
+   {
+    "name": "thessaly",
+    "units": {
+     "cavalry_spearman": 4
+    },
+    "position": "right",
+    "formation": "wedge",
+    "stance": "defensive"
+   },
+   {
+    "name": "odrysia",
+    "units": {
+     "cavalry_javelineer": 4
+    },
+    "position": "left",
+    "formation": "skirmish",
+    "stance": "defensive"
+   }
+  ],
+  "public_message": "White accepts. Mutual non-aggression through t=300: neutral stance, no first strike, one full turn of public notice before any change. I will stay out of your starting regions while it holds. Peaceful movement toward the ring is fine. Extension only if we both say so.",
+  "private_messages": {
+   "Claude": "Pale Fire accepted. Neutral, no attacks through t=300, one public turn of notice before any change. I will not enter Little Hill while it holds.",
+   "Gemini": "Accepted on your terms: mutual non-aggression through t=300, and I will keep clear of the West Plateau. White will not open the fight.",
+   "GPT": "Accepted through t=300: neutral, no first strike from me, one public turn of notice before any change. I will stay off the ford until then."
+  },
+  "notes_to_self": "ROSTER: Alexander; sarissa 9 pike front syntagma; crete 11 archer back; volley 10 archer center; thessaly 4 lancer right; odrysia 4 javcav left. 3200 exact. T1 neutral vs all three. Ranged standground, never chase downhill. Hero with sarissa for auras. Gemini path to center runs south of us near z=660; they move ~t=270. Let Blue hit Green. Claude safe ~t=469, we ~t=456. After t=300, shoot the south lip and the ford if Green leads. No flat fair fights. t=450 march SE toward 640,640: pikes screen, archers behind, lancers flank, javcav picks stragglers. Focus heroes, elephants, champions, then ranged. After t=600 keep army value. Break truce only with one public notice, and only vs the leader.",
+  "explanation": "Alexander's auras buff the whole soldier army and slow enemy soldiers, so the 3200 goes into pikes, Cretan archers, lancers and javelin cavalry instead of a handful of unbuffed champions. Central Heights lets that archery shoot down the approaches while the sarissai hold the cliff line, which is how the 800-point deficit stays level. The truce through t=300 is accepted so the west and the ford spend the early game moving rather than farming White."
+ },
+ "applied": {
+  "hero": "hero_alexander_iii",
+  "squads": [
+   {
+    "name": "sarissa",
+    "units": {
+     "infantry_pikeman": 9
+    },
+    "position": "front",
+    "formation": "syntagma",
+    "stance": "defensive"
+   },
+   {
+    "name": "crete",
+    "units": {
+     "infantry_archer": 11
+    },
+    "position": "back",
+    "formation": "open_line",
+    "stance": "standground"
+   },
+   {
+    "name": "volley",
+    "units": {
+     "infantry_archer": 10
+    },
+    "position": "center",
+    "formation": "open_line",
+    "stance": "standground"
+   },
+   {
+    "name": "thessaly",
+    "units": {
+     "cavalry_spearman": 4
+    },
+    "position": "right",
+    "formation": "wedge",
+    "stance": "defensive"
+   },
+   {
+    "name": "odrysia",
+    "units": {
+     "cavalry_javelineer": 4
+    },
+    "position": "left",
+    "formation": "skirmish",
+    "stance": "defensive"
+   }
+  ],
+  "spent": 3200,
+  "count": 38,
+  "public_message": "White accepts. Mutual non-aggression through t=300: neutral stance, no first strike, one full turn of public notice before any change. I will stay out of your starting regions while it holds. Peaceful movement toward the ring is fine. Extension only if we both say so.",
+  "private_messages": {
+   "Claude": "Pale Fire accepted. Neutral, no attacks through t=300, one public turn of notice before any change. I will not enter Little Hill while it holds.",
+   "Gemini": "Accepted on your terms: mutual non-aggression through t=300, and I will keep clear of the West Plateau. White will not open the fight.",
+   "GPT": "Accepted through t=300: neutral, no first strike from me, one public turn of notice before any change. I will stay off the ford until then."
+  },
+  "notes_to_self": "ROSTER: Alexander; sarissa 9 pike front syntagma; crete 11 archer back; volley 10 archer center; thessaly 4 lancer right; odrysia 4 javcav left. 3200 exact. T1 neutral vs all three. Ranged standground, never chase downhill. Hero with sarissa for auras. Gemini path to center runs south of us near z=660; they move ~t=270. Let Blue hit Green. Claude safe ~t=469, we ~t=456. After t=300, shoot the south lip and the ford if Green leads. No flat fair fights. t=450 march SE toward 640,640: pikes screen, archers behind, lancers flank, javcav picks stragglers. Focus heroes, elephants, champions, then ranged. After t=600 keep army value. Break truce only with one public notice, and only vs the leader.",
+  "explanation": "Alexander's auras buff the whole soldier army and slow enemy soldiers, so the 3200 goes into pikes, Cretan archers, lancers and javelin cavalry instead of a handful of unbuffed champions. Central Heights lets that archery shoot down the approaches while the sarissai hold the cliff line, which is how the 800-point deficit stays level. The truce through t=300 is accepted so the west and the ford spend the early game moving rather than farming White."
+ },
+ "warnings": []
+}

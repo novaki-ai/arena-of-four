@@ -1,0 +1,90 @@
+{
+ "commander": "Claude",
+ "model": "Claude Opus 5.5 · max effort · Claude Code",
+ "stage": "1-kingdom",
+ "attempts": [
+  {
+   "text": "```json\n{\n  \"civilizations\": [\"cart\", \"ptol\", \"kush\"],\n  \"kingdom_name\": \"The Orange Commonwealth\",\n  \"battle_cry\": \"Hold the line, keep your word, and let the fire find our enemies first!\",\n  \"public_message\": \"Hello from Claude (orange). Proposal to all three of you: no early fights. The ring drags everyone to the centre anyway, and whoever bleeds first just hands the match to the bystanders. I won't strike first at anyone who stays neutral or allied towards me until the ring reaches 420 m (t=300 s).\",\n  \"explanation\": \"Points equal total resources, so 60-point mercenaries, champions and war elephants are cheap compared with 100-point citizen soldiers. Carthage has cheap mercenary infantry, slingers, healers, the Sacred Band, elephants and Hannibal, so I can fill the 60-unit cap and still buy heavy hitters. The Ptolemies (60-point archers, spearmen, swordsmen and skirmishers) and Kush (cheap Noba mercenaries, champions, elephants) offer the same mix and are probably less contested backups. I open with a no-first-strike offer because early fights mostly help whoever stays out of them.\"\n}\n```",
+   "seconds": 355.2,
+   "error": null,
+   "usage": {
+    "total_cost_usd": 0.7749628000000001,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 5743,
+     "cache_read_input_tokens": 1454,
+     "output_tokens": 36436,
+     "output_tokens_details": {
+      "thinking_tokens": 36017
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 5743,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 36436,
+       "cache_read_input_tokens": 1454,
+       "cache_creation_input_tokens": 5743,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 5743
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "duration_ms": 354055,
+    "num_turns": 1,
+    "modelUsage": {
+     "claude-opus-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 36436,
+      "cacheReadInputTokens": 1454,
+      "cacheCreationInputTokens": 5743,
+      "webSearchRequests": 0,
+      "costUSD": 0.7749628000000001,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 36017,
+      "canonicalModel": "claude-opus-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "civilizations": [
+   "cart",
+   "ptol",
+   "kush"
+  ],
+  "kingdom_name": "The Orange Commonwealth",
+  "battle_cry": "Hold the line, keep your word, and let the fire find our enemies first!",
+  "public_message": "Hello from Claude (orange). Proposal to all three of you: no early fights. The ring drags everyone to the centre anyway, and whoever bleeds first just hands the match to the bystanders. I won't strike first at anyone who stays neutral or allied towards me until the ring reaches 420 m (t=300 s).",
+  "explanation": "Points equal total resources, so 60-point mercenaries, champions and war elephants are cheap compared with 100-point citizen soldiers. Carthage has cheap mercenary infantry, slingers, healers, the Sacred Band, elephants and Hannibal, so I can fill the 60-unit cap and still buy heavy hitters. The Ptolemies (60-point archers, spearmen, swordsmen and skirmishers) and Kush (cheap Noba mercenaries, champions, elephants) offer the same mix and are probably less contested backups. I open with a no-first-strike offer because early fights mostly help whoever stays out of them."
+ },
+ "applied": {
+  "civilizations": [
+   "cart",
+   "ptol",
+   "kush"
+  ],
+  "kingdom_name": "The Orange Commonwealth",
+  "battle_cry": "Hold the line, keep your word, and let the fire find our enemies first!",
+  "public_message": "Hello from Claude (orange). Proposal to all three of you: no early fights. The ring drags everyone to the centre anyway, and whoever bleeds first just hands the match to the bystanders. I won't strike first at anyone who stays neutral or allied towards me until the ring reaches 420 m (t=300 s).",
+  "explanation": "Points equal total resources, so 60-point mercenaries, champions and war elephants are cheap compared with 100-point citizen soldiers. Carthage has cheap mercenary infantry, slingers, healers, the Sacred Band, elephants and Hannibal, so I can fill the 60-unit cap and still buy heavy hitters. The Ptolemies (60-point archers, spearmen, swordsmen and skirmishers) and Kush (cheap Noba mercenaries, champions, elephants) offer the same mix and are probably less contested backups. I open with a no-first-strike offer because early fights mostly help whoever stays out of them."
+ },
+ "warnings": []
+}

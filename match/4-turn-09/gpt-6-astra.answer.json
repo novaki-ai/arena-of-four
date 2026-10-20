@@ -1,0 +1,70 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "4-turn-09",
+ "attempts": [
+  {
+   "text": "{\n  \"orders\": [\n    {\"squad\": \"Eye\", \"action\": \"move\", \"to\": [780, 830]}\n  ],\n  \"diplomacy\": {\n    \"Claude\": \"neutral\",\n    \"Gemini\": \"neutral\",\n    \"Grok\": \"neutral\"\n  },\n  \"public_message\": \"Green holds the eastern central plain north of z600. Eye is moving east to (780,830), respecting White's requested separation. Neutrality and no first strike through t450 remain confirmed, with a full 25-second public notice before initiating hostilities afterward.\",\n  \"private_messages\": {\n    \"Claude\": \"White's four visible cavalry remain at (658,825), unchanged from last turn. No southward movement observed; their main army remains unseen. Our z600 boundary holds.\",\n    \"Grok\": \"Agreed. Eye is moving to (780,830) in the eastern lowland and will hold there. Our main force remains near (685,640). Please announce your descent a full turn ahead.\"\n  },\n  \"notes_to_self\": \"t200: All 52 units full health; zero losses/kills. Main force remains inside final radius90: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guards Bows. Eye ordered from730830 to780830, honoring White's request to stay east760. Visible White4 Odrysian cavalry658825 and Orange1 Italic cavalry655575 unchanged; enemy main armies unseen. All neutral. Pact: no first strike through450, then full25s public notice before initiating hostility; immediate self-defence allowed. Orange south/Green north of z600; revisit425 and announce adjustments25s ahead. White plans eventual southern descent via x520-660; Blue western lowland. Monitor ring-driven approaches and preserve central room.\",\n  \"explanation\": \"The main army remains healthy and positioned inside the final ring. Moving Eye into the eastern lowland respects the agreed separation while keeping a scout near the northern approach.\"\n}",
+   "seconds": 34.6,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 15030,
+     "cached_input_tokens": 9856,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 1411,
+     "reasoning_output_tokens": 977
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     780,
+     830
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green holds the eastern central plain north of z600. Eye is moving east to (780,830), respecting White's requested separation. Neutrality and no first strike through t450 remain confirmed, with a full 25-second public notice before initiating hostilities afterward.",
+  "private_messages": {
+   "Claude": "White's four visible cavalry remain at (658,825), unchanged from last turn. No southward movement observed; their main army remains unseen. Our z600 boundary holds.",
+   "Grok": "Agreed. Eye is moving to (780,830) in the eastern lowland and will hold there. Our main force remains near (685,640). Please announce your descent a full turn ahead."
+  },
+  "notes_to_self": "t200: All 52 units full health; zero losses/kills. Main force remains inside final radius90: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guards Bows. Eye ordered from730830 to780830, honoring White's request to stay east760. Visible White4 Odrysian cavalry658825 and Orange1 Italic cavalry655575 unchanged; enemy main armies unseen. All neutral. Pact: no first strike through450, then full25s public notice before initiating hostility; immediate self-defence allowed. Orange south/Green north of z600; revisit425 and announce adjustments25s ahead. White plans eventual southern descent via x520-660; Blue western lowland. Monitor ring-driven approaches and preserve central room.",
+  "explanation": "The main army remains healthy and positioned inside the final ring. Moving Eye into the eastern lowland respects the agreed separation while keeping a scout near the northern approach."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     780,
+     830
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green holds the eastern central plain north of z600. Eye is moving east to (780,830), respecting White's requested separation. Neutrality and no first strike through t450 remain confirmed, with a full 25-second public notice before initiating hostilities afterward.",
+  "private_messages": {
+   "Claude": "White's four visible cavalry remain at (658,825), unchanged from last turn. No southward movement observed; their main army remains unseen. Our z600 boundary holds.",
+   "Grok": "Agreed. Eye is moving to (780,830) in the eastern lowland and will hold there. Our main force remains near (685,640). Please announce your descent a full turn ahead."
+  },
+  "notes_to_self": "t200: All 52 units full health; zero losses/kills. Main force remains inside final radius90: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guards Bows. Eye ordered from730830 to780830, honoring White's request to stay east760. Visible White4 Odrysian cavalry658825 and Orange1 Italic cavalry655575 unchanged; enemy main armies unseen. All neutral. Pact: no first strike through450, then full25s public notice before initiating hostility; immediate self-defence allowed. Orange south/Green north of z600; revisit425 and announce adjustments25s ahead. White plans eventual southern descent via x520-660; Blue western lowland. Monitor ring-driven approaches and preserve central room.",
+  "explanation": "The main army remains healthy and positioned inside the final ring. Moving Eye into the eastern lowland respects the agreed separation while keeping a scout near the northern approach."
+ },
+ "warnings": []
+}

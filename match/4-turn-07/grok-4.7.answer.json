@@ -1,0 +1,119 @@
+{
+ "commander": "Grok",
+ "model": "Grok 4.7 · xhigh · Grok Build CLI",
+ "stage": "4-turn-07",
+ "attempts": [
+  {
+   "text": "{\"orders\":[{\"squad\":\"sarissa\",\"action\":\"hold\"},{\"squad\":\"crete\",\"action\":\"hold\"},{\"squad\":\"volley\",\"action\":\"hold\"},{\"squad\":\"thessaly\",\"action\":\"hold\"},{\"squad\":\"odrysia\",\"action\":\"hold\"},{\"squad\":\"hero\",\"action\":\"guard\",\"protect\":\"sarissa\"}],\"diplomacy\":{\"Claude\":\"neutral\",\"GPT\":\"neutral\",\"Gemini\":\"neutral\"},\"public_message\":\"White confirms neutral to Orange, Green, and Blue. No first strike through t=450; after that, one full public turn of notice before any stance change. An attack on us is answered the same turn. We hold the Central Heights and will not ride down into your ground. If the ring forces a step toward centre, I will announce it one turn ahead.\",\"private_messages\":{\"Claude\":\"Crest until the ring takes it, then one short step toward map centre, staying north of the cliff and clear of the southern lowland. We will not cross south of z=600. I will name that step one turn ahead. The Heights are empty except us; I will tell you if anyone climbs from the east. Glad Little Hill is quiet.\",\"GPT\":\"Confirmed on our side. Keep the eye on the eastern lowland, east of the cliff and off the crest, holding fire. We will not come down after it. The army stays on the Heights.\",\"Gemini\":\"Confirmed and locked. The crest is clear; we are not scouting west. Green says their scout stays off the Heights. If anyone actually climbs up, I will pass it on. The plateau is yours through the truce.\"},\"notes_to_self\":\"T7 t=150. Truce LOCKED all to t=450, then 1 public turn notice. If attacked: enemy same turn, fight. HOLD crest, no chase. Posts: sarissa (568,812) 187m S lip; crete (545,855) 235m; volley (600,842) 206m; thessaly (508,832) 233m W; odrysia (658,825) 186m E; hero guards sarissa. Ring: 420@300, 220@450, 90@600. Crete+thessaly hurt ~t=430 if static. TURN 17 t=400: move ONLY those two ~30m toward centre, stay on ^ N of cliff z~780. Do not walk others off early. GPT camel last (740,841) t5, claims (740,880) E lowland hold fire — watch, don't chase. Claude Little Hill then S of z=600 ~t=425, will announce. Gemini W plateau unverified; ~450m from centre so ring bites ~t=290 — watch W gap, no chase. End focus: heroes, elephants, champions, ranged. Losses 0.\",\"explanation\":\"The truce holds and the ring is still far outside the crest, so the army stays planted. Pikes remain on the southern lip, archers keep the high ground, and the cavalry watch the west and east gaps. Alexander continues to guard the sarissa.\"}",
+   "seconds": 242.5,
+   "error": null,
+   "usage": {
+    "total_cost_usd": 0.03170976,
+    "usage": {
+     "input_tokens": 6301,
+     "cache_read_input_tokens": 3200,
+     "cache_creation_input_tokens": 0,
+     "output_tokens": 13177,
+     "reasoning_tokens": 12499,
+     "total_tokens": 22678
+    },
+    "num_turns": 1,
+    "modelUsage": {
+     "grok-4.7-build": {
+      "inputTokens": 6301,
+      "outputTokens": 13177,
+      "cacheReadInputTokens": 3200,
+      "cacheCreationInputTokens": 0,
+      "modelCalls": 1,
+      "costUSD": 0.03170976
+     }
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "sarissa",
+    "action": "hold"
+   },
+   {
+    "squad": "crete",
+    "action": "hold"
+   },
+   {
+    "squad": "volley",
+    "action": "hold"
+   },
+   {
+    "squad": "thessaly",
+    "action": "hold"
+   },
+   {
+    "squad": "odrysia",
+    "action": "hold"
+   },
+   {
+    "squad": "hero",
+    "action": "guard",
+    "protect": "sarissa"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "GPT": "neutral",
+   "Gemini": "neutral"
+  },
+  "public_message": "White confirms neutral to Orange, Green, and Blue. No first strike through t=450; after that, one full public turn of notice before any stance change. An attack on us is answered the same turn. We hold the Central Heights and will not ride down into your ground. If the ring forces a step toward centre, I will announce it one turn ahead.",
+  "private_messages": {
+   "Claude": "Crest until the ring takes it, then one short step toward map centre, staying north of the cliff and clear of the southern lowland. We will not cross south of z=600. I will name that step one turn ahead. The Heights are empty except us; I will tell you if anyone climbs from the east. Glad Little Hill is quiet.",
+   "GPT": "Confirmed on our side. Keep the eye on the eastern lowland, east of the cliff and off the crest, holding fire. We will not come down after it. The army stays on the Heights.",
+   "Gemini": "Confirmed and locked. The crest is clear; we are not scouting west. Green says their scout stays off the Heights. If anyone actually climbs up, I will pass it on. The plateau is yours through the truce."
+  },
+  "notes_to_self": "T7 t=150. Truce LOCKED all to t=450, then 1 public turn notice. If attacked: enemy same turn, fight. HOLD crest, no chase. Posts: sarissa (568,812) 187m S lip; crete (545,855) 235m; volley (600,842) 206m; thessaly (508,832) 233m W; odrysia (658,825) 186m E; hero guards sarissa. Ring: 420@300, 220@450, 90@600. Crete+thessaly hurt ~t=430 if static. TURN 17 t=400: move ONLY those two ~30m toward centre, stay on ^ N of cliff z~780. Do not walk others off early. GPT camel last (740,841) t5, claims (740,880) E lowland hold fire — watch, don't chase. Claude Little Hill then S of z=600 ~t=425, will announce. Gemini W plateau unverified; ~450m from centre so ring bites ~t=290 — watch W gap, no chase. End focus: heroes, elephants, champions, ranged. Losses 0.",
+  "explanation": "The truce holds and the ring is still far outside the crest, so the army stays planted. Pikes remain on the southern lip, archers keep the high ground, and the cavalry watch the west and east gaps. Alexander continues to guard the sarissa."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "sarissa",
+    "action": "hold"
+   },
+   {
+    "squad": "crete",
+    "action": "hold"
+   },
+   {
+    "squad": "volley",
+    "action": "hold"
+   },
+   {
+    "squad": "thessaly",
+    "action": "hold"
+   },
+   {
+    "squad": "odrysia",
+    "action": "hold"
+   },
+   {
+    "squad": "hero",
+    "action": "guard",
+    "protect": "sarissa"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "GPT": "neutral",
+   "Gemini": "neutral"
+  },
+  "public_message": "White confirms neutral to Orange, Green, and Blue. No first strike through t=450; after that, one full public turn of notice before any stance change. An attack on us is answered the same turn. We hold the Central Heights and will not ride down into your ground. If the ring forces a step toward centre, I will announce it one turn ahead.",
+  "private_messages": {
+   "Claude": "Crest until the ring takes it, then one short step toward map centre, staying north of the cliff and clear of the southern lowland. We will not cross south of z=600. I will name that step one turn ahead. The Heights are empty except us; I will tell you if anyone climbs from the east. Glad Little Hill is quiet.",
+   "GPT": "Confirmed on our side. Keep the eye on the eastern lowland, east of the cliff and off the crest, holding fire. We will not come down after it. The army stays on the Heights.",
+   "Gemini": "Confirmed and locked. The crest is clear; we are not scouting west. Green says their scout stays off the Heights. If anyone actually climbs up, I will pass it on. The plateau is yours through the truce."
+  },
+  "notes_to_self": "T7 t=150. Truce LOCKED all to t=450, then 1 public turn notice. If attacked: enemy same turn, fight. HOLD crest, no chase. Posts: sarissa (568,812) 187m S lip; crete (545,855) 235m; volley (600,842) 206m; thessaly (508,832) 233m W; odrysia (658,825) 186m E; hero guards sarissa. Ring: 420@300, 220@450, 90@600. Crete+thessaly hurt ~t=430 if static. TURN 17 t=400: move ONLY those two ~30m toward centre, stay on ^ N of cliff z~780. Do not walk others off early. GPT camel last (740,841) t5, claims (740,880) E lowland hold fire — watch, don't chase. Claude Little Hill then S of z=600 ~t=425, will announce. Gemini W plateau unverified; ~450m from centre so ring bites ~t=290 — watch W gap, no chase. End focus: heroes, elephants, champions, ranged. Losses 0.",
+  "explanation": "The truce holds and the ring is still far outside the crest, so the army stays planted. Pikes remain on the southern lip, archers keep the high ground, and the cavalry watch the west and east gaps. Alexander continues to guard the sarissa."
+ },
+ "warnings": []
+}

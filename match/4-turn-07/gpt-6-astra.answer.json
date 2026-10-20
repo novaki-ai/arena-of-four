@@ -1,0 +1,70 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "4-turn-07",
+ "attempts": [
+  {
+   "text": "{\n  \"orders\": [\n    {\n      \"squad\": \"Eye\",\n      \"action\": \"move\",\n      \"to\": [730, 830]\n    }\n  ],\n  \"diplomacy\": {\n    \"Claude\": \"neutral\",\n    \"Gemini\": \"neutral\",\n    \"Grok\": \"neutral\"\n  },\n  \"public_message\": \"Green maintains neutrality and no first strike through t450, then one full 25s public turn of notice before initiating hostilities. Our main army holds the central lowland north of z600. Our lone scout remains in the eastern lowland, off Central Heights.\",\n  \"private_messages\": {\n    \"Claude\": \"Agreed on the provisional z600 boundary: Orange south, Green north. Any proposed adjustment gets a full 25s public turn of notice. Your cavalry at (655,575) is clear of our position.\",\n    \"Grok\": \"Our lone rider moves slightly south to (730,830), remaining in the lowland east of your crest. Main force stays near (685,640); neutrality remains confirmed.\"\n  },\n  \"notes_to_self\": \"t150: All 52 units at full health; zero losses/kills. Main army holds inside final radius90: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guards Bows. Eye ordered from740881 to730830 in eastern lowland, off Central Heights. Claude cavalry visible655575; Grok rider last seen664828 at t100. All three mutual no-first-strike agreements through t450, then full25s public notice before initiating hostilities; self-defense permitted. Accepted provisional z600 boundary with Claude, Orange south/Green north, adjustments require full25s public notice. Enemy main armies remain unseen.\",\n  \"explanation\": \"The main army preserves its health and its position inside the final fire ring. Our cavalry scout shifts along the eastern lowland to improve observation of Central Heights while respecting the truce and staying off the crest.\"\n}",
+   "seconds": 49.8,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 20093,
+     "cached_input_tokens": 15744,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 1981,
+     "reasoning_output_tokens": 1552
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     730,
+     830
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green maintains neutrality and no first strike through t450, then one full 25s public turn of notice before initiating hostilities. Our main army holds the central lowland north of z600. Our lone scout remains in the eastern lowland, off Central Heights.",
+  "private_messages": {
+   "Claude": "Agreed on the provisional z600 boundary: Orange south, Green north. Any proposed adjustment gets a full 25s public turn of notice. Your cavalry at (655,575) is clear of our position.",
+   "Grok": "Our lone rider moves slightly south to (730,830), remaining in the lowland east of your crest. Main force stays near (685,640); neutrality remains confirmed."
+  },
+  "notes_to_self": "t150: All 52 units at full health; zero losses/kills. Main army holds inside final radius90: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guards Bows. Eye ordered from740881 to730830 in eastern lowland, off Central Heights. Claude cavalry visible655575; Grok rider last seen664828 at t100. All three mutual no-first-strike agreements through t450, then full25s public notice before initiating hostilities; self-defense permitted. Accepted provisional z600 boundary with Claude, Orange south/Green north, adjustments require full25s public notice. Enemy main armies remain unseen.",
+  "explanation": "The main army preserves its health and its position inside the final fire ring. Our cavalry scout shifts along the eastern lowland to improve observation of Central Heights while respecting the truce and staying off the crest."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     730,
+     830
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green maintains neutrality and no first strike through t450, then one full 25s public turn of notice before initiating hostilities. Our main army holds the central lowland north of z600. Our lone scout remains in the eastern lowland, off Central Heights.",
+  "private_messages": {
+   "Claude": "Agreed on the provisional z600 boundary: Orange south, Green north. Any proposed adjustment gets a full 25s public turn of notice. Your cavalry at (655,575) is clear of our position.",
+   "Grok": "Our lone rider moves slightly south to (730,830), remaining in the lowland east of your crest. Main force stays near (685,640); neutrality remains confirmed."
+  },
+  "notes_to_self": "t150: All 52 units at full health; zero losses/kills. Main army holds inside final radius90: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guards Bows. Eye ordered from740881 to730830 in eastern lowland, off Central Heights. Claude cavalry visible655575; Grok rider last seen664828 at t100. All three mutual no-first-strike agreements through t450, then full25s public notice before initiating hostilities; self-defense permitted. Accepted provisional z600 boundary with Claude, Orange south/Green north, adjustments require full25s public notice. Enemy main armies remain unseen.",
+  "explanation": "The main army preserves its health and its position inside the final fire ring. Our cavalry scout shifts along the eastern lowland to improve observation of Central Heights while respecting the truce and staying off the crest."
+ },
+ "warnings": []
+}

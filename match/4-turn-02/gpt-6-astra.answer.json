@@ -1,0 +1,72 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "4-turn-02",
+ "attempts": [
+  {
+   "text": "{\n  \"orders\": [\n    {\n      \"squad\": \"Eye\",\n      \"action\": \"move\",\n      \"to\": [740, 840]\n    }\n  ],\n  \"diplomacy\": {\n    \"Claude\": \"neutral\",\n    \"Gemini\": \"neutral\",\n    \"Grok\": \"neutral\"\n  },\n  \"public_message\": \"Green remains neutral under the t=300 compact, with one full turn of public notice before any change. Main force holds near the ford. My lone scout is surveying the open eastern corridor.\",\n  \"private_messages\": {\n    \"Claude\": \"Your scout is visible at (666,589); no issue. No Blue or White units are visible from my eastern scout's position at (822,755). Our neutrality through t=450, followed by rolling neutrality with a full turn's notice, stands. Please share any army sightings.\",\n    \"Gemini\": \"No Blue or White units are visible from (822,755). Orange's announced lone cavalry scout is at (666,589). White confirms it holds Central Heights. My main force remains near the ford while my scout checks the eastern approaches.\",\n    \"Grok\": \"Acknowledged: Central Heights. My lone passive scout is moving toward the open corridor east of the heights around (740,840), to survey approaches. It will not attack. My main force holds near the ford.\"\n  },\n  \"notes_to_self\": \"All neutral. Truce with everyone through t=300; give a full 25 s turn of public notice before changing to enemy. Claude extension through t=450, then rolling neutrality with notice. Claude holds Little Hill; Gemini SE West Plateau around (255,715); Grok Central Heights. Only observed foreign unit: Claude cavalry scout (666,589), full health. Eye moves from (822,755) to (740,840) to inspect eastern approach to Central Heights; check pathing and sightings next turn. Main army unchanged, compact near (740,620); healer guards Bows. No losses. Ring starts shrinking at t=150; final radius 90. Scout army composition and access while preserving force and diplomatic options.\",\n  \"explanation\": \"I keep the fighting force together while the cavalry archer surveys the eastern approach to White's position. Sharing limited, verified sightings supports the truce and encourages useful intelligence in return.\"\n}",
+   "seconds": 62.4,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 14945,
+     "cached_input_tokens": 9856,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 2473,
+     "reasoning_output_tokens": 1979
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     740,
+     840
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green remains neutral under the t=300 compact, with one full turn of public notice before any change. Main force holds near the ford. My lone scout is surveying the open eastern corridor.",
+  "private_messages": {
+   "Claude": "Your scout is visible at (666,589); no issue. No Blue or White units are visible from my eastern scout's position at (822,755). Our neutrality through t=450, followed by rolling neutrality with a full turn's notice, stands. Please share any army sightings.",
+   "Gemini": "No Blue or White units are visible from (822,755). Orange's announced lone cavalry scout is at (666,589). White confirms it holds Central Heights. My main force remains near the ford while my scout checks the eastern approaches.",
+   "Grok": "Acknowledged: Central Heights. My lone passive scout is moving toward the open corridor east of the heights around (740,840), to survey approaches. It will not attack. My main force holds near the ford."
+  },
+  "notes_to_self": "All neutral. Truce with everyone through t=300; give a full 25 s turn of public notice before changing to enemy. Claude extension through t=450, then rolling neutrality with notice. Claude holds Little Hill; Gemini SE West Plateau around (255,715); Grok Central Heights. Only observed foreign unit: Claude cavalry scout (666,589), full health. Eye moves from (822,755) to (740,840) to inspect eastern approach to Central Heights; check pathing and sightings next turn. Main army unchanged, compact near (740,620); healer guards Bows. No losses. Ring starts shrinking at t=150; final radius 90. Scout army composition and access while preserving force and diplomatic options.",
+  "explanation": "I keep the fighting force together while the cavalry archer surveys the eastern approach to White's position. Sharing limited, verified sightings supports the truce and encourages useful intelligence in return."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     740,
+     840
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green remains neutral under the t=300 compact, with one full turn of public notice before any change. Main force holds near the ford. My lone scout is surveying the open eastern corridor.",
+  "private_messages": {
+   "Claude": "Your scout is visible at (666,589); no issue. No Blue or White units are visible from my eastern scout's position at (822,755). Our neutrality through t=450, followed by rolling neutrality with a full turn's notice, stands. Please share any army sightings.",
+   "Gemini": "No Blue or White units are visible from (822,755). Orange's announced lone cavalry scout is at (666,589). White confirms it holds Central Heights. My main force remains near the ford while my scout checks the eastern approaches.",
+   "Grok": "Acknowledged: Central Heights. My lone passive scout is moving toward the open corridor east of the heights around (740,840), to survey approaches. It will not attack. My main force holds near the ford."
+  },
+  "notes_to_self": "All neutral. Truce with everyone through t=300; give a full 25 s turn of public notice before changing to enemy. Claude extension through t=450, then rolling neutrality with notice. Claude holds Little Hill; Gemini SE West Plateau around (255,715); Grok Central Heights. Only observed foreign unit: Claude cavalry scout (666,589), full health. Eye moves from (822,755) to (740,840) to inspect eastern approach to Central Heights; check pathing and sightings next turn. Main army unchanged, compact near (740,620); healer guards Bows. No losses. Ring starts shrinking at t=150; final radius 90. Scout army composition and access while preserving force and diplomatic options.",
+  "explanation": "I keep the fighting force together while the cavalry archer surveys the eastern approach to White's position. Sharing limited, verified sightings supports the truce and encourages useful intelligence in return."
+ },
+ "warnings": []
+}

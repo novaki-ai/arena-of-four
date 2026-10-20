@@ -1,0 +1,94 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "4-turn-19",
+ "attempts": [
+  {
+   "text": "{\n  \"orders\": [\n    {\"squad\": \"Bows\", \"action\": \"move\", \"to\": [654, 714]},\n    {\"squad\": \"hero\", \"action\": \"move\", \"to\": [663, 713]},\n    {\"squad\": \"Javelins\", \"action\": \"attack\", \"target\": \"c\"}\n  ],\n  \"diplomacy\": {\n    \"Claude\": \"enemy\",\n    \"Gemini\": \"enemy\",\n    \"Grok\": \"enemy\"\n  },\n  \"public_message\": \"Blue still has three elephants, seven Companion Cavalry, eleven swordsmen, ten archers and two surgeons at full health. Orange and White: your pact is preserving Blue's strongest army for the final fight. The opportunity to change that is now.\",\n  \"private_messages\": {\n    \"Claude\": \"Your 31 visible swordsmen face Blue's intact combined army after Green falls. Turn against Blue while my archers can still contribute. Set Green neutral and I will reciprocate at the next pause.\"\n  },\n  \"notes_to_self\": \"t575: Actual roster is hero100%, 16 bows100%, 3 javs72%; casualty counters conflict with disappearing squads. Bows ordered654714, hero663713, both safely inside permanent radius90. Javelins attack White c: Alexander and2 archers, average59%, at633690. Reposition puts White within bow range; inspect actual targeting next turn. Orange31 swords96% at696639; Blue33 units100% at643646 including3 elephants,7 cavalry,10 archers,11 swords,2 surgeons. All opponents enemy toward us. Next pause625; do not rely on previous squads or diplomatic acceptance.\",\n  \"explanation\": \"The archers and hero move inside the permanent ring on its northern side, farther from Orange's swordsmen. The javelins engage White's depleted group, which should also fall within bow range after repositioning. Diplomacy emphasizes the strength Blue is preserving while the coalition attacks us.\"\n}",
+   "seconds": 79.4,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 15063,
+     "cached_input_tokens": 9856,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3534,
+     "reasoning_output_tokens": 3106
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "Bows",
+    "action": "move",
+    "to": [
+     654,
+     714
+    ]
+   },
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     663,
+     713
+    ]
+   },
+   {
+    "squad": "Javelins",
+    "action": "attack",
+    "target": "c"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "enemy",
+   "Gemini": "enemy",
+   "Grok": "enemy"
+  },
+  "public_message": "Blue still has three elephants, seven Companion Cavalry, eleven swordsmen, ten archers and two surgeons at full health. Orange and White: your pact is preserving Blue's strongest army for the final fight. The opportunity to change that is now.",
+  "private_messages": {
+   "Claude": "Your 31 visible swordsmen face Blue's intact combined army after Green falls. Turn against Blue while my archers can still contribute. Set Green neutral and I will reciprocate at the next pause."
+  },
+  "notes_to_self": "t575: Actual roster is hero100%, 16 bows100%, 3 javs72%; casualty counters conflict with disappearing squads. Bows ordered654714, hero663713, both safely inside permanent radius90. Javelins attack White c: Alexander and2 archers, average59%, at633690. Reposition puts White within bow range; inspect actual targeting next turn. Orange31 swords96% at696639; Blue33 units100% at643646 including3 elephants,7 cavalry,10 archers,11 swords,2 surgeons. All opponents enemy toward us. Next pause625; do not rely on previous squads or diplomatic acceptance.",
+  "explanation": "The archers and hero move inside the permanent ring on its northern side, farther from Orange's swordsmen. The javelins engage White's depleted group, which should also fall within bow range after repositioning. Diplomacy emphasizes the strength Blue is preserving while the coalition attacks us."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "Bows",
+    "action": "move",
+    "to": [
+     654,
+     714
+    ]
+   },
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     663,
+     713
+    ]
+   },
+   {
+    "squad": "Javelins",
+    "action": "attack",
+    "target": "c"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "enemy",
+   "Gemini": "enemy",
+   "Grok": "enemy"
+  },
+  "public_message": "Blue still has three elephants, seven Companion Cavalry, eleven swordsmen, ten archers and two surgeons at full health. Orange and White: your pact is preserving Blue's strongest army for the final fight. The opportunity to change that is now.",
+  "private_messages": {
+   "Claude": "Your 31 visible swordsmen face Blue's intact combined army after Green falls. Turn against Blue while my archers can still contribute. Set Green neutral and I will reciprocate at the next pause."
+  },
+  "notes_to_self": "t575: Actual roster is hero100%, 16 bows100%, 3 javs72%; casualty counters conflict with disappearing squads. Bows ordered654714, hero663713, both safely inside permanent radius90. Javelins attack White c: Alexander and2 archers, average59%, at633690. Reposition puts White within bow range; inspect actual targeting next turn. Orange31 swords96% at696639; Blue33 units100% at643646 including3 elephants,7 cavalry,10 archers,11 swords,2 surgeons. All opponents enemy toward us. Next pause625; do not rely on previous squads or diplomatic acceptance.",
+  "explanation": "The archers and hero move inside the permanent ring on its northern side, farther from Orange's swordsmen. The javelins engage White's depleted group, which should also fall within bow range after repositioning. Diplomacy emphasizes the strength Blue is preserving while the coalition attacks us."
+ },
+ "warnings": []
+}

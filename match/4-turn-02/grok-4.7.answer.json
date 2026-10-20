@@ -1,0 +1,141 @@
+{
+ "commander": "Grok",
+ "model": "Grok 4.7 · xhigh · Grok Build CLI",
+ "stage": "4-turn-02",
+ "attempts": [
+  {
+   "text": "{\"orders\": [{\"squad\": \"sarissa\", \"action\": \"hold\", \"formation\": \"syntagma\", \"stance\": \"standground\"}, {\"squad\": \"crete\", \"action\": \"hold\", \"formation\": \"skirmish\", \"stance\": \"standground\"}, {\"squad\": \"volley\", \"action\": \"hold\", \"formation\": \"skirmish\", \"stance\": \"standground\"}, {\"squad\": \"thessaly\", \"action\": \"hold\", \"formation\": \"wedge\", \"stance\": \"defensive\"}, {\"squad\": \"odrysia\", \"action\": \"hold\", \"formation\": \"skirmish\", \"stance\": \"standground\"}, {\"squad\": \"hero\", \"action\": \"guard\", \"protect\": \"sarissa\", \"stance\": \"defensive\"}], \"diplomacy\": {\"Claude\": \"neutral\", \"GPT\": \"neutral\", \"Gemini\": \"neutral\"}, \"public_message\": \"White confirms neutral to Orange, Green, and Blue. No first strike through t=300, and one full public turn of notice before any change. Army holds Central Heights only: we will not enter Little Hill, River Ford, West Plateau, or the open centre while this holds. No scout out.\", \"private_messages\": {\"Claude\": \"Acknowledged. White stays on Central Heights and will not enter Little Hill or the centre lowland. Your passive scout is fine if it stays off our ridge.\", \"GPT\": \"Holding Central Heights, about x520-640, z800-900, on the ridge. We will not cross south of the cliff near z780 or east toward the ford. Your rider around (820,760) is clear of us; keep it off the Central Heights ridge and we leave the eastern rise and River Ford alone.\", \"Gemini\": \"Acknowledged. Nothing seen south or east this turn. We stay on Central Heights, north of the south cliffs, and clear of West Plateau. We will tell you if that changes.\"}, \"notes_to_self\": \"T2: all three confirmed neutral, truce to t=300, 1-turn public notice. Claude Little Hill + centre scout. GPT River Ford, scout ~(820,760) eastern rise. Gemini West Plateau. No contacts. Crest held: pikes syntagma front, archers skirmish behind, thessaly wedge west, odrysia east, Alex with pikes. Do not chase scouts. South cliff ~z780 is the line. They have 4000 vs our 3200. Ring still 900 until t=150; we sit ~211m out, pressure ~t456. After t=300 reassess and break only vs the leader, with notice. t450 march SE to 640,640: pikes screen, archers behind, thessaly flank. Focus heroes, elephants, champions, then ranged. Never chase downhill. After t=600 preserve army value.\", \"explanation\": \"Grok keeps the truce and stands on the Central Heights crest: pikes in syntagma at the front, archers on the high ground behind them, cavalry on the flanks, and Alexander with the pikes. No one is sent downhill or into another start region.\"}",
+   "seconds": 91.8,
+   "error": null,
+   "usage": {
+    "total_cost_usd": 0.0159154,
+    "usage": {
+     "input_tokens": 6171,
+     "cache_read_input_tokens": 3200,
+     "cache_creation_input_tokens": 0,
+     "output_tokens": 5478,
+     "reasoning_tokens": 4809,
+     "total_tokens": 14849
+    },
+    "num_turns": 1,
+    "modelUsage": {
+     "grok-4.7-build": {
+      "inputTokens": 6171,
+      "outputTokens": 5478,
+      "cacheReadInputTokens": 3200,
+      "cacheCreationInputTokens": 0,
+      "modelCalls": 1,
+      "costUSD": 0.0159154
+     }
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "sarissa",
+    "action": "hold",
+    "formation": "syntagma",
+    "stance": "standground"
+   },
+   {
+    "squad": "crete",
+    "action": "hold",
+    "formation": "skirmish",
+    "stance": "standground"
+   },
+   {
+    "squad": "volley",
+    "action": "hold",
+    "formation": "skirmish",
+    "stance": "standground"
+   },
+   {
+    "squad": "thessaly",
+    "action": "hold",
+    "formation": "wedge",
+    "stance": "defensive"
+   },
+   {
+    "squad": "odrysia",
+    "action": "hold",
+    "formation": "skirmish",
+    "stance": "standground"
+   },
+   {
+    "squad": "hero",
+    "action": "guard",
+    "protect": "sarissa",
+    "stance": "defensive"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "GPT": "neutral",
+   "Gemini": "neutral"
+  },
+  "public_message": "White confirms neutral to Orange, Green, and Blue. No first strike through t=300, and one full public turn of notice before any change. Army holds Central Heights only: we will not enter Little Hill, River Ford, West Plateau, or the open centre while this holds. No scout out.",
+  "private_messages": {
+   "Claude": "Acknowledged. White stays on Central Heights and will not enter Little Hill or the centre lowland. Your passive scout is fine if it stays off our ridge.",
+   "GPT": "Holding Central Heights, about x520-640, z800-900, on the ridge. We will not cross south of the cliff near z780 or east toward the ford. Your rider around (820,760) is clear of us; keep it off the Central Heights ridge and we leave the eastern rise and River Ford alone.",
+   "Gemini": "Acknowledged. Nothing seen south or east this turn. We stay on Central Heights, north of the south cliffs, and clear of West Plateau. We will tell you if that changes."
+  },
+  "notes_to_self": "T2: all three confirmed neutral, truce to t=300, 1-turn public notice. Claude Little Hill + centre scout. GPT River Ford, scout ~(820,760) eastern rise. Gemini West Plateau. No contacts. Crest held: pikes syntagma front, archers skirmish behind, thessaly wedge west, odrysia east, Alex with pikes. Do not chase scouts. South cliff ~z780 is the line. They have 4000 vs our 3200. Ring still 900 until t=150; we sit ~211m out, pressure ~t456. After t=300 reassess and break only vs the leader, with notice. t450 march SE to 640,640: pikes screen, archers behind, thessaly flank. Focus heroes, elephants, champions, then ranged. Never chase downhill. After t=600 preserve army value.",
+  "explanation": "Grok keeps the truce and stands on the Central Heights crest: pikes in syntagma at the front, archers on the high ground behind them, cavalry on the flanks, and Alexander with the pikes. No one is sent downhill or into another start region."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "sarissa",
+    "action": "hold",
+    "formation": "syntagma",
+    "stance": "standground"
+   },
+   {
+    "squad": "crete",
+    "action": "hold",
+    "formation": "skirmish",
+    "stance": "standground"
+   },
+   {
+    "squad": "volley",
+    "action": "hold",
+    "formation": "skirmish",
+    "stance": "standground"
+   },
+   {
+    "squad": "thessaly",
+    "action": "hold",
+    "formation": "wedge",
+    "stance": "defensive"
+   },
+   {
+    "squad": "odrysia",
+    "action": "hold",
+    "formation": "skirmish",
+    "stance": "standground"
+   },
+   {
+    "squad": "hero",
+    "action": "guard",
+    "protect": "sarissa",
+    "stance": "defensive"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "GPT": "neutral",
+   "Gemini": "neutral"
+  },
+  "public_message": "White confirms neutral to Orange, Green, and Blue. No first strike through t=300, and one full public turn of notice before any change. Army holds Central Heights only: we will not enter Little Hill, River Ford, West Plateau, or the open centre while this holds. No scout out.",
+  "private_messages": {
+   "Claude": "Acknowledged. White stays on Central Heights and will not enter Little Hill or the centre lowland. Your passive scout is fine if it stays off our ridge.",
+   "GPT": "Holding Central Heights, about x520-640, z800-900, on the ridge. We will not cross south of the cliff near z780 or east toward the ford. Your rider around (820,760) is clear of us; keep it off the Central Heights ridge and we leave the eastern rise and River Ford alone.",
+   "Gemini": "Acknowledged. Nothing seen south or east this turn. We stay on Central Heights, north of the south cliffs, and clear of West Plateau. We will tell you if that changes."
+  },
+  "notes_to_self": "T2: all three confirmed neutral, truce to t=300, 1-turn public notice. Claude Little Hill + centre scout. GPT River Ford, scout ~(820,760) eastern rise. Gemini West Plateau. No contacts. Crest held: pikes syntagma front, archers skirmish behind, thessaly wedge west, odrysia east, Alex with pikes. Do not chase scouts. South cliff ~z780 is the line. They have 4000 vs our 3200. Ring still 900 until t=150; we sit ~211m out, pressure ~t456. After t=300 reassess and break only vs the leader, with notice. t450 march SE to 640,640: pikes screen, archers behind, thessaly flank. Focus heroes, elephants, champions, then ranged. Never chase downhill. After t=600 preserve army value.",
+  "explanation": "Grok keeps the truce and stands on the Central Heights crest: pikes in syntagma at the front, archers on the high ground behind them, cavalry on the flanks, and Alexander with the pikes. No one is sent downhill or into another start region."
+ },
+ "warnings": []
+}

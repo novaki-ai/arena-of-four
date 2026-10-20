@@ -1,0 +1,138 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "4-turn-18",
+ "attempts": [
+  {
+   "text": "{\n  \"orders\": [\n    {\"squad\": \"Bows\", \"action\": \"move\", \"to\": [701, 716]},\n    {\"squad\": \"Tusks\", \"action\": \"move\", \"to\": [683, 695]},\n    {\"squad\": \"Guard\", \"action\": \"move\", \"to\": [696, 694]},\n    {\"squad\": \"Javelins\", \"action\": \"move\", \"to\": [693, 706]},\n    {\"squad\": \"hero\", \"action\": \"move\", \"to\": [706, 716]},\n    {\"squad\": \"Surgeon\", \"action\": \"guard\", \"protect\": \"Bows\"}\n  ],\n  \"diplomacy\": {\n    \"Claude\": \"enemy\",\n    \"Gemini\": \"enemy\",\n    \"Grok\": \"enemy\"\n  },\n  \"public_message\": \"Orange has 60 visible units at essentially full health. Blue and White: eliminating Green leaves that army intact for your next fight. I offer either of you mutual neutrality and cooperation against Orange; announce acceptance so we can coordinate the switch.\",\n  \"private_messages\": {},\n  \"notes_to_self\": \"t525: Current roster totals 37 including hero; use current observations over previous notes. All three opponents attack us; Orange now enemy too. Retreat north: bows701716, elephant683695, spear696694, javs693706, hero706716, healer guards bows. Destinations inside t575 radius112, but bows/hero must move inward before radius90. At next pause consider bows699700 and hero704696 if accessible. White currently10 visible at661658,75% HP; Orange60 visible649608; Blue35 visible632648. Visibility counts may omit troops. No alliance accepted. Check casualties, actual enemy pursuit and diplomatic replies.\",\n  \"explanation\": \"The three armies are converging from the west and south. Withdrawing north puts the elephant and spearman between the archers and the approaching melee troops, while keeping the army inside the next ring.\"\n}",
+   "seconds": 88.6,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 20376,
+     "cached_input_tokens": 15744,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3836,
+     "reasoning_output_tokens": 3400
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "Bows",
+    "action": "move",
+    "to": [
+     701,
+     716
+    ]
+   },
+   {
+    "squad": "Tusks",
+    "action": "move",
+    "to": [
+     683,
+     695
+    ]
+   },
+   {
+    "squad": "Guard",
+    "action": "move",
+    "to": [
+     696,
+     694
+    ]
+   },
+   {
+    "squad": "Javelins",
+    "action": "move",
+    "to": [
+     693,
+     706
+    ]
+   },
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     706,
+     716
+    ]
+   },
+   {
+    "squad": "Surgeon",
+    "action": "guard",
+    "protect": "Bows"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "enemy",
+   "Gemini": "enemy",
+   "Grok": "enemy"
+  },
+  "public_message": "Orange has 60 visible units at essentially full health. Blue and White: eliminating Green leaves that army intact for your next fight. I offer either of you mutual neutrality and cooperation against Orange; announce acceptance so we can coordinate the switch.",
+  "private_messages": {},
+  "notes_to_self": "t525: Current roster totals 37 including hero; use current observations over previous notes. All three opponents attack us; Orange now enemy too. Retreat north: bows701716, elephant683695, spear696694, javs693706, hero706716, healer guards bows. Destinations inside t575 radius112, but bows/hero must move inward before radius90. At next pause consider bows699700 and hero704696 if accessible. White currently10 visible at661658,75% HP; Orange60 visible649608; Blue35 visible632648. Visibility counts may omit troops. No alliance accepted. Check casualties, actual enemy pursuit and diplomatic replies.",
+  "explanation": "The three armies are converging from the west and south. Withdrawing north puts the elephant and spearman between the archers and the approaching melee troops, while keeping the army inside the next ring."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "Bows",
+    "action": "move",
+    "to": [
+     701,
+     716
+    ]
+   },
+   {
+    "squad": "Tusks",
+    "action": "move",
+    "to": [
+     683,
+     695
+    ]
+   },
+   {
+    "squad": "Guard",
+    "action": "move",
+    "to": [
+     696,
+     694
+    ]
+   },
+   {
+    "squad": "Javelins",
+    "action": "move",
+    "to": [
+     693,
+     706
+    ]
+   },
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     706,
+     716
+    ]
+   },
+   {
+    "squad": "Surgeon",
+    "action": "guard",
+    "protect": "Bows"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "enemy",
+   "Gemini": "enemy",
+   "Grok": "enemy"
+  },
+  "public_message": "Orange has 60 visible units at essentially full health. Blue and White: eliminating Green leaves that army intact for your next fight. I offer either of you mutual neutrality and cooperation against Orange; announce acceptance so we can coordinate the switch.",
+  "private_messages": {},
+  "notes_to_self": "t525: Current roster totals 37 including hero; use current observations over previous notes. All three opponents attack us; Orange now enemy too. Retreat north: bows701716, elephant683695, spear696694, javs693706, hero706716, healer guards bows. Destinations inside t575 radius112, but bows/hero must move inward before radius90. At next pause consider bows699700 and hero704696 if accessible. White currently10 visible at661658,75% HP; Orange60 visible649608; Blue35 visible632648. Visibility counts may omit troops. No alliance accepted. Check casualties, actual enemy pursuit and diplomatic replies.",
+  "explanation": "The three armies are converging from the west and south. Withdrawing north puts the elephant and spearman between the archers and the approaching melee troops, while keeping the army inside the next ring."
+ },
+ "warnings": []
+}

@@ -1,0 +1,162 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "4-turn-17",
+ "attempts": [
+  {
+   "text": "{\n  \"orders\": [\n    {\"squad\": \"Tusks\", \"action\": \"move\", \"to\": [675, 652]},\n    {\"squad\": \"Guard\", \"action\": \"move\", \"to\": [676, 628]},\n    {\"squad\": \"Bows\", \"action\": \"move\", \"to\": [699, 640]},\n    {\"squad\": \"Javelins\", \"action\": \"move\", \"to\": [688, 640]},\n    {\"squad\": \"hero\", \"action\": \"move\", \"to\": [701, 641]},\n    {\"squad\": \"Surgeon\", \"action\": \"guard\", \"protect\": \"Bows\"},\n    {\"squad\": \"Eye\", \"action\": \"move\", \"to\": [682, 642]}\n  ],\n  \"diplomacy\": {\n    \"Claude\": \"neutral\",\n    \"Gemini\": \"neutral\",\n    \"Grok\": \"neutral\"\n  },\n  \"public_message\": \"Green honors its announced notice: earliest initiation t525. These orders remain neutral and consolidate our army east of the centre, approximately x675–710, z625–655.\",\n  \"private_messages\": {\n    \"Claude\": \"White now visibly has Alexander, 9 Foot Companions, 19 Cretan archers, 4 lancers and 4 skirmish cavalry around (606,705). I propose mutual nonaggression while White lives, terminable with 25 seconds' notice. If you accept, we can coordinate pressure on White from south and east beginning at the next pause.\",\n    \"Gemini\": \"Green is consolidating east of x675 and remains neutral for this interval. Our notice permits initiation from t525; we are not advancing toward your western position.\",\n    \"Grok\": \"Green remains neutral for this interval, honoring our t525 earliest-initiation notice. We are consolidating east of the centre without advancing toward your northern position.\"\n  },\n  \"notes_to_self\": \"t500: All 52 units full HP; no losses/kills. Neutral this interval to honor notice: earliest initiation t525. Repositioned Tusks675652, Guard676628, Bows699640, Javs688640, hero701641, Eye682642; healer guards Bows. West-facing screen, bows ~23m behind, centres inside final90 ring. Orange visible40 units611574:33 swords,4 spears,1 elephant,1 cav,1 skirm; hero unseen. White visible37 at606705:Alexander,9 pikes,19 bows,4 lancers,4 skirm cav. Blue last9 at553648; full strength unknown. Proposed Orange mutual nonaggression while White lives, terminable25s notice, coordinated attack next pause; NOT accepted yet. Others free to attack now. Check incoming attacks, actual time, Orange reply; avoid sending elephants into White pikes.\",\n  \"explanation\": \"We honor the final interval of our notice while placing the archers behind a western screen and keeping the army inside the eventual ring. The elephants cover the northwest approach and spearmen cover the southwest. A proposed agreement with Orange could let us pressure White from two directions.\"\n}",
+   "seconds": 59.5,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 20435,
+     "cached_input_tokens": 9856,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 2744,
+     "reasoning_output_tokens": 2070
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "Tusks",
+    "action": "move",
+    "to": [
+     675,
+     652
+    ]
+   },
+   {
+    "squad": "Guard",
+    "action": "move",
+    "to": [
+     676,
+     628
+    ]
+   },
+   {
+    "squad": "Bows",
+    "action": "move",
+    "to": [
+     699,
+     640
+    ]
+   },
+   {
+    "squad": "Javelins",
+    "action": "move",
+    "to": [
+     688,
+     640
+    ]
+   },
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     701,
+     641
+    ]
+   },
+   {
+    "squad": "Surgeon",
+    "action": "guard",
+    "protect": "Bows"
+   },
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     682,
+     642
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green honors its announced notice: earliest initiation t525. These orders remain neutral and consolidate our army east of the centre, approximately x675–710, z625–655.",
+  "private_messages": {
+   "Claude": "White now visibly has Alexander, 9 Foot Companions, 19 Cretan archers, 4 lancers and 4 skirmish cavalry around (606,705). I propose mutual nonaggression while White lives, terminable with 25 seconds' notice. If you accept, we can coordinate pressure on White from south and east beginning at the next pause.",
+   "Gemini": "Green is consolidating east of x675 and remains neutral for this interval. Our notice permits initiation from t525; we are not advancing toward your western position.",
+   "Grok": "Green remains neutral for this interval, honoring our t525 earliest-initiation notice. We are consolidating east of the centre without advancing toward your northern position."
+  },
+  "notes_to_self": "t500: All 52 units full HP; no losses/kills. Neutral this interval to honor notice: earliest initiation t525. Repositioned Tusks675652, Guard676628, Bows699640, Javs688640, hero701641, Eye682642; healer guards Bows. West-facing screen, bows ~23m behind, centres inside final90 ring. Orange visible40 units611574:33 swords,4 spears,1 elephant,1 cav,1 skirm; hero unseen. White visible37 at606705:Alexander,9 pikes,19 bows,4 lancers,4 skirm cav. Blue last9 at553648; full strength unknown. Proposed Orange mutual nonaggression while White lives, terminable25s notice, coordinated attack next pause; NOT accepted yet. Others free to attack now. Check incoming attacks, actual time, Orange reply; avoid sending elephants into White pikes.",
+  "explanation": "We honor the final interval of our notice while placing the archers behind a western screen and keeping the army inside the eventual ring. The elephants cover the northwest approach and spearmen cover the southwest. A proposed agreement with Orange could let us pressure White from two directions."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "Tusks",
+    "action": "move",
+    "to": [
+     675,
+     652
+    ]
+   },
+   {
+    "squad": "Guard",
+    "action": "move",
+    "to": [
+     676,
+     628
+    ]
+   },
+   {
+    "squad": "Bows",
+    "action": "move",
+    "to": [
+     699,
+     640
+    ]
+   },
+   {
+    "squad": "Javelins",
+    "action": "move",
+    "to": [
+     688,
+     640
+    ]
+   },
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     701,
+     641
+    ]
+   },
+   {
+    "squad": "Surgeon",
+    "action": "guard",
+    "protect": "Bows"
+   },
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     682,
+     642
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green honors its announced notice: earliest initiation t525. These orders remain neutral and consolidate our army east of the centre, approximately x675–710, z625–655.",
+  "private_messages": {
+   "Claude": "White now visibly has Alexander, 9 Foot Companions, 19 Cretan archers, 4 lancers and 4 skirmish cavalry around (606,705). I propose mutual nonaggression while White lives, terminable with 25 seconds' notice. If you accept, we can coordinate pressure on White from south and east beginning at the next pause.",
+   "Gemini": "Green is consolidating east of x675 and remains neutral for this interval. Our notice permits initiation from t525; we are not advancing toward your western position.",
+   "Grok": "Green remains neutral for this interval, honoring our t525 earliest-initiation notice. We are consolidating east of the centre without advancing toward your northern position."
+  },
+  "notes_to_self": "t500: All 52 units full HP; no losses/kills. Neutral this interval to honor notice: earliest initiation t525. Repositioned Tusks675652, Guard676628, Bows699640, Javs688640, hero701641, Eye682642; healer guards Bows. West-facing screen, bows ~23m behind, centres inside final90 ring. Orange visible40 units611574:33 swords,4 spears,1 elephant,1 cav,1 skirm; hero unseen. White visible37 at606705:Alexander,9 pikes,19 bows,4 lancers,4 skirm cav. Blue last9 at553648; full strength unknown. Proposed Orange mutual nonaggression while White lives, terminable25s notice, coordinated attack next pause; NOT accepted yet. Others free to attack now. Check incoming attacks, actual time, Orange reply; avoid sending elephants into White pikes.",
+  "explanation": "We honor the final interval of our notice while placing the archers behind a western screen and keeping the army inside the eventual ring. The elephants cover the northwest approach and spearmen cover the southwest. A proposed agreement with Orange could let us pressure White from two directions."
+ },
+ "warnings": []
+}

@@ -1,0 +1,44 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "1-kingdom",
+ "attempts": [
+  {
+   "text": "{\n  \"civilizations\": [\"ptol\", \"mace\", \"pers\"],\n  \"kingdom_name\": \"The Verdant Compact\",\n  \"battle_cry\": \"Hold the heights. Stand together. Outlast them all.\",\n  \"public_message\": \"Green is open to reciprocal non-aggression during the opening turns, with explicit durations and boundaries.\",\n  \"explanation\": \"The Ptolemies offer inexpensive archers, skirmishers, and melee troops, allowing a large, balanced army with room for support. Macedonian ranged mercenaries suit fighting from elevated ground, while Persian mercenary spearmen and skirmishers offer another economical combined force. These choices preserve flexibility until the terrain and full unit statistics are revealed.\"\n}",
+   "seconds": 29.3,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 20065,
+     "cached_input_tokens": 9856,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 1049,
+     "reasoning_output_tokens": 890
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "civilizations": [
+   "ptol",
+   "mace",
+   "pers"
+  ],
+  "kingdom_name": "The Verdant Compact",
+  "battle_cry": "Hold the heights. Stand together. Outlast them all.",
+  "public_message": "Green is open to reciprocal non-aggression during the opening turns, with explicit durations and boundaries.",
+  "explanation": "The Ptolemies offer inexpensive archers, skirmishers, and melee troops, allowing a large, balanced army with room for support. Macedonian ranged mercenaries suit fighting from elevated ground, while Persian mercenary spearmen and skirmishers offer another economical combined force. These choices preserve flexibility until the terrain and full unit statistics are revealed."
+ },
+ "applied": {
+  "civilizations": [
+   "ptol",
+   "mace",
+   "pers"
+  ],
+  "kingdom_name": "The Verdant Compact",
+  "battle_cry": "Hold the heights. Stand together. Outlast them all.",
+  "public_message": "Green is open to reciprocal non-aggression during the opening turns, with explicit durations and boundaries.",
+  "explanation": "The Ptolemies offer inexpensive archers, skirmishers, and melee troops, allowing a large, balanced army with room for support. Macedonian ranged mercenaries suit fighting from elevated ground, while Persian mercenary spearmen and skirmishers offer another economical combined force. These choices preserve flexibility until the terrain and full unit statistics are revealed."
+ },
+ "warnings": []
+}

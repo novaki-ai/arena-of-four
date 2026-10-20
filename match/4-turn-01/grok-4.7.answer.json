@@ -1,0 +1,141 @@
+{
+ "commander": "Grok",
+ "model": "Grok 4.7 · xhigh · Grok Build CLI",
+ "stage": "4-turn-01",
+ "attempts": [
+  {
+   "text": "{\n  \"orders\": [\n    {\"squad\": \"hero\", \"action\": \"guard\", \"protect\": \"sarissa\", \"stance\": \"defensive\"},\n    {\"squad\": \"sarissa\", \"action\": \"hold\", \"formation\": \"syntagma\", \"stance\": \"standground\"},\n    {\"squad\": \"crete\", \"action\": \"hold\", \"formation\": \"skirmish\", \"stance\": \"standground\"},\n    {\"squad\": \"volley\", \"action\": \"hold\", \"formation\": \"skirmish\", \"stance\": \"standground\"},\n    {\"squad\": \"thessaly\", \"action\": \"hold\", \"formation\": \"wedge\", \"stance\": \"defensive\"},\n    {\"squad\": \"odrysia\", \"action\": \"hold\", \"formation\": \"skirmish\", \"stance\": \"standground\"}\n  ],\n  \"diplomacy\": {\"Claude\": \"neutral\", \"GPT\": \"neutral\", \"Gemini\": \"neutral\"},\n  \"public_message\": \"White confirms neutral toward Orange, Green, and Blue through t=300. No first strike. Any stance change gets one full public turn of notice. Until then I hold Central Heights and stay off Little Hill, the ford, and the western plateau.\",\n  \"private_messages\": {\n    \"Claude\": \"Confirmed. Neutral through t=300, and I will not come onto Little Hill while the truce holds. Public notice a turn before any change.\",\n    \"GPT\": \"Confirmed. Neutral through t=300. I stay on Central Heights and clear of your eastern route. Public notice a turn before any change.\",\n    \"Gemini\": \"Confirmed. Neutral through t=300. I hold the heights and will not push onto your western approach while the truce holds.\"\n  },\n  \"notes_to_self\": \"T1: neutral all. Truce to t=300, 1-turn public notice to break. Pikes syntagma standground; archers+odrysia skirmish standground; thessaly wedge defensive; hero guards sarissa. HOLD Central Heights. Do not cross south cliffs (~z780) or enter Little Hill (Claude SE), River Ford (GPT E), West Plateau (Gemini W). They bid 0 so 4000 each vs our 3200. Gemini path south of us ~z660 around t270; let Blue meet Green. Ring pressure: us ~t456, Claude ~t469. After t300 reassess: shoot south lip and ford only if Green is ahead and truce has ended with notice. t450 march SE to 640,640: pikes screen, archers behind, thessaly flank, odrysia stragglers. Focus heroes, elephants, champions, then ranged. After t600 preserve army value. Never chase downhill. No flat fair fights. Break truce only vs the leader.\",\n  \"explanation\": \"Grok accepts the four-way truce and sets neutral toward every other commander. The army stays on Central Heights: Alexander with the pikemen, archers and javelin cavalry on stand-ground, lancers in reserve. No one advances.\"\n}",
+   "seconds": 208.4,
+   "error": null,
+   "usage": {
+    "total_cost_usd": 0.03278688,
+    "usage": {
+     "input_tokens": 7384,
+     "cache_read_input_tokens": 2048,
+     "cache_creation_input_tokens": 0,
+     "output_tokens": 13440,
+     "reasoning_tokens": 12775,
+     "total_tokens": 22872
+    },
+    "num_turns": 1,
+    "modelUsage": {
+     "grok-4.7-build": {
+      "inputTokens": 7384,
+      "outputTokens": 13440,
+      "cacheReadInputTokens": 2048,
+      "cacheCreationInputTokens": 0,
+      "modelCalls": 1,
+      "costUSD": 0.03278688
+     }
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "guard",
+    "protect": "sarissa",
+    "stance": "defensive"
+   },
+   {
+    "squad": "sarissa",
+    "action": "hold",
+    "formation": "syntagma",
+    "stance": "standground"
+   },
+   {
+    "squad": "crete",
+    "action": "hold",
+    "formation": "skirmish",
+    "stance": "standground"
+   },
+   {
+    "squad": "volley",
+    "action": "hold",
+    "formation": "skirmish",
+    "stance": "standground"
+   },
+   {
+    "squad": "thessaly",
+    "action": "hold",
+    "formation": "wedge",
+    "stance": "defensive"
+   },
+   {
+    "squad": "odrysia",
+    "action": "hold",
+    "formation": "skirmish",
+    "stance": "standground"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "GPT": "neutral",
+   "Gemini": "neutral"
+  },
+  "public_message": "White confirms neutral toward Orange, Green, and Blue through t=300. No first strike. Any stance change gets one full public turn of notice. Until then I hold Central Heights and stay off Little Hill, the ford, and the western plateau.",
+  "private_messages": {
+   "Claude": "Confirmed. Neutral through t=300, and I will not come onto Little Hill while the truce holds. Public notice a turn before any change.",
+   "GPT": "Confirmed. Neutral through t=300. I stay on Central Heights and clear of your eastern route. Public notice a turn before any change.",
+   "Gemini": "Confirmed. Neutral through t=300. I hold the heights and will not push onto your western approach while the truce holds."
+  },
+  "notes_to_self": "T1: neutral all. Truce to t=300, 1-turn public notice to break. Pikes syntagma standground; archers+odrysia skirmish standground; thessaly wedge defensive; hero guards sarissa. HOLD Central Heights. Do not cross south cliffs (~z780) or enter Little Hill (Claude SE), River Ford (GPT E), West Plateau (Gemini W). They bid 0 so 4000 each vs our 3200. Gemini path south of us ~z660 around t270; let Blue meet Green. Ring pressure: us ~t456, Claude ~t469. After t300 reassess: shoot south lip and ford only if Green is ahead and truce has ended with notice. t450 march SE to 640,640: pikes screen, archers behind, thessaly flank, odrysia stragglers. Focus heroes, elephants, champions, then ranged. After t600 preserve army value. Never chase downhill. No flat fair fights. Break truce only vs the leader.",
+  "explanation": "Grok accepts the four-way truce and sets neutral toward every other commander. The army stays on Central Heights: Alexander with the pikemen, archers and javelin cavalry on stand-ground, lancers in reserve. No one advances."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "guard",
+    "protect": "sarissa",
+    "stance": "defensive"
+   },
+   {
+    "squad": "sarissa",
+    "action": "hold",
+    "formation": "syntagma",
+    "stance": "standground"
+   },
+   {
+    "squad": "crete",
+    "action": "hold",
+    "formation": "skirmish",
+    "stance": "standground"
+   },
+   {
+    "squad": "volley",
+    "action": "hold",
+    "formation": "skirmish",
+    "stance": "standground"
+   },
+   {
+    "squad": "thessaly",
+    "action": "hold",
+    "formation": "wedge",
+    "stance": "defensive"
+   },
+   {
+    "squad": "odrysia",
+    "action": "hold",
+    "formation": "skirmish",
+    "stance": "standground"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "GPT": "neutral",
+   "Gemini": "neutral"
+  },
+  "public_message": "White confirms neutral toward Orange, Green, and Blue through t=300. No first strike. Any stance change gets one full public turn of notice. Until then I hold Central Heights and stay off Little Hill, the ford, and the western plateau.",
+  "private_messages": {
+   "Claude": "Confirmed. Neutral through t=300, and I will not come onto Little Hill while the truce holds. Public notice a turn before any change.",
+   "GPT": "Confirmed. Neutral through t=300. I stay on Central Heights and clear of your eastern route. Public notice a turn before any change.",
+   "Gemini": "Confirmed. Neutral through t=300. I hold the heights and will not push onto your western approach while the truce holds."
+  },
+  "notes_to_self": "T1: neutral all. Truce to t=300, 1-turn public notice to break. Pikes syntagma standground; archers+odrysia skirmish standground; thessaly wedge defensive; hero guards sarissa. HOLD Central Heights. Do not cross south cliffs (~z780) or enter Little Hill (Claude SE), River Ford (GPT E), West Plateau (Gemini W). They bid 0 so 4000 each vs our 3200. Gemini path south of us ~z660 around t270; let Blue meet Green. Ring pressure: us ~t456, Claude ~t469. After t300 reassess: shoot south lip and ford only if Green is ahead and truce has ended with notice. t450 march SE to 640,640: pikes screen, archers behind, thessaly flank, odrysia stragglers. Focus heroes, elephants, champions, then ranged. After t600 preserve army value. Never chase downhill. No flat fair fights. Break truce only vs the leader",
+  "explanation": "Grok accepts the four-way truce and sets neutral toward every other commander. The army stays on Central Heights: Alexander with the pikemen, archers and javelin cavalry on stand-ground, lancers in reserve. No one advances."
+ },
+ "warnings": []
+}

@@ -1,0 +1,181 @@
+{
+ "commander": "Grok",
+ "model": "Grok 4.7 · xhigh · Grok Build CLI",
+ "stage": "4-turn-15",
+ "attempts": [
+  {
+   "text": "{\"orders\":[{\"squad\":\"sarissa\",\"action\":\"move\",\"to\":[600,706],\"formation\":\"phalanx\",\"stance\":\"defensive\"},{\"squad\":\"hero\",\"action\":\"guard\",\"protect\":\"sarissa\",\"stance\":\"defensive\"},{\"squad\":\"crete\",\"action\":\"move\",\"to\":[592,706],\"formation\":\"box\",\"stance\":\"defensive\"},{\"squad\":\"volley\",\"action\":\"move\",\"to\":[610,712],\"formation\":\"box\",\"stance\":\"defensive\"},{\"squad\":\"thessaly\",\"action\":\"move\",\"to\":[586,698],\"formation\":\"box\",\"stance\":\"defensive\"},{\"squad\":\"odrysia\",\"action\":\"move\",\"to\":[604,710],\"formation\":\"box\",\"stance\":\"defensive\"}],\"diplomacy\":{\"Claude\":\"neutral\",\"GPT\":\"neutral\",\"Gemini\":\"neutral\"},\"public_message\":\"White: pact held, no first strike this turn. This is the one full public notice: I may fight from the next pause. Ring shift only, halt x575-625, z690-720, clear of Blue x<=560, Orange z<600, Green x>=670. No chase. Self-defence immediate. Neutral to all.\",\"private_messages\":{\"Claude\":\"Orange: agreed. Generic notice is public, no target named. Neutral this turn; ready at the next pause. Halt x575-625, z690-720. Your rider at (460,597) is ~185 m out and starts burning near t=490 unless it moves in. If nobody burns, the clock can run to t=525 before we speak; I will still be here. On contact I pike elephants, then massed ranged.\",\"Gemini\":\"Blue: timing agreed. Neutral this turn; halt x575-625, z690-720, east of your x520-560 box. On contact I pike elephants from the north, then the ranged mass. Please keep your line at or west of x560. If the clock skips, next talk may be t=500 or t=525; I hold this box until then.\",\"GPT\":\"Green: ring shift only this turn, to x575-625, z690-720. I stay neutral and I am not attacking. I will not cross x670 or drop below z690 this turn. The public one-turn notice stands: I may fight only from the next pause.\"},\"notes_to_self\":\"T15 t=450 NOTICE only, all neutral. Halts: sar(600,706) r77 dEle~90, crete(592,706) r79, volley(610,712) r78 dEle~86, thess(586,698) r79, odr(604,710) r79, hero guards sar. Box x575-625 z690-720. GPT ele a(669,649), camp ~(681,630) x672-695 z625-650; est 2 ele, 10 spear, 28 arch, 9 skirm, surgeon. Gemini next x520-560 z640-680, 6 swords (460,670). Claude ~(595,540); rider (460,597) r~185 burns ~t490. Next pause: t=475 if anyone sets enemy, else t=500 if rider burns, else t=525. Then if pact holds set GPT enemy: pikes+hero on elephants, archers elephants then ranged, cav screen, no chase, stay x<=640. If hit first: that one only, fight in place. Ring 198@475 176@500 155@525 90@600. Our r<=82 fits inside r90. Do not chase eye (710,680).\",\"explanation\":\"Grok packs the phalanx, archers, and cavalry into a tight box on the north lip of the final fire circle and leaves every stance neutral. This pause is the agreed public notice, so the army only shifts a short distance inward and does not attack the elephant. The halt stays clear of the boxes the other three commanders announced.\"}",
+   "seconds": 573.1,
+   "error": null,
+   "usage": {
+    "total_cost_usd": 0.08710392,
+    "usage": {
+     "input_tokens": 7926,
+     "cache_read_input_tokens": 1920,
+     "cache_creation_input_tokens": 0,
+     "output_tokens": 39896,
+     "reasoning_tokens": 39025,
+     "total_tokens": 49742
+    },
+    "num_turns": 1,
+    "modelUsage": {
+     "grok-4.7-build": {
+      "inputTokens": 7926,
+      "outputTokens": 39896,
+      "cacheReadInputTokens": 1920,
+      "cacheCreationInputTokens": 0,
+      "modelCalls": 1,
+      "costUSD": 0.08710392
+     }
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "sarissa",
+    "action": "move",
+    "to": [
+     600,
+     706
+    ],
+    "formation": "phalanx",
+    "stance": "defensive"
+   },
+   {
+    "squad": "hero",
+    "action": "guard",
+    "protect": "sarissa",
+    "stance": "defensive"
+   },
+   {
+    "squad": "crete",
+    "action": "move",
+    "to": [
+     592,
+     706
+    ],
+    "formation": "box",
+    "stance": "defensive"
+   },
+   {
+    "squad": "volley",
+    "action": "move",
+    "to": [
+     610,
+     712
+    ],
+    "formation": "box",
+    "stance": "defensive"
+   },
+   {
+    "squad": "thessaly",
+    "action": "move",
+    "to": [
+     586,
+     698
+    ],
+    "formation": "box",
+    "stance": "defensive"
+   },
+   {
+    "squad": "odrysia",
+    "action": "move",
+    "to": [
+     604,
+     710
+    ],
+    "formation": "box",
+    "stance": "defensive"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "GPT": "neutral",
+   "Gemini": "neutral"
+  },
+  "public_message": "White: pact held, no first strike this turn. This is the one full public notice: I may fight from the next pause. Ring shift only, halt x575-625, z690-720, clear of Blue x<=560, Orange z<600, Green x>=670. No chase. Self-defence immediate. Neutral to all.",
+  "private_messages": {
+   "Claude": "Orange: agreed. Generic notice is public, no target named. Neutral this turn; ready at the next pause. Halt x575-625, z690-720. Your rider at (460,597) is ~185 m out and starts burning near t=490 unless it moves in. If nobody burns, the clock can run to t=525 before we speak; I will still be here. On contact I pike elephants, then massed ranged.",
+   "Gemini": "Blue: timing agreed. Neutral this turn; halt x575-625, z690-720, east of your x520-560 box. On contact I pike elephants from the north, then the ranged mass. Please keep your line at or west of x560. If the clock skips, next talk may be t=500 or t=525; I hold this box until then.",
+   "GPT": "Green: ring shift only this turn, to x575-625, z690-720. I stay neutral and I am not attacking. I will not cross x670 or drop below z690 this turn. The public one-turn notice stands: I may fight only from the next pause."
+  },
+  "notes_to_self": "T15 t=450 NOTICE only, all neutral. Halts: sar(600,706) r77 dEle~90, crete(592,706) r79, volley(610,712) r78 dEle~86, thess(586,698) r79, odr(604,710) r79, hero guards sar. Box x575-625 z690-720. GPT ele a(669,649), camp ~(681,630) x672-695 z625-650; est 2 ele, 10 spear, 28 arch, 9 skirm, surgeon. Gemini next x520-560 z640-680, 6 swords (460,670). Claude ~(595,540); rider (460,597) r~185 burns ~t490. Next pause: t=475 if anyone sets enemy, else t=500 if rider burns, else t=525. Then if pact holds set GPT enemy: pikes+hero on elephants, archers elephants then ranged, cav screen, no chase, stay x<=640. If hit first: that one only, fight in place. Ring 198@475 176@500 155@525 90@600. Our r<=82 fits inside r90. Do not chase eye (710,680).",
+  "explanation": "Grok packs the phalanx, archers, and cavalry into a tight box on the north lip of the final fire circle and leaves every stance neutral. This pause is the agreed public notice, so the army only shifts a short distance inward and does not attack the elephant. The halt stays clear of the boxes the other three commanders announced."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "sarissa",
+    "action": "move",
+    "to": [
+     600,
+     706
+    ],
+    "formation": "phalanx",
+    "stance": "defensive"
+   },
+   {
+    "squad": "hero",
+    "action": "guard",
+    "protect": "sarissa",
+    "stance": "defensive"
+   },
+   {
+    "squad": "crete",
+    "action": "move",
+    "to": [
+     592,
+     706
+    ],
+    "formation": "box",
+    "stance": "defensive"
+   },
+   {
+    "squad": "volley",
+    "action": "move",
+    "to": [
+     610,
+     712
+    ],
+    "formation": "box",
+    "stance": "defensive"
+   },
+   {
+    "squad": "thessaly",
+    "action": "move",
+    "to": [
+     586,
+     698
+    ],
+    "formation": "box",
+    "stance": "defensive"
+   },
+   {
+    "squad": "odrysia",
+    "action": "move",
+    "to": [
+     604,
+     710
+    ],
+    "formation": "box",
+    "stance": "defensive"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "GPT": "neutral",
+   "Gemini": "neutral"
+  },
+  "public_message": "White: pact held, no first strike this turn. This is the one full public notice: I may fight from the next pause. Ring shift only, halt x575-625, z690-720, clear of Blue x<=560, Orange z<600, Green x>=670. No chase. Self-defence immediate. Neutral to all.",
+  "private_messages": {
+   "Claude": "Orange: agreed. Generic notice is public, no target named. Neutral this turn; ready at the next pause. Halt x575-625, z690-720. Your rider at (460,597) is ~185 m out and starts burning near t=490 unless it moves in. If nobody burns, the clock can run to t=525 before we speak; I will still be here. On contact I pike elephants, then massed ranged.",
+   "Gemini": "Blue: timing agreed. Neutral this turn; halt x575-625, z690-720, east of your x520-560 box. On contact I pike elephants from the north, then the ranged mass. Please keep your line at or west of x560. If the clock skips, next talk may be t=500 or t=525; I hold this box until then.",
+   "GPT": "Green: ring shift only this turn, to x575-625, z690-720. I stay neutral and I am not attacking. I will not cross x670 or drop below z690 this turn. The public one-turn notice stands: I may fight only from the next pause."
+  },
+  "notes_to_self": "T15 t=450 NOTICE only, all neutral. Halts: sar(600,706) r77 dEle~90, crete(592,706) r79, volley(610,712) r78 dEle~86, thess(586,698) r79, odr(604,710) r79, hero guards sar. Box x575-625 z690-720. GPT ele a(669,649), camp ~(681,630) x672-695 z625-650; est 2 ele, 10 spear, 28 arch, 9 skirm, surgeon. Gemini next x520-560 z640-680, 6 swords (460,670). Claude ~(595,540); rider (460,597) r~185 burns ~t490. Next pause: t=475 if anyone sets enemy, else t=500 if rider burns, else t=525. Then if pact holds set GPT enemy: pikes+hero on elephants, archers elephants then ranged, cav screen, no chase, stay x<=640. If hit first: that one only, fight in place. Ring 198@475 176@500 155@525 90@600. Our r<=82 fits inside r90. Do not chase eye (710,680).",
+  "explanation": "Grok packs the phalanx, archers, and cavalry into a tight box on the north lip of the final fire circle and leaves every stance neutral. This pause is the agreed public notice, so the army only shifts a short distance inward and does not attack the elephant. The halt stays clear of the boxes the other three commanders announced."
+ },
+ "warnings": []
+}

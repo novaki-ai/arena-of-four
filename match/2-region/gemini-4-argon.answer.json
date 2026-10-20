@@ -1,0 +1,55 @@
+{
+ "commander": "Gemini",
+ "model": "Gemini 4 Argon · high (its highest) · Antigravity",
+ "stage": "2-region",
+ "attempts": [
+  {
+   "text": "{\n  \"regions\": [\"little_hill\", \"west_plateau\", \"south_plateau\"],\n  \"bid\": 0,\n  \"public_message\": \"Blue (Gemini) accepts the opening truce: mutual neutral/ally stance and no first strikes until t=300s (ring=420m), provided armies keep clear of each other's starting regions. Early attrition only gifts the match to whoever stays out of it.\",\n  \"private_messages\": {\n    \"Claude\": \"Agreed on your t=300s (420m ring) non-aggression pact. Both White and Green are telegraphing a hard push for the central heights. Once spawns are revealed, let's keep a clean buffer between Blue and Orange and coordinate against whoever overextends in the middle.\",\n    \"GPT\": \"Confirmed: Blue agrees to reciprocal non-aggression through t=300s (Turn 12) with a 150m buffer around starting regions and march lanes. Once regions are assigned, let's share our intended approach vectors so Green and Blue don't collide while moving inward.\",\n    \"Grok\": \"Plain terms: Blue commits to strict mutual non-aggression with White until t=300s (ring=420m). Neither of us benefits from bleeding units early while Orange and Green watch. Once spawns are set, let's stay out of each other's lanes until the ring forces the real fight.\"\n  },\n  \"explanation\": \"With basic units costing ~100-150 points each, army budget is far more valuable than starting position, especially when every commander wants an early truce and the slowest units can cross 450m in three turns. Bidding 0 preserves our full 4000-point budget while ranking Little Hill first (23m elevation, safe until t=469s) and two uncontested outer plateaus with clean approach corridors (West Plateau and South Plateau) as guaranteed fallbacks.\"\n}\n",
+   "seconds": 215.8,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 14816,
+     "output_tokens": 17693,
+     "thinking_tokens": 17259,
+     "cache_read_tokens": 0,
+     "total_tokens": 32509
+    },
+    "stats": null,
+    "model": null,
+    "cost": null
+   }
+  }
+ ],
+ "parsed": {
+  "regions": [
+   "little_hill",
+   "west_plateau",
+   "south_plateau"
+  ],
+  "bid": 0,
+  "public_message": "Blue (Gemini) accepts the opening truce: mutual neutral/ally stance and no first strikes until t=300s (ring=420m), provided armies keep clear of each other's starting regions. Early attrition only gifts the match to whoever stays out of it.",
+  "private_messages": {
+   "Claude": "Agreed on your t=300s (420m ring) non-aggression pact. Both White and Green are telegraphing a hard push for the central heights. Once spawns are revealed, let's keep a clean buffer between Blue and Orange and coordinate against whoever overextends in the middle.",
+   "GPT": "Confirmed: Blue agrees to reciprocal non-aggression through t=300s (Turn 12) with a 150m buffer around starting regions and march lanes. Once regions are assigned, let's share our intended approach vectors so Green and Blue don't collide while moving inward.",
+   "Grok": "Plain terms: Blue commits to strict mutual non-aggression with White until t=300s (ring=420m). Neither of us benefits from bleeding units early while Orange and Green watch. Once spawns are set, let's stay out of each other's lanes until the ring forces the real fight."
+  },
+  "explanation": "With basic units costing ~100-150 points each, army budget is far more valuable than starting position, especially when every commander wants an early truce and the slowest units can cross 450m in three turns. Bidding 0 preserves our full 4000-point budget while ranking Little Hill first (23m elevation, safe until t=469s) and two uncontested outer plateaus with clean approach corridors (West Plateau and South Plateau) as guaranteed fallbacks."
+ },
+ "applied": {
+  "regions": [
+   "little_hill",
+   "west_plateau",
+   "south_plateau"
+  ],
+  "bid": 0,
+  "public_message": "Blue (Gemini) accepts the opening truce: mutual neutral/ally stance and no first strikes until t=300s (ring=420m), provided armies keep clear of each other's starting regions. Early attrition only gifts the match to whoever stays out of it.",
+  "private_messages": {
+   "Claude": "Agreed on your t=300s (420m ring) non-aggression pact. Both White and Green are telegraphing a hard push for the central heights. Once spawns are revealed, let's keep a clean buffer between Blue and Orange and coordinate against whoever overextends in the middle.",
+   "GPT": "Confirmed: Blue agrees to reciprocal non-aggression through t=300s (Turn 12) with a 150m buffer around starting regions and march lanes. Once regions are assigned, let's share our intended approach vectors so Green and Blue don't collide while moving inward.",
+   "Grok": "Plain terms: Blue commits to strict mutual non-aggression with White until t=300s (ring=420m). Neither of us benefits from bleeding units early while Orange and Green watch. Once spawns are set, let's stay out of each other's lanes until the ring forces the real fight."
+  },
+  "explanation": "With basic units costing ~100-150 points each, army budget is far more valuable than starting position, especially when every commander wants an early truce and the slowest units can cross 450m in three turns. Bidding 0 preserves our full 4000-point budget while ranking Little Hill first (23m elevation, safe until t=469s) and two uncontested outer plateaus with clean approach corridors (West Plateau and South Plateau) as guaranteed fallbacks."
+ },
+ "warnings": []
+}

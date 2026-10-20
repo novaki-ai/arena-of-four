@@ -1,0 +1,72 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "4-turn-04",
+ "attempts": [
+  {
+   "text": "{\n  \"orders\": [\n    {\"squad\": \"Eye\", \"action\": \"move\", \"to\": [740, 840]}\n  ],\n  \"diplomacy\": {\n    \"Claude\": \"neutral\",\n    \"Gemini\": \"neutral\",\n    \"Grok\": \"neutral\"\n  },\n  \"public_message\": \"Green maintains all existing truces and full-turn notice terms. Our lone scout continues through the eastern lowland corridor, staying off occupied high ground.\",\n  \"private_messages\": {\n    \"Claude\": \"No contacts from my scout at (691,909), northeast of Central Heights. It now checks the eastern lowland at (740,840). Our t=450 terms stand.\",\n    \"Gemini\": \"Still no visible contacts. My scout is checking the eastern side of Central Heights from the lowland. I will report sightings; our t=300 and notice terms stand.\",\n    \"Grok\": \"My scout reached (691,909) without sighting units and now moves to the acknowledged lowland waypoint (740,840). It will stay off your heights. Our t=300 truce and notice terms stand.\"\n  },\n  \"notes_to_self\": \"t=75: all 52 units including hero alive and healthy; no kills or losses. Main army stationary around (695,635), squad centres within final radius90; check formation spread before final contraction. Elephants and spears screen northwest; healer guards Bows. Eye moves from (691,909) to permitted eastern corridor waypoint (740,840). No enemies visible; last actual sighting Claude scout (666,589), turn2. Reported holdings: Claude Little Hill, Gemini West Plateau, Grok Central Heights. Truces through t=300 with full 25-second public notice; Claude through t=450, then rolling neutrality with notice. Preserve army and gather compositions without entering claimed high ground.\",\n  \"explanation\": \"The main army retains its central position while the scout checks the eastern approach to Central Heights. This preserves strength and gathers information during the agreed truce.\"\n}",
+   "seconds": 60.6,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 19971,
+     "cached_input_tokens": 15744,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 2482,
+     "reasoning_output_tokens": 2049
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     740,
+     840
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green maintains all existing truces and full-turn notice terms. Our lone scout continues through the eastern lowland corridor, staying off occupied high ground.",
+  "private_messages": {
+   "Claude": "No contacts from my scout at (691,909), northeast of Central Heights. It now checks the eastern lowland at (740,840). Our t=450 terms stand.",
+   "Gemini": "Still no visible contacts. My scout is checking the eastern side of Central Heights from the lowland. I will report sightings; our t=300 and notice terms stand.",
+   "Grok": "My scout reached (691,909) without sighting units and now moves to the acknowledged lowland waypoint (740,840). It will stay off your heights. Our t=300 truce and notice terms stand."
+  },
+  "notes_to_self": "t=75: all 52 units including hero alive and healthy; no kills or losses. Main army stationary around (695,635), squad centres within final radius90; check formation spread before final contraction. Elephants and spears screen northwest; healer guards Bows. Eye moves from (691,909) to permitted eastern corridor waypoint (740,840). No enemies visible; last actual sighting Claude scout (666,589), turn2. Reported holdings: Claude Little Hill, Gemini West Plateau, Grok Central Heights. Truces through t=300 with full 25-second public notice; Claude through t=450, then rolling neutrality with notice. Preserve army and gather compositions without entering claimed high ground.",
+  "explanation": "The main army retains its central position while the scout checks the eastern approach to Central Heights. This preserves strength and gathers information during the agreed truce."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     740,
+     840
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green maintains all existing truces and full-turn notice terms. Our lone scout continues through the eastern lowland corridor, staying off occupied high ground.",
+  "private_messages": {
+   "Claude": "No contacts from my scout at (691,909), northeast of Central Heights. It now checks the eastern lowland at (740,840). Our t=450 terms stand.",
+   "Gemini": "Still no visible contacts. My scout is checking the eastern side of Central Heights from the lowland. I will report sightings; our t=300 and notice terms stand.",
+   "Grok": "My scout reached (691,909) without sighting units and now moves to the acknowledged lowland waypoint (740,840). It will stay off your heights. Our t=300 truce and notice terms stand."
+  },
+  "notes_to_self": "t=75: all 52 units including hero alive and healthy; no kills or losses. Main army stationary around (695,635), squad centres within final radius90; check formation spread before final contraction. Elephants and spears screen northwest; healer guards Bows. Eye moves from (691,909) to permitted eastern corridor waypoint (740,840). No enemies visible; last actual sighting Claude scout (666,589), turn2. Reported holdings: Claude Little Hill, Gemini West Plateau, Grok Central Heights. Truces through t=300 with full 25-second public notice; Claude through t=450, then rolling neutrality with notice. Preserve army and gather compositions without entering claimed high ground.",
+  "explanation": "The main army retains its central position while the scout checks the eastern approach to Central Heights. This preserves strength and gathers information during the agreed truce."
+ },
+ "warnings": []
+}

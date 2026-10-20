@@ -1,0 +1,266 @@
+{
+ "opus": {
+  "komut": [
+   {
+    "type": "walk",
+    "entities": [
+     7419
+    ],
+    "x": 670.0,
+    "z": 600.0,
+    "queued": false
+   },
+   {
+    "type": "diplomacy",
+    "player": 2,
+    "to": "neutral"
+   },
+   {
+    "type": "diplomacy",
+    "player": 3,
+    "to": "neutral"
+   },
+   {
+    "type": "diplomacy",
+    "player": 4,
+    "to": "neutral"
+   }
+  ],
+  "notlar": []
+ },
+ "astra": {
+  "komut": [
+   {
+    "type": "walk",
+    "entities": [
+     7471
+    ],
+    "x": 740.0,
+    "z": 840.0,
+    "queued": false
+   },
+   {
+    "type": "diplomacy",
+    "player": 1,
+    "to": "neutral"
+   },
+   {
+    "type": "diplomacy",
+    "player": 3,
+    "to": "neutral"
+   },
+   {
+    "type": "diplomacy",
+    "player": 4,
+    "to": "neutral"
+   }
+  ],
+  "notlar": []
+ },
+ "argon": {
+  "komut": [
+   {
+    "type": "diplomacy",
+    "player": 1,
+    "to": "neutral"
+   },
+   {
+    "type": "diplomacy",
+    "player": 2,
+    "to": "neutral"
+   },
+   {
+    "type": "diplomacy",
+    "player": 4,
+    "to": "neutral"
+   }
+  ],
+  "notlar": []
+ },
+ "grok": {
+  "komut": [
+   {
+    "type": "guard",
+    "entities": [
+     7546
+    ],
+    "target": 7508,
+    "queued": false
+   },
+   {
+    "type": "stance",
+    "entities": [
+     7546
+    ],
+    "name": "defensive"
+   },
+   {
+    "type": "walk",
+    "entities": [
+     7508,
+     7509,
+     7510,
+     7511,
+     7512,
+     7513,
+     7514,
+     7515,
+     7516
+    ],
+    "x": 568.0,
+    "z": 812.0,
+    "queued": false,
+    "formation": "special/formations/phalanx"
+   },
+   {
+    "type": "stance",
+    "entities": [
+     7508,
+     7509,
+     7510,
+     7511,
+     7512,
+     7513,
+     7514,
+     7515,
+     7516
+    ],
+    "name": "standground"
+   },
+   {
+    "type": "walk",
+    "entities": [
+     7517,
+     7518,
+     7519,
+     7520,
+     7521,
+     7522,
+     7523,
+     7524,
+     7525,
+     7526,
+     7527
+    ],
+    "x": 545.0,
+    "z": 855.0,
+    "queued": false,
+    "formation": "special/formations/skirmish"
+   },
+   {
+    "type": "stance",
+    "entities": [
+     7517,
+     7518,
+     7519,
+     7520,
+     7521,
+     7522,
+     7523,
+     7524,
+     7525,
+     7526,
+     7527
+    ],
+    "name": "standground"
+   },
+   {
+    "type": "walk",
+    "entities": [
+     7528,
+     7529,
+     7530,
+     7531,
+     7532,
+     7533,
+     7534,
+     7535,
+     7536,
+     7537
+    ],
+    "x": 600.0,
+    "z": 842.0,
+    "queued": false,
+    "formation": "special/formations/skirmish"
+   },
+   {
+    "type": "stance",
+    "entities": [
+     7528,
+     7529,
+     7530,
+     7531,
+     7532,
+     7533,
+     7534,
+     7535,
+     7536,
+     7537
+    ],
+    "name": "standground"
+   },
+   {
+    "type": "walk",
+    "entities": [
+     7538,
+     7539,
+     7540,
+     7541
+    ],
+    "x": 508.0,
+    "z": 832.0,
+    "queued": false,
+    "formation": "special/formations/line_closed"
+   },
+   {
+    "type": "stance",
+    "entities": [
+     7538,
+     7539,
+     7540,
+     7541
+    ],
+    "name": "defensive"
+   },
+   {
+    "type": "walk",
+    "entities": [
+     7542,
+     7543,
+     7544,
+     7545
+    ],
+    "x": 658.0,
+    "z": 826.0,
+    "queued": false,
+    "formation": "special/formations/skirmish"
+   },
+   {
+    "type": "stance",
+    "entities": [
+     7542,
+     7543,
+     7544,
+     7545
+    ],
+    "name": "defensive"
+   },
+   {
+    "type": "diplomacy",
+    "player": 1,
+    "to": "neutral"
+   },
+   {
+    "type": "diplomacy",
+    "player": 2,
+    "to": "neutral"
+   },
+   {
+    "type": "diplomacy",
+    "player": 3,
+    "to": "neutral"
+   }
+  ],
+  "notlar": []
+ }
+}

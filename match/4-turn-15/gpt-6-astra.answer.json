@@ -1,0 +1,122 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "4-turn-15",
+ "attempts": [
+  {
+   "text": "{\n  \"orders\": [\n    {\"squad\": \"hero\", \"action\": \"hold\"},\n    {\"squad\": \"Tusks\", \"action\": \"hold\"},\n    {\"squad\": \"Guard\", \"action\": \"hold\"},\n    {\"squad\": \"Bows\", \"action\": \"hold\"},\n    {\"squad\": \"Javelins\", \"action\": \"hold\"},\n    {\"squad\": \"Surgeon\", \"action\": \"guard\", \"protect\": \"Bows\"},\n    {\"squad\": \"Eye\", \"action\": \"move\", \"to\": [628, 635]}\n  ],\n  \"diplomacy\": {\n    \"Claude\": \"neutral\",\n    \"Gemini\": \"neutral\",\n    \"Grok\": \"neutral\"\n  },\n  \"public_message\": \"Green remains neutral. Main army holds x672-695, z625-650. My lone horse archer moves to (628,635) for observation in the central corridor, outside everyone's announced boxes. No attack notice issued. Our pact continues: a full 25 seconds of public notice before a first strike; immediate self-defence reserved.\",\n  \"private_messages\": {\n    \"Claude\": \"Scout trade: I currently see Alexander III, 9 Foot Companions, 9 Cretan Mercenary Archers and 4 Odrysian Skirmish Cavalry around (616,724), all full health. These are confirmed visible units; White may have others unseen. Please send your rider's Blue report, including hero and ranged units. My scout's new stop (628,635) remains north of our z600 boundary.\",\n    \"Gemini\": \"Your announced western stop is clear of my army. My lone scout moves to (628,635), east of your box, while the main army holds. Please share any Orange or White army sightings; I can reciprocate with observations from the central corridor.\",\n    \"Grok\": \"My main army holds its existing eastern position. The lone scout moves southwest to (628,635), south of your announced band. Neutrality and the notice agreement remain in force.\"\n  },\n  \"notes_to_self\": \"t450: All 52 units full HP, zero losses/kills. Main holds: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guards Bows. Eye ordered628635 in publicly announced central corridor to reveal armies; retreat east if threatened. White visible616724: Alexander+9 Foot Companions+9 Cretan archers+4 Odrysian cavalry, all full; possibly partial roster. Orange visible2 Samnite spears608556; main unknown. Blue announced next520-560/640-680. Sent White report to Orange; requested promised Blue intelligence. All reciprocal neutral; nobody has issued attack notice. First strike requires full25s public notice, self-defence immediate. Quiet advance may reach525/r155. Main inside final90 ring; check formation spread.\",\n  \"explanation\": \"I preserve the healthy main army inside the final ring while gathering the missing force estimates. The central scout should reveal more of the opposing armies, and the intelligence trade may identify a favorable engagement before we commit.\"\n}",
+   "seconds": 61.6,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 15421,
+     "cached_input_tokens": 9856,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 2742,
+     "reasoning_output_tokens": 2070
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "hold"
+   },
+   {
+    "squad": "Tusks",
+    "action": "hold"
+   },
+   {
+    "squad": "Guard",
+    "action": "hold"
+   },
+   {
+    "squad": "Bows",
+    "action": "hold"
+   },
+   {
+    "squad": "Javelins",
+    "action": "hold"
+   },
+   {
+    "squad": "Surgeon",
+    "action": "guard",
+    "protect": "Bows"
+   },
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     628,
+     635
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green remains neutral. Main army holds x672-695, z625-650. My lone horse archer moves to (628,635) for observation in the central corridor, outside everyone's announced boxes. No attack notice issued. Our pact continues: a full 25 seconds of public notice before a first strike; immediate self-defence reserved.",
+  "private_messages": {
+   "Claude": "Scout trade: I currently see Alexander III, 9 Foot Companions, 9 Cretan Mercenary Archers and 4 Odrysian Skirmish Cavalry around (616,724), all full health. These are confirmed visible units; White may have others unseen. Please send your rider's Blue report, including hero and ranged units. My scout's new stop (628,635) remains north of our z600 boundary.",
+   "Gemini": "Your announced western stop is clear of my army. My lone scout moves to (628,635), east of your box, while the main army holds. Please share any Orange or White army sightings; I can reciprocate with observations from the central corridor.",
+   "Grok": "My main army holds its existing eastern position. The lone scout moves southwest to (628,635), south of your announced band. Neutrality and the notice agreement remain in force."
+  },
+  "notes_to_self": "t450: All 52 units full HP, zero losses/kills. Main holds: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guards Bows. Eye ordered628635 in publicly announced central corridor to reveal armies; retreat east if threatened. White visible616724: Alexander+9 Foot Companions+9 Cretan archers+4 Odrysian cavalry, all full; possibly partial roster. Orange visible2 Samnite spears608556; main unknown. Blue announced next520-560/640-680. Sent White report to Orange; requested promised Blue intelligence. All reciprocal neutral; nobody has issued attack notice. First strike requires full25s public notice, self-defence immediate. Quiet advance may reach525/r155. Main inside final90 ring; check formation spread.",
+  "explanation": "I preserve the healthy main army inside the final ring while gathering the missing force estimates. The central scout should reveal more of the opposing armies, and the intelligence trade may identify a favorable engagement before we commit."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "hold"
+   },
+   {
+    "squad": "Tusks",
+    "action": "hold"
+   },
+   {
+    "squad": "Guard",
+    "action": "hold"
+   },
+   {
+    "squad": "Bows",
+    "action": "hold"
+   },
+   {
+    "squad": "Javelins",
+    "action": "hold"
+   },
+   {
+    "squad": "Surgeon",
+    "action": "guard",
+    "protect": "Bows"
+   },
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     628,
+     635
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green remains neutral. Main army holds x672-695, z625-650. My lone horse archer moves to (628,635) for observation in the central corridor, outside everyone's announced boxes. No attack notice issued. Our pact continues: a full 25 seconds of public notice before a first strike; immediate self-defence reserved.",
+  "private_messages": {
+   "Claude": "Scout trade: I currently see Alexander III, 9 Foot Companions, 9 Cretan Mercenary Archers and 4 Odrysian Skirmish Cavalry around (616,724), all full health. These are confirmed visible units; White may have others unseen. Please send your rider's Blue report, including hero and ranged units. My scout's new stop (628,635) remains north of our z600 boundary.",
+   "Gemini": "Your announced western stop is clear of my army. My lone scout moves to (628,635), east of your box, while the main army holds. Please share any Orange or White army sightings; I can reciprocate with observations from the central corridor.",
+   "Grok": "My main army holds its existing eastern position. The lone scout moves southwest to (628,635), south of your announced band. Neutrality and the notice agreement remain in force."
+  },
+  "notes_to_self": "t450: All 52 units full HP, zero losses/kills. Main holds: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guards Bows. Eye ordered628635 in publicly announced central corridor to reveal armies; retreat east if threatened. White visible616724: Alexander+9 Foot Companions+9 Cretan archers+4 Odrysian cavalry, all full; possibly partial roster. Orange visible2 Samnite spears608556; main unknown. Blue announced next520-560/640-680. Sent White report to Orange; requested promised Blue intelligence. All reciprocal neutral; nobody has issued attack notice. First strike requires full25s public notice, self-defence immediate. Quiet advance may reach525/r155. Main inside final90 ring; check formation spread.",
+  "explanation": "I preserve the healthy main army inside the final ring while gathering the missing force estimates. The central scout should reveal more of the opposing armies, and the intelligence trade may identify a favorable engagement before we commit."
+ },
+ "warnings": []
+}

@@ -1,0 +1,48 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "2-region",
+ "attempts": [
+  {
+   "text": "{\n  \"regions\": [\"central_heights\", \"little_hill\", \"river_ford\"],\n  \"bid\": 301,\n  \"public_message\": \"Claude, I accept your reciprocal truce until t=300 s. Gemini and Grok, I offer the same: neither side initiates attacks before t=300, with the agreement ending if either attacks. Peaceful movement toward the safe zone is permitted. Any extension beyond t=300 must be explicit.\",\n  \"private_messages\": {\n    \"Claude\": \"I am open to extending our truce after t=300. Keeping our armies intact while watching the other two is in both our interests; let's discuss renewal before the deadline.\"\n  },\n  \"explanation\": \"Central Heights provides elevation, room for formations, and proximity to the shrinking safe zone. Little Hill offers another elevated position, while River Ford provides direct access to the final battlefield. The bid preserves most of our army budget and is paid only if we secure our first choice.\"\n}",
+   "seconds": 49.6,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 19524,
+     "cached_input_tokens": 9856,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 1762,
+     "reasoning_output_tokens": 1552
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "regions": [
+   "central_heights",
+   "little_hill",
+   "river_ford"
+  ],
+  "bid": 301,
+  "public_message": "Claude, I accept your reciprocal truce until t=300 s. Gemini and Grok, I offer the same: neither side initiates attacks before t=300, with the agreement ending if either attacks. Peaceful movement toward the safe zone is permitted. Any extension beyond t=300 must be explicit.",
+  "private_messages": {
+   "Claude": "I am open to extending our truce after t=300. Keeping our armies intact while watching the other two is in both our interests; let's discuss renewal before the deadline."
+  },
+  "explanation": "Central Heights provides elevation, room for formations, and proximity to the shrinking safe zone. Little Hill offers another elevated position, while River Ford provides direct access to the final battlefield. The bid preserves most of our army budget and is paid only if we secure our first choice."
+ },
+ "applied": {
+  "regions": [
+   "central_heights",
+   "little_hill",
+   "river_ford"
+  ],
+  "bid": 301,
+  "public_message": "Claude, I accept your reciprocal truce until t=300 s. Gemini and Grok, I offer the same: neither side initiates attacks before t=300, with the agreement ending if either attacks. Peaceful movement toward the safe zone is permitted. Any extension beyond t=300 must be explicit.",
+  "private_messages": {
+   "Claude": "I am open to extending our truce after t=300. Keeping our armies intact while watching the other two is in both our interests; let's discuss renewal before the deadline."
+  },
+  "explanation": "Central Heights provides elevation, room for formations, and proximity to the shrinking safe zone. Little Hill offers another elevated position, while River Ford provides direct access to the final battlefield. The bid preserves most of our army budget and is paid only if we secure our first choice."
+ },
+ "warnings": []
+}

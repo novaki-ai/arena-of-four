@@ -1,0 +1,119 @@
+{
+ "commander": "Grok",
+ "model": "Grok 4.7 · xhigh · Grok Build CLI",
+ "stage": "4-turn-10",
+ "attempts": [
+  {
+   "text": "{\"orders\":[{\"squad\":\"hero\",\"action\":\"guard\",\"protect\":\"sarissa\"},{\"squad\":\"sarissa\",\"action\":\"hold\"},{\"squad\":\"crete\",\"action\":\"hold\"},{\"squad\":\"volley\",\"action\":\"hold\"},{\"squad\":\"thessaly\",\"action\":\"hold\"},{\"squad\":\"odrysia\",\"action\":\"hold\"}],\"diplomacy\":{\"Claude\":\"neutral\",\"GPT\":\"neutral\",\"Gemini\":\"neutral\"},\"public_message\":\"White holds the Central Heights crest. No descent this turn. Pact stands: neutral, no first strike through t=450, one full public turn of notice, self-defence immediate. I will announce any descent a full turn ahead and keep to x=520-660. No armies in sight.\",\"private_messages\":{\"Claude\":\"No sighting of Blue on the West Plateau or anywhere else. Your rider near (648,566) is outside my vision. Holding the crest; I will not enter your southern lowland. Any descent stays in x=520-660 and gets a full turn of notice.\",\"GPT\":\"Matched. Your eye at (780,830) is clear of my crest. Holding this turn, north of the cliff. I will give a full turn of notice before descending, and that move stays in x=520-660, west of your main force.\",\"Gemini\":\"Matched. I stay on the crest inside x=520-660 and will not use your lane. Your t=275-300 descent through x=440-500, z=640-720 is clear from me. All quiet on the western slope.\"},\"notes_to_self\":\"T10 t=225 HOLD crest. Neutral all. Ring 660→580. Ranges: crete 235 ~burn t439, thessaly 233 t440, volley 206 t461, hero 198 t475, sarissa 187 t488, odrysia 186 t489. No LOS. GPT scout last (730,830)→(780,830); main claimed (685,640) east of lane. Claude rider claimed (648,566) unseen, army south of centre. Gemini West Plateau, drop t=275-300 x=440-500 z=640-720. Pact through t=450 then 1 public turn notice. If hit: that one enemy same turn, fight in place, no chase. T17 t=400 nudge crete+thessaly ~30m inward, stay high, N of cliff z~780. Descent ~t=470 x=520-660 only, announce 1 turn prior. Avoid Claude south and Gemini west. Focus: heroes, elephants, champions, ranged. Losses 0.\",\"explanation\":\"Grok stands the whole army on the Central Heights crest while the ring is still hundreds of metres out. The truce stays neutral, Alexander guards the pikes, and the south and west lanes are left to the neighbours who claimed them.\"}",
+   "seconds": 142.6,
+   "error": null,
+   "usage": {
+    "total_cost_usd": 0.02556052,
+    "usage": {
+     "input_tokens": 7985,
+     "cache_read_input_tokens": 1536,
+     "cache_creation_input_tokens": 0,
+     "output_tokens": 9740,
+     "reasoning_tokens": 9114,
+     "total_tokens": 19261
+    },
+    "num_turns": 1,
+    "modelUsage": {
+     "grok-4.7-build": {
+      "inputTokens": 7985,
+      "outputTokens": 9740,
+      "cacheReadInputTokens": 1536,
+      "cacheCreationInputTokens": 0,
+      "modelCalls": 1,
+      "costUSD": 0.02556052
+     }
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "guard",
+    "protect": "sarissa"
+   },
+   {
+    "squad": "sarissa",
+    "action": "hold"
+   },
+   {
+    "squad": "crete",
+    "action": "hold"
+   },
+   {
+    "squad": "volley",
+    "action": "hold"
+   },
+   {
+    "squad": "thessaly",
+    "action": "hold"
+   },
+   {
+    "squad": "odrysia",
+    "action": "hold"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "GPT": "neutral",
+   "Gemini": "neutral"
+  },
+  "public_message": "White holds the Central Heights crest. No descent this turn. Pact stands: neutral, no first strike through t=450, one full public turn of notice, self-defence immediate. I will announce any descent a full turn ahead and keep to x=520-660. No armies in sight.",
+  "private_messages": {
+   "Claude": "No sighting of Blue on the West Plateau or anywhere else. Your rider near (648,566) is outside my vision. Holding the crest; I will not enter your southern lowland. Any descent stays in x=520-660 and gets a full turn of notice.",
+   "GPT": "Matched. Your eye at (780,830) is clear of my crest. Holding this turn, north of the cliff. I will give a full turn of notice before descending, and that move stays in x=520-660, west of your main force.",
+   "Gemini": "Matched. I stay on the crest inside x=520-660 and will not use your lane. Your t=275-300 descent through x=440-500, z=640-720 is clear from me. All quiet on the western slope."
+  },
+  "notes_to_self": "T10 t=225 HOLD crest. Neutral all. Ring 660→580. Ranges: crete 235 ~burn t439, thessaly 233 t440, volley 206 t461, hero 198 t475, sarissa 187 t488, odrysia 186 t489. No LOS. GPT scout last (730,830)→(780,830); main claimed (685,640) east of lane. Claude rider claimed (648,566) unseen, army south of centre. Gemini West Plateau, drop t=275-300 x=440-500 z=640-720. Pact through t=450 then 1 public turn notice. If hit: that one enemy same turn, fight in place, no chase. T17 t=400 nudge crete+thessaly ~30m inward, stay high, N of cliff z~780. Descent ~t=470 x=520-660 only, announce 1 turn prior. Avoid Claude south and Gemini west. Focus: heroes, elephants, champions, ranged. Losses 0.",
+  "explanation": "Grok stands the whole army on the Central Heights crest while the ring is still hundreds of metres out. The truce stays neutral, Alexander guards the pikes, and the south and west lanes are left to the neighbours who claimed them."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "guard",
+    "protect": "sarissa"
+   },
+   {
+    "squad": "sarissa",
+    "action": "hold"
+   },
+   {
+    "squad": "crete",
+    "action": "hold"
+   },
+   {
+    "squad": "volley",
+    "action": "hold"
+   },
+   {
+    "squad": "thessaly",
+    "action": "hold"
+   },
+   {
+    "squad": "odrysia",
+    "action": "hold"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "GPT": "neutral",
+   "Gemini": "neutral"
+  },
+  "public_message": "White holds the Central Heights crest. No descent this turn. Pact stands: neutral, no first strike through t=450, one full public turn of notice, self-defence immediate. I will announce any descent a full turn ahead and keep to x=520-660. No armies in sight.",
+  "private_messages": {
+   "Claude": "No sighting of Blue on the West Plateau or anywhere else. Your rider near (648,566) is outside my vision. Holding the crest; I will not enter your southern lowland. Any descent stays in x=520-660 and gets a full turn of notice.",
+   "GPT": "Matched. Your eye at (780,830) is clear of my crest. Holding this turn, north of the cliff. I will give a full turn of notice before descending, and that move stays in x=520-660, west of your main force.",
+   "Gemini": "Matched. I stay on the crest inside x=520-660 and will not use your lane. Your t=275-300 descent through x=440-500, z=640-720 is clear from me. All quiet on the western slope."
+  },
+  "notes_to_self": "T10 t=225 HOLD crest. Neutral all. Ring 660→580. Ranges: crete 235 ~burn t439, thessaly 233 t440, volley 206 t461, hero 198 t475, sarissa 187 t488, odrysia 186 t489. No LOS. GPT scout last (730,830)→(780,830); main claimed (685,640) east of lane. Claude rider claimed (648,566) unseen, army south of centre. Gemini West Plateau, drop t=275-300 x=440-500 z=640-720. Pact through t=450 then 1 public turn notice. If hit: that one enemy same turn, fight in place, no chase. T17 t=400 nudge crete+thessaly ~30m inward, stay high, N of cliff z~780. Descent ~t=470 x=520-660 only, announce 1 turn prior. Avoid Claude south and Gemini west. Focus: heroes, elephants, champions, ranged. Losses 0.",
+  "explanation": "Grok stands the whole army on the Central Heights crest while the ring is still hundreds of metres out. The truce stays neutral, Alexander guards the pikes, and the south and west lanes are left to the neighbours who claimed them."
+ },
+ "warnings": []
+}

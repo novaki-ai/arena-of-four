@@ -1,0 +1,85 @@
+{
+ "commander": "Grok",
+ "model": "Grok 4.7 · xhigh · Grok Build CLI",
+ "stage": "4-turn-20",
+ "attempts": [
+  {
+   "text": "{\"orders\":[{\"squad\":\"hero\",\"action\":\"move\",\"to\":[560,650],\"stance\":\"standground\"}],\"diplomacy\":{\"Claude\":\"ally\",\"GPT\":\"enemy\",\"Gemini\":\"ally\"},\"public_message\":\"White holds the west rim inside the fire. Pact with Orange unchanged. I am not opening a fight with Blue.\",\"private_messages\":{\"Claude\":\"Only Alexander is alive (75%), no archers left. Charging Blue's elephants just hands them the hero. I am holding the west rim inside the ring and will not strike Orange. Pact stands. Your Blue hit is yours this turn; I will not warn them and I will not block you.\",\"Gemini\":\"White is not attacking you. Alexander is holding the west rim, clear of your standground. Green remains my enemy. I will not enter the centre.\"},\"notes_to_self\":\"T20 t625 ONLY Alex 75%. Moving (576,685)->(560,650) standground, r~81 from (640,640), ~80m west of Gemini. Ring stays 90; never post past r=85. Seen: Gemini c(641,650) 3 eles+3 comp+6 sword+archers+2 surgeons+hero 88% THE army; Claude a(635,636) only ~12 spears visible (not 31); GPT b(656,718) 8 archers+Ptolemy 92% on NE rim. Diplo: ally Claude, ally Gemini, enemy GPT. Did NOT flip Blue: 1 hero into eles dies, and hero value loses to any army. Let Orange ambush bleed Blue. Next: if a blob closes <70m, orbit on r=75-80 away, never cross centre. Attack only a lone hero or <3 isolated wounded. Do not chase GPT archers. If Claude gives notice of breaking pact, pre-move opposite. Win=last alive.\",\"explanation\":\"Alexander is the only unit left, so charging Blue's elephants would throw away the last chance of winning. He steps west to the inner rim, stays allied with Orange and Blue, and leaves Orange's ambush to bleed Blue while Green stays the only enemy.\"}",
+   "seconds": 334.5,
+   "error": null,
+   "usage": {
+    "total_cost_usd": 0.04338808,
+    "usage": {
+     "input_tokens": 8195,
+     "cache_read_input_tokens": 1536,
+     "cache_creation_input_tokens": 0,
+     "output_tokens": 18409,
+     "reasoning_tokens": 17943,
+     "total_tokens": 28140
+    },
+    "num_turns": 1,
+    "modelUsage": {
+     "grok-4.7-build": {
+      "inputTokens": 8195,
+      "outputTokens": 18409,
+      "cacheReadInputTokens": 1536,
+      "cacheCreationInputTokens": 0,
+      "modelCalls": 1,
+      "costUSD": 0.04338808
+     }
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     560,
+     650
+    ],
+    "stance": "standground"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "ally",
+   "GPT": "enemy",
+   "Gemini": "ally"
+  },
+  "public_message": "White holds the west rim inside the fire. Pact with Orange unchanged. I am not opening a fight with Blue.",
+  "private_messages": {
+   "Claude": "Only Alexander is alive (75%), no archers left. Charging Blue's elephants just hands them the hero. I am holding the west rim inside the ring and will not strike Orange. Pact stands. Your Blue hit is yours this turn; I will not warn them and I will not block you.",
+   "Gemini": "White is not attacking you. Alexander is holding the west rim, clear of your standground. Green remains my enemy. I will not enter the centre."
+  },
+  "notes_to_self": "T20 t625 ONLY Alex 75%. Moving (576,685)->(560,650) standground, r~81 from (640,640), ~80m west of Gemini. Ring stays 90; never post past r=85. Seen: Gemini c(641,650) 3 eles+3 comp+6 sword+archers+2 surgeons+hero 88% THE army; Claude a(635,636) only ~12 spears visible (not 31); GPT b(656,718) 8 archers+Ptolemy 92% on NE rim. Diplo: ally Claude, ally Gemini, enemy GPT. Did NOT flip Blue: 1 hero into eles dies, and hero value loses to any army. Let Orange ambush bleed Blue. Next: if a blob closes <70m, orbit on r=75-80 away, never cross centre. Attack only a lone hero or <3 isolated wounded. Do not chase GPT archers. If Claude gives notice of breaking pact, pre-move opposite. Win=last alive.",
+  "explanation": "Alexander is the only unit left, so charging Blue's elephants would throw away the last chance of winning. He steps west to the inner rim, stays allied with Orange and Blue, and leaves Orange's ambush to bleed Blue while Green stays the only enemy."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     560,
+     650
+    ],
+    "stance": "standground"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "ally",
+   "GPT": "enemy",
+   "Gemini": "ally"
+  },
+  "public_message": "White holds the west rim inside the fire. Pact with Orange unchanged. I am not opening a fight with Blue.",
+  "private_messages": {
+   "Claude": "Only Alexander is alive (75%), no archers left. Charging Blue's elephants just hands them the hero. I am holding the west rim inside the ring and will not strike Orange. Pact stands. Your Blue hit is yours this turn; I will not warn them and I will not block you.",
+   "Gemini": "White is not attacking you. Alexander is holding the west rim, clear of your standground. Green remains my enemy. I will not enter the centre."
+  },
+  "notes_to_self": "T20 t625 ONLY Alex 75%. Moving (576,685)->(560,650) standground, r~81 from (640,640), ~80m west of Gemini. Ring stays 90; never post past r=85. Seen: Gemini c(641,650) 3 eles+3 comp+6 sword+archers+2 surgeons+hero 88% THE army; Claude a(635,636) only ~12 spears visible (not 31); GPT b(656,718) 8 archers+Ptolemy 92% on NE rim. Diplo: ally Claude, ally Gemini, enemy GPT. Did NOT flip Blue: 1 hero into eles dies, and hero value loses to any army. Let Orange ambush bleed Blue. Next: if a blob closes <70m, orbit on r=75-80 away, never cross centre. Attack only a lone hero or <3 isolated wounded. Do not chase GPT archers. If Claude gives notice of breaking pact, pre-move opposite. Win=last alive.",
+  "explanation": "Alexander is the only unit left, so charging Blue's elephants would throw away the last chance of winning. He steps west to the inner rim, stays allied with Orange and Blue, and leaves Orange's ambush to bleed Blue while Green stays the only enemy."
+ },
+ "warnings": []
+}

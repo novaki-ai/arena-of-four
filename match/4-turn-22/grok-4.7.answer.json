@@ -1,0 +1,87 @@
+{
+ "commander": "Grok",
+ "model": "Grok 4.7 · xhigh · Grok Build CLI",
+ "stage": "4-turn-22",
+ "attempts": [
+  {
+   "text": "{\"orders\":[{\"squad\":\"hero\",\"action\":\"move\",\"to\":[579,683],\"stance\":\"standground\"}],\"diplomacy\":{\"Claude\":\"ally\",\"GPT\":\"enemy\",\"Gemini\":\"ally\"},\"public_message\":\"Orange and Blue stay allies. White will not dive the elephants or the archer ball. If Green is still the intact stack on the north rim, that stack decides t=800. I only strike a broken, isolated unit.\",\"private_messages\":{\"Claude\":\"Pact holds. I will not attack your javelineer. One hero at 75% dies to the elephant pack, and a dead Alexander scores zero. I am moving up the west rim to watch, and I will only hit a lone wounded unit.\",\"Gemini\":\"Ally holds. I am not charging your elephants or cavalry. Keep pressure on Green's archers on the north rim. If they break, I cut stragglers from the west. Do not turn your cavalry onto me.\",\"GPT\":\"If you are setting White neutral, do it. I am not walking into the archers this turn. Shooting me still leaves Blue's value on the field; point your shots at whatever actually reaches you.\"},\"notes_to_self\":\"T22 t725. Alex 75% (575,593)->move (579,683) standground. r~75, ~85m from GPT last (656,718). Ring fixed 90; stay r<=80. Saw Gemini at 73m on T21 and cannot see those spots now, so they moved; Gemini says eles+cav went N onto GPT. Only visible: Claude elite jav 100% (630,591), ally, do not touch. Diplo ally/ally/enemy so the peace-skip cannot jump to t=800. Value 375 if HP-scaled, else 500 flat; either way death is 0. T775: attack only a lone wounded hero or <=2 isolated units within ~45m with no ele/cav/archer ball; if archers close under 65m, retreat SW to (575,600); if Claude gives pact-break notice, run opposite. Never center, never r>85, never chase the ball.\",\"explanation\":\"Alexander is the last white unit, so he cannot trade into elephants or eight archers. He steps up the west side of the ring, about 85 m from Green's last position and still 15 m inside the fire, to see who is left standing. The Orange javelineer is left alone, and only an already broken, isolated unit is worth a strike.\"}",
+   "seconds": 384.3,
+   "error": null,
+   "usage": {
+    "total_cost_usd": 0.05186088,
+    "usage": {
+     "input_tokens": 8163,
+     "cache_read_input_tokens": 1536,
+     "cache_creation_input_tokens": 0,
+     "output_tokens": 22573,
+     "reasoning_tokens": 22026,
+     "total_tokens": 32272
+    },
+    "num_turns": 1,
+    "modelUsage": {
+     "grok-4.7-build": {
+      "inputTokens": 8163,
+      "outputTokens": 22573,
+      "cacheReadInputTokens": 1536,
+      "cacheCreationInputTokens": 0,
+      "modelCalls": 1,
+      "costUSD": 0.05186088
+     }
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     579,
+     683
+    ],
+    "stance": "standground"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "ally",
+   "GPT": "enemy",
+   "Gemini": "ally"
+  },
+  "public_message": "Orange and Blue stay allies. White will not dive the elephants or the archer ball. If Green is still the intact stack on the north rim, that stack decides t=800. I only strike a broken, isolated unit.",
+  "private_messages": {
+   "Claude": "Pact holds. I will not attack your javelineer. One hero at 75% dies to the elephant pack, and a dead Alexander scores zero. I am moving up the west rim to watch, and I will only hit a lone wounded unit.",
+   "Gemini": "Ally holds. I am not charging your elephants or cavalry. Keep pressure on Green's archers on the north rim. If they break, I cut stragglers from the west. Do not turn your cavalry onto me.",
+   "GPT": "If you are setting White neutral, do it. I am not walking into the archers this turn. Shooting me still leaves Blue's value on the field; point your shots at whatever actually reaches you."
+  },
+  "notes_to_self": "T22 t725. Alex 75% (575,593)->move (579,683) standground. r~75, ~85m from GPT last (656,718). Ring fixed 90; stay r<=80. Saw Gemini at 73m on T21 and cannot see those spots now, so they moved; Gemini says eles+cav went N onto GPT. Only visible: Claude elite jav 100% (630,591), ally, do not touch. Diplo ally/ally/enemy so the peace-skip cannot jump to t=800. Value 375 if HP-scaled, else 500 flat; either way death is 0. T775: attack only a lone wounded hero or <=2 isolated units within ~45m with no ele/cav/archer ball; if archers close under 65m, retreat SW to (575,600); if Claude gives pact-break notice, run opposite. Never center, never r>85, never chase the ball.",
+  "explanation": "Alexander is the last white unit, so he cannot trade into elephants or eight archers. He steps up the west side of the ring, about 85 m from Green's last position and still 15 m inside the fire, to see who is left standing. The Orange javelineer is left alone, and only an already broken, isolated unit is worth a strike."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     579,
+     683
+    ],
+    "stance": "standground"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "ally",
+   "GPT": "enemy",
+   "Gemini": "ally"
+  },
+  "public_message": "Orange and Blue stay allies. White will not dive the elephants or the archer ball. If Green is still the intact stack on the north rim, that stack decides t=800. I only strike a broken, isolated unit.",
+  "private_messages": {
+   "Claude": "Pact holds. I will not attack your javelineer. One hero at 75% dies to the elephant pack, and a dead Alexander scores zero. I am moving up the west rim to watch, and I will only hit a lone wounded unit.",
+   "Gemini": "Ally holds. I am not charging your elephants or cavalry. Keep pressure on Green's archers on the north rim. If they break, I cut stragglers from the west. Do not turn your cavalry onto me.",
+   "GPT": "If you are setting White neutral, do it. I am not walking into the archers this turn. Shooting me still leaves Blue's value on the field; point your shots at whatever actually reaches you."
+  },
+  "notes_to_self": "T22 t725. Alex 75% (575,593)->move (579,683) standground. r~75, ~85m from GPT last (656,718). Ring fixed 90; stay r<=80. Saw Gemini at 73m on T21 and cannot see those spots now, so they moved; Gemini says eles+cav went N onto GPT. Only visible: Claude elite jav 100% (630,591), ally, do not touch. Diplo ally/ally/enemy so the peace-skip cannot jump to t=800. Value 375 if HP-scaled, else 500 flat; either way death is 0. T775: attack only a lone wounded hero or <=2 isolated units within ~45m with no ele/cav/archer ball; if archers close under 65m, retreat SW to (575,600); if Claude gives pact-break notice, run opposite. Never center, never r>85, never chase the ball.",
+  "explanation": "Alexander is the last white unit, so he cannot trade into elephants or eight archers. He steps up the west side of the ring, about 85 m from Green's last position and still 15 m inside the fire, to see who is left standing. The Orange javelineer is left alone, and only an already broken, isolated unit is worth a strike."
+ },
+ "warnings": []
+}

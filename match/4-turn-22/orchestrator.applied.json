@@ -1,0 +1,205 @@
+{
+ "opus": {
+  "komut": [
+   {
+    "type": "attack",
+    "entities": [
+     7420
+    ],
+    "target": 7475,
+    "allowCapture": false,
+    "queued": false
+   },
+   {
+    "type": "attack-walk",
+    "entities": [
+     7420
+    ],
+    "x": 652.8333333333334,
+    "z": 708.1,
+    "queued": true,
+    "targetClasses": {
+     "attack": [
+      "Unit",
+      "Structure"
+     ]
+    },
+    "allowCapture": false
+   },
+   {
+    "type": "stance",
+    "entities": [
+     7420
+    ],
+    "name": "aggressive"
+   },
+   {
+    "type": "walk",
+    "entities": [
+     7419
+    ],
+    "x": 675.0,
+    "z": 585.0,
+    "queued": false
+   },
+   {
+    "type": "stance",
+    "entities": [
+     7419
+    ],
+    "name": "standground"
+   },
+   {
+    "type": "diplomacy",
+    "player": 2,
+    "to": "enemy"
+   },
+   {
+    "type": "diplomacy",
+    "player": 3,
+    "to": "enemy"
+   },
+   {
+    "type": "diplomacy",
+    "player": 4,
+    "to": "ally"
+   }
+  ],
+  "notlar": []
+ },
+ "astra": {
+  "komut": [
+   {
+    "type": "walk",
+    "entities": [
+     7472
+    ],
+    "x": 690.0,
+    "z": 585.0,
+    "queued": false
+   },
+   {
+    "type": "stance",
+    "entities": [
+     7472
+    ],
+    "name": "standground"
+   },
+   {
+    "type": "diplomacy",
+    "player": 1,
+    "to": "neutral"
+   },
+   {
+    "type": "diplomacy",
+    "player": 3,
+    "to": "neutral"
+   },
+   {
+    "type": "diplomacy",
+    "player": 4,
+    "to": "neutral"
+   }
+  ],
+  "notlar": []
+ },
+ "argon": {
+  "komut": [
+   {
+    "type": "attack",
+    "entities": [
+     7473,
+     7475
+    ],
+    "target": 8133,
+    "allowCapture": false,
+    "queued": false
+   },
+   {
+    "type": "attack-walk",
+    "entities": [
+     7473,
+     7475
+    ],
+    "x": 664.2333333333332,
+    "z": 718.3333333333334,
+    "queued": true,
+    "targetClasses": {
+     "attack": [
+      "Unit",
+      "Structure"
+     ]
+    },
+    "allowCapture": false
+   },
+   {
+    "type": "stance",
+    "entities": [
+     7473,
+     7475
+    ],
+    "name": "aggressive"
+   },
+   {
+    "type": "guard",
+    "entities": [
+     7505
+    ],
+    "target": 7473,
+    "queued": false
+   },
+   {
+    "type": "diplomacy",
+    "player": 1,
+    "to": "enemy"
+   },
+   {
+    "type": "diplomacy",
+    "player": 2,
+    "to": "enemy"
+   },
+   {
+    "type": "diplomacy",
+    "player": 4,
+    "to": "ally"
+   }
+  ],
+  "notlar": []
+ },
+ "grok": {
+  "komut": [
+   {
+    "type": "walk",
+    "entities": [
+     7546
+    ],
+    "x": 579.0,
+    "z": 683.0,
+    "queued": false
+   },
+   {
+    "type": "stance",
+    "entities": [
+     7546
+    ],
+    "name": "standground"
+   },
+   {
+    "type": "diplomacy",
+    "player": 1,
+    "to": "ally"
+   },
+   {
+    "type": "diplomacy",
+    "player": 2,
+    "to": "enemy"
+   },
+   {
+    "type": "diplomacy",
+    "player": 3,
+    "to": "ally"
+   }
+  ],
+  "notlar": []
+ }
+}

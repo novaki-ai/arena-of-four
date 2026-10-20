@@ -1,0 +1,130 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "4-turn-06",
+ "attempts": [
+  {
+   "text": "{\n  \"orders\": [\n    {\"squad\": \"hero\", \"action\": \"hold\"},\n    {\"squad\": \"Tusks\", \"action\": \"hold\"},\n    {\"squad\": \"Guard\", \"action\": \"hold\"},\n    {\"squad\": \"Bows\", \"action\": \"hold\"},\n    {\"squad\": \"Javelins\", \"action\": \"move\", \"to\": [695, 625]},\n    {\"squad\": \"Surgeon\", \"action\": \"guard\", \"protect\": \"Bows\"},\n    {\"squad\": \"Eye\", \"action\": \"move\", \"to\": [740, 880]}\n  ],\n  \"diplomacy\": {\n    \"Claude\": \"neutral\",\n    \"Gemini\": \"neutral\",\n    \"Grok\": \"neutral\"\n  },\n  \"public_message\": \"Green confirms mutual no-first-strike through t=450 with Orange, Blue, and White, then rolling neutrality with one full 25-second public turn of notice before initiating hostilities. Self-defense remains immediate. Our main army holds the central lowland; our scout stays off the Heights.\",\n  \"private_messages\": {\n    \"Claude\": \"Agreed on the truce. I propose z=600 as our provisional boundary: Green's main body north, Orange's south, with both leaving a gap. My southern troops are moving farther north now. We can revise the boundary together before the late shrink makes space tight.\",\n    \"Gemini\": \"Confirmed: our mutual extension runs through t=450, followed by rolling neutrality requiring one full public turn of notice before initiating hostilities.\",\n    \"Grok\": \"Confirmed through t=450 on those terms. Eye is returning along the eastern lowland to (740,880), staying east of the Heights and holding fire.\"\n  },\n  \"notes_to_self\": \"t125: All 52 units healthy; zero losses/kills. Main army holds central lowland inside final radius90. Javelins moving from (691,610) to (695,625) to improve southern clearance; healer guards Bows. Eye returning from (740,960) to (740,880), east of Heights. Claude cavalry visible (655,575); Grok cavalry last seen (664,828), no enemy main armies observed. Explicitly reconfirmed all three mutual truces through t450, then full25s public notice before initiating hostilities; immediate self-defense. Proposed provisional z600 boundary to Claude: Green north, Orange south, revisable before late shrink. Await acceptance; no permanent division agreed.\",\n  \"explanation\": \"The army remains healthy and positioned inside the final ring. Moving the javelins north creates more room for Orange's eventual approach, while the scout watches the eastern approach to the Heights. Confirming the truces preserves time to observe how the other armies reposition.\"\n}",
+   "seconds": 66.9,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 15101,
+     "cached_input_tokens": 9856,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 2666,
+     "reasoning_output_tokens": 2070
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "hold"
+   },
+   {
+    "squad": "Tusks",
+    "action": "hold"
+   },
+   {
+    "squad": "Guard",
+    "action": "hold"
+   },
+   {
+    "squad": "Bows",
+    "action": "hold"
+   },
+   {
+    "squad": "Javelins",
+    "action": "move",
+    "to": [
+     695,
+     625
+    ]
+   },
+   {
+    "squad": "Surgeon",
+    "action": "guard",
+    "protect": "Bows"
+   },
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     740,
+     880
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green confirms mutual no-first-strike through t=450 with Orange, Blue, and White, then rolling neutrality with one full 25-second public turn of notice before initiating hostilities. Self-defense remains immediate. Our main army holds the central lowland; our scout stays off the Heights.",
+  "private_messages": {
+   "Claude": "Agreed on the truce. I propose z=600 as our provisional boundary: Green's main body north, Orange's south, with both leaving a gap. My southern troops are moving farther north now. We can revise the boundary together before the late shrink makes space tight.",
+   "Gemini": "Confirmed: our mutual extension runs through t=450, followed by rolling neutrality requiring one full public turn of notice before initiating hostilities.",
+   "Grok": "Confirmed through t=450 on those terms. Eye is returning along the eastern lowland to (740,880), staying east of the Heights and holding fire."
+  },
+  "notes_to_self": "t125: All 52 units healthy; zero losses/kills. Main army holds central lowland inside final radius90. Javelins moving from (691,610) to (695,625) to improve southern clearance; healer guards Bows. Eye returning from (740,960) to (740,880), east of Heights. Claude cavalry visible (655,575); Grok cavalry last seen (664,828), no enemy main armies observed. Explicitly reconfirmed all three mutual truces through t450, then full25s public notice before initiating hostilities; immediate self-defense. Proposed provisional z600 boundary to Claude: Green north, Orange south, revisable before late shrink. Await acceptance; no permanent division agreed.",
+  "explanation": "The army remains healthy and positioned inside the final ring. Moving the javelins north creates more room for Orange's eventual approach, while the scout watches the eastern approach to the Heights. Confirming the truces preserves time to observe how the other armies reposition."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "hold"
+   },
+   {
+    "squad": "Tusks",
+    "action": "hold"
+   },
+   {
+    "squad": "Guard",
+    "action": "hold"
+   },
+   {
+    "squad": "Bows",
+    "action": "hold"
+   },
+   {
+    "squad": "Javelins",
+    "action": "move",
+    "to": [
+     695,
+     625
+    ]
+   },
+   {
+    "squad": "Surgeon",
+    "action": "guard",
+    "protect": "Bows"
+   },
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     740,
+     880
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green confirms mutual no-first-strike through t=450 with Orange, Blue, and White, then rolling neutrality with one full 25-second public turn of notice before initiating hostilities. Self-defense remains immediate. Our main army holds the central lowland; our scout stays off the Heights.",
+  "private_messages": {
+   "Claude": "Agreed on the truce. I propose z=600 as our provisional boundary: Green's main body north, Orange's south, with both leaving a gap. My southern troops are moving farther north now. We can revise the boundary together before the late shrink makes space tight.",
+   "Gemini": "Confirmed: our mutual extension runs through t=450, followed by rolling neutrality requiring one full public turn of notice before initiating hostilities.",
+   "Grok": "Confirmed through t=450 on those terms. Eye is returning along the eastern lowland to (740,880), staying east of the Heights and holding fire."
+  },
+  "notes_to_self": "t125: All 52 units healthy; zero losses/kills. Main army holds central lowland inside final radius90. Javelins moving from (691,610) to (695,625) to improve southern clearance; healer guards Bows. Eye returning from (740,960) to (740,880), east of Heights. Claude cavalry visible (655,575); Grok cavalry last seen (664,828), no enemy main armies observed. Explicitly reconfirmed all three mutual truces through t450, then full25s public notice before initiating hostilities; immediate self-defense. Proposed provisional z600 boundary to Claude: Green north, Orange south, revisable before late shrink. Await acceptance; no permanent division agreed.",
+  "explanation": "The army remains healthy and positioned inside the final ring. Moving the javelins north creates more room for Orange's eventual approach, while the scout watches the eastern approach to the Heights. Confirming the truces preserves time to observe how the other armies reposition."
+ },
+ "warnings": []
+}

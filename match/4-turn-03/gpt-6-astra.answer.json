@@ -1,0 +1,162 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "4-turn-03",
+ "attempts": [
+  {
+   "text": "{\n  \"orders\": [\n    {\"squad\": \"hero\", \"action\": \"move\", \"to\": [700, 625]},\n    {\"squad\": \"Tusks\", \"action\": \"move\", \"to\": [670, 650]},\n    {\"squad\": \"Guard\", \"action\": \"move\", \"to\": [685, 645]},\n    {\"squad\": \"Bows\", \"action\": \"move\", \"to\": [705, 625]},\n    {\"squad\": \"Javelins\", \"action\": \"move\", \"to\": [690, 610]},\n    {\"squad\": \"Surgeon\", \"action\": \"guard\", \"protect\": \"Bows\"},\n    {\"squad\": \"Eye\", \"action\": \"move\", \"to\": [690, 910]}\n  ],\n  \"diplomacy\": {\n    \"Claude\": \"neutral\",\n    \"Gemini\": \"neutral\",\n    \"Grok\": \"neutral\"\n  },\n  \"public_message\": \"Green remains neutral to all, with existing truces and full-turn public notice unchanged. Our main force is consolidating in the lowlands east of centre. One mounted scout is circling the northeast perimeter of Central Heights, staying off the ridge.\",\n  \"private_messages\": {\n    \"Claude\": \"No additional contacts in the eastern lowlands. We are consolidating east of centre, clear of Little Hill. Our mutual neutrality through t=450, then rolling neutrality with full-turn notice, remains confirmed.\",\n    \"Gemini\": \"No White units sighted yet. Our rider is checking the northeast perimeter of Central Heights; I will pass along useful sightings.\",\n    \"Grok\": \"Our lone rider is moving toward (690,910), on the lowland northeast perimeter and off your ridge. This is reconnaissance only; our neutrality and no-first-strike agreement remain unchanged.\"\n  },\n  \"notes_to_self\": \"At t=50: full army healthy, no losses or kills, no enemies currently visible. All neutral. Truces through t=300 with full 25-second public notice before hostility; Claude extension through t=450, then rolling neutrality with notice. Claude holds Little Hill; Gemini West Plateau around (255,715); Grok ridge x520-640,z800-900. Ordered main force inward around (695,630), inside final radius90, with elephants/spears northwest and healer guarding Bows. Eye ordered (690,910) to inspect northeast perimeter without entering ridge; verify actual path and sightings. Last observed enemy remains Claude scout (666,589), turn2. Preserve force and gather army compositions.\",\n  \"explanation\": \"Moving the main army inside the eventual final ring secures room to manoeuvre while keeping its ranged units behind the elephants and spearmen. The mounted scout checks the northern approach while respecting the agreed ridge boundary.\"\n}",
+   "seconds": 60.4,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 20035,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 2424,
+     "reasoning_output_tokens": 1827
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     700,
+     625
+    ]
+   },
+   {
+    "squad": "Tusks",
+    "action": "move",
+    "to": [
+     670,
+     650
+    ]
+   },
+   {
+    "squad": "Guard",
+    "action": "move",
+    "to": [
+     685,
+     645
+    ]
+   },
+   {
+    "squad": "Bows",
+    "action": "move",
+    "to": [
+     705,
+     625
+    ]
+   },
+   {
+    "squad": "Javelins",
+    "action": "move",
+    "to": [
+     690,
+     610
+    ]
+   },
+   {
+    "squad": "Surgeon",
+    "action": "guard",
+    "protect": "Bows"
+   },
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     690,
+     910
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green remains neutral to all, with existing truces and full-turn public notice unchanged. Our main force is consolidating in the lowlands east of centre. One mounted scout is circling the northeast perimeter of Central Heights, staying off the ridge.",
+  "private_messages": {
+   "Claude": "No additional contacts in the eastern lowlands. We are consolidating east of centre, clear of Little Hill. Our mutual neutrality through t=450, then rolling neutrality with full-turn notice, remains confirmed.",
+   "Gemini": "No White units sighted yet. Our rider is checking the northeast perimeter of Central Heights; I will pass along useful sightings.",
+   "Grok": "Our lone rider is moving toward (690,910), on the lowland northeast perimeter and off your ridge. This is reconnaissance only; our neutrality and no-first-strike agreement remain unchanged."
+  },
+  "notes_to_self": "At t=50: full army healthy, no losses or kills, no enemies currently visible. All neutral. Truces through t=300 with full 25-second public notice before hostility; Claude extension through t=450, then rolling neutrality with notice. Claude holds Little Hill; Gemini West Plateau around (255,715); Grok ridge x520-640,z800-900. Ordered main force inward around (695,630), inside final radius90, with elephants/spears northwest and healer guarding Bows. Eye ordered (690,910) to inspect northeast perimeter without entering ridge; verify actual path and sightings. Last observed enemy remains Claude scout (666,589), turn2. Preserve force and gather army compositions.",
+  "explanation": "Moving the main army inside the eventual final ring secures room to manoeuvre while keeping its ranged units behind the elephants and spearmen. The mounted scout checks the northern approach while respecting the agreed ridge boundary."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "move",
+    "to": [
+     700,
+     625
+    ]
+   },
+   {
+    "squad": "Tusks",
+    "action": "move",
+    "to": [
+     670,
+     650
+    ]
+   },
+   {
+    "squad": "Guard",
+    "action": "move",
+    "to": [
+     685,
+     645
+    ]
+   },
+   {
+    "squad": "Bows",
+    "action": "move",
+    "to": [
+     705,
+     625
+    ]
+   },
+   {
+    "squad": "Javelins",
+    "action": "move",
+    "to": [
+     690,
+     610
+    ]
+   },
+   {
+    "squad": "Surgeon",
+    "action": "guard",
+    "protect": "Bows"
+   },
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     690,
+     910
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green remains neutral to all, with existing truces and full-turn public notice unchanged. Our main force is consolidating in the lowlands east of centre. One mounted scout is circling the northeast perimeter of Central Heights, staying off the ridge.",
+  "private_messages": {
+   "Claude": "No additional contacts in the eastern lowlands. We are consolidating east of centre, clear of Little Hill. Our mutual neutrality through t=450, then rolling neutrality with full-turn notice, remains confirmed.",
+   "Gemini": "No White units sighted yet. Our rider is checking the northeast perimeter of Central Heights; I will pass along useful sightings.",
+   "Grok": "Our lone rider is moving toward (690,910), on the lowland northeast perimeter and off your ridge. This is reconnaissance only; our neutrality and no-first-strike agreement remain unchanged."
+  },
+  "notes_to_self": "At t=50: full army healthy, no losses or kills, no enemies currently visible. All neutral. Truces through t=300 with full 25-second public notice before hostility; Claude extension through t=450, then rolling neutrality with notice. Claude holds Little Hill; Gemini West Plateau around (255,715); Grok ridge x520-640,z800-900. Ordered main force inward around (695,630), inside final radius90, with elephants/spears northwest and healer guarding Bows. Eye ordered (690,910) to inspect northeast perimeter without entering ridge; verify actual path and sightings. Last observed enemy remains Claude scout (666,589), turn2. Preserve force and gather army compositions.",
+  "explanation": "Moving the main army inside the eventual final ring secures room to manoeuvre while keeping its ranged units behind the elephants and spearmen. The mounted scout checks the northern approach while respecting the agreed ridge boundary."
+ },
+ "warnings": []
+}

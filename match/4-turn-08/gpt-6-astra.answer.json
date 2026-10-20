@@ -1,0 +1,114 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "4-turn-08",
+ "attempts": [
+  {
+   "text": "{\n  \"orders\": [\n    {\"squad\": \"hero\", \"action\": \"hold\"},\n    {\"squad\": \"Tusks\", \"action\": \"hold\"},\n    {\"squad\": \"Guard\", \"action\": \"hold\"},\n    {\"squad\": \"Bows\", \"action\": \"hold\"},\n    {\"squad\": \"Javelins\", \"action\": \"hold\"},\n    {\"squad\": \"Surgeon\", \"action\": \"guard\", \"protect\": \"Bows\"},\n    {\"squad\": \"Eye\", \"action\": \"hold\"}\n  ],\n  \"diplomacy\": {\n    \"Claude\": \"neutral\",\n    \"Gemini\": \"neutral\",\n    \"Grok\": \"neutral\"\n  },\n  \"public_message\": \"Green maintains neutrality and the agreed ceasefire and notice terms. Our main army holds the central eastern lowland; our scout remains east of the Heights, holding fire.\",\n  \"private_messages\": {\n    \"Claude\": \"At t=175, Eye sees four full-health White Odrysian Skirmish Cavalry around (658,825). White's main army remains unseen; this is only a visible detachment, not an army count. Your cavalry is visible at (655,575). Agreed to revisit our provisional z=600 boundary around t=425.\",\n    \"Gemini\": \"At t=175 our scout sees four White Odrysian Skirmish Cavalry at (658,825), near the Heights. White's main army remains unseen. Green continues holding its existing central position.\",\n    \"Grok\": \"Eye holds at (730,830), in the eastern lowland and off the crest. Your four riders are visible nearby; we maintain neutrality and will keep the scout there this turn.\"\n  },\n  \"notes_to_self\": \"t175: All 52 units full health, zero losses/kills. Main army holds within final radius90: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guards Bows. Eye holds730830 east of Heights. Visible: White4 Odrysian Skirmish Cavalry658825; Orange1 Italic Cavalry655575, all full health. Enemy main armies unseen. All parties reaffirm no first strike through t450, then full25s public notice before initiating hostility; immediate self-defence permitted. Orange south/Green north of provisional z600 boundary; revisit t425, announce adjustments25s ahead. Blue says stationary West Plateau; White holds Heights; Orange holds Little Hill. Preserve strength and monitor forced approaches as ring contracts.\",\n  \"explanation\": \"Our main army is already positioned inside the final safe circle and remains undamaged. Holding preserves that position while the scout watches the Heights and shares precise, limited sightings to sustain the ceasefire.\"\n}",
+   "seconds": 38.4,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 20066,
+     "cached_input_tokens": 9856,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 1622,
+     "reasoning_output_tokens": 1034
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "hold"
+   },
+   {
+    "squad": "Tusks",
+    "action": "hold"
+   },
+   {
+    "squad": "Guard",
+    "action": "hold"
+   },
+   {
+    "squad": "Bows",
+    "action": "hold"
+   },
+   {
+    "squad": "Javelins",
+    "action": "hold"
+   },
+   {
+    "squad": "Surgeon",
+    "action": "guard",
+    "protect": "Bows"
+   },
+   {
+    "squad": "Eye",
+    "action": "hold"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green maintains neutrality and the agreed ceasefire and notice terms. Our main army holds the central eastern lowland; our scout remains east of the Heights, holding fire.",
+  "private_messages": {
+   "Claude": "At t=175, Eye sees four full-health White Odrysian Skirmish Cavalry around (658,825). White's main army remains unseen; this is only a visible detachment, not an army count. Your cavalry is visible at (655,575). Agreed to revisit our provisional z=600 boundary around t=425.",
+   "Gemini": "At t=175 our scout sees four White Odrysian Skirmish Cavalry at (658,825), near the Heights. White's main army remains unseen. Green continues holding its existing central position.",
+   "Grok": "Eye holds at (730,830), in the eastern lowland and off the crest. Your four riders are visible nearby; we maintain neutrality and will keep the scout there this turn."
+  },
+  "notes_to_self": "t175: All 52 units full health, zero losses/kills. Main army holds within final radius90: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guards Bows. Eye holds730830 east of Heights. Visible: White4 Odrysian Skirmish Cavalry658825; Orange1 Italic Cavalry655575, all full health. Enemy main armies unseen. All parties reaffirm no first strike through t450, then full25s public notice before initiating hostility; immediate self-defence permitted. Orange south/Green north of provisional z600 boundary; revisit t425, announce adjustments25s ahead. Blue says stationary West Plateau; White holds Heights; Orange holds Little Hill. Preserve strength and monitor forced approaches as ring contracts.",
+  "explanation": "Our main army is already positioned inside the final safe circle and remains undamaged. Holding preserves that position while the scout watches the Heights and shares precise, limited sightings to sustain the ceasefire."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "hold"
+   },
+   {
+    "squad": "Tusks",
+    "action": "hold"
+   },
+   {
+    "squad": "Guard",
+    "action": "hold"
+   },
+   {
+    "squad": "Bows",
+    "action": "hold"
+   },
+   {
+    "squad": "Javelins",
+    "action": "hold"
+   },
+   {
+    "squad": "Surgeon",
+    "action": "guard",
+    "protect": "Bows"
+   },
+   {
+    "squad": "Eye",
+    "action": "hold"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green maintains neutrality and the agreed ceasefire and notice terms. Our main army holds the central eastern lowland; our scout remains east of the Heights, holding fire.",
+  "private_messages": {
+   "Claude": "At t=175, Eye sees four full-health White Odrysian Skirmish Cavalry around (658,825). White's main army remains unseen; this is only a visible detachment, not an army count. Your cavalry is visible at (655,575). Agreed to revisit our provisional z=600 boundary around t=425.",
+   "Gemini": "At t=175 our scout sees four White Odrysian Skirmish Cavalry at (658,825), near the Heights. White's main army remains unseen. Green continues holding its existing central position.",
+   "Grok": "Eye holds at (730,830), in the eastern lowland and off the crest. Your four riders are visible nearby; we maintain neutrality and will keep the scout there this turn."
+  },
+  "notes_to_self": "t175: All 52 units full health, zero losses/kills. Main army holds within final radius90: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guards Bows. Eye holds730830 east of Heights. Visible: White4 Odrysian Skirmish Cavalry658825; Orange1 Italic Cavalry655575, all full health. Enemy main armies unseen. All parties reaffirm no first strike through t450, then full25s public notice before initiating hostility; immediate self-defence permitted. Orange south/Green north of provisional z600 boundary; revisit t425, announce adjustments25s ahead. Blue says stationary West Plateau; White holds Heights; Orange holds Little Hill. Preserve strength and monitor forced approaches as ring contracts.",
+  "explanation": "Our main army is already positioned inside the final safe circle and remains undamaged. Holding preserves that position while the scout watches the Heights and shares precise, limited sightings to sustain the ceasefire."
+ },
+ "warnings": []
+}

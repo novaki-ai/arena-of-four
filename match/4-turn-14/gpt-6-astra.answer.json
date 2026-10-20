@@ -1,0 +1,72 @@
+{
+ "commander": "GPT",
+ "model": "GPT-6 Astra · ultra · Codex",
+ "stage": "4-turn-14",
+ "attempts": [
+  {
+   "text": "{\n  \"orders\": [\n    {\n      \"squad\": \"Eye\",\n      \"action\": \"move\",\n      \"to\": [710, 680]\n    }\n  ],\n  \"diplomacy\": {\n    \"Claude\": \"neutral\",\n    \"Gemini\": \"neutral\",\n    \"Grok\": \"neutral\"\n  },\n  \"public_message\": \"Green holds around (680,640). Eye withdraws south along the eastern corridor to (710,680), clear of White's proposed northern stop. Neutral to all; no first strike through t=450, then one full 25-second turn of public notice before hostilities. Immediate self-defence reserved.\",\n  \"private_messages\": {\n    \"Claude\": \"Eye sees one White Odrysian Skirmish Cavalry at (647,813), full health. No main-body count available. Eye now returns to (710,680). Your announced (595,540) stop remains clear of our camp; we hold our side of z=600.\",\n    \"Gemini\": \"Western station acknowledged. Our main body stays around (680,640); Eye returns from the northeast to (710,680). No westward movement this turn.\",\n    \"Grok\": \"Eye is currently at (725,805) and now withdraws south to (710,680). Your proposed x580-640, z740-760 stop is clear of our camp. Please retain advance notice for descent and any subsequent approach.\"\n  },\n  \"notes_to_self\": \"t375: All 52 units full HP, zero losses/kills. Main unchanged: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guards Bows. Eye ordered725805->710680, destination radius81 inside final90 ring. Only visible White: one full-health skirmish cavalry647813; main roster unknown. All reciprocal neutral. Quiet advance may reach450. Pact: no first strike through450, then full25s public notice; immediate self-defence allowed. At450 reassess approaches and diplomacy before choosing any offensive notice. Orange plans595540, stays south600; Blue440-460/670-710; White crest542-642/z>=808, later announced stop580-640/740-760. Main centres inside final ring; watch formation spread.\",\n  \"explanation\": \"We preserve our central position and bring the scout inside the final ring. These orders remain safe if the quiet-turn rule advances directly to t=450, while maintaining the agreed notice period.\"\n}",
+   "seconds": 42.8,
+   "error": null,
+   "usage": {
+    "usage": {
+     "input_tokens": 20452,
+     "cached_input_tokens": 15744,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 1907,
+     "reasoning_output_tokens": 1374
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     710,
+     680
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green holds around (680,640). Eye withdraws south along the eastern corridor to (710,680), clear of White's proposed northern stop. Neutral to all; no first strike through t=450, then one full 25-second turn of public notice before hostilities. Immediate self-defence reserved.",
+  "private_messages": {
+   "Claude": "Eye sees one White Odrysian Skirmish Cavalry at (647,813), full health. No main-body count available. Eye now returns to (710,680). Your announced (595,540) stop remains clear of our camp; we hold our side of z=600.",
+   "Gemini": "Western station acknowledged. Our main body stays around (680,640); Eye returns from the northeast to (710,680). No westward movement this turn.",
+   "Grok": "Eye is currently at (725,805) and now withdraws south to (710,680). Your proposed x580-640, z740-760 stop is clear of our camp. Please retain advance notice for descent and any subsequent approach."
+  },
+  "notes_to_self": "t375: All 52 units full HP, zero losses/kills. Main unchanged: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guards Bows. Eye ordered725805->710680, destination radius81 inside final90 ring. Only visible White: one full-health skirmish cavalry647813; main roster unknown. All reciprocal neutral. Quiet advance may reach450. Pact: no first strike through450, then full25s public notice; immediate self-defence allowed. At450 reassess approaches and diplomacy before choosing any offensive notice. Orange plans595540, stays south600; Blue440-460/670-710; White crest542-642/z>=808, later announced stop580-640/740-760. Main centres inside final ring; watch formation spread.",
+  "explanation": "We preserve our central position and bring the scout inside the final ring. These orders remain safe if the quiet-turn rule advances directly to t=450, while maintaining the agreed notice period."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "Eye",
+    "action": "move",
+    "to": [
+     710,
+     680
+    ]
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "Gemini": "neutral",
+   "Grok": "neutral"
+  },
+  "public_message": "Green holds around (680,640). Eye withdraws south along the eastern corridor to (710,680), clear of White's proposed northern stop. Neutral to all; no first strike through t=450, then one full 25-second turn of public notice before hostilities. Immediate self-defence reserved.",
+  "private_messages": {
+   "Claude": "Eye sees one White Odrysian Skirmish Cavalry at (647,813), full health. No main-body count available. Eye now returns to (710,680). Your announced (595,540) stop remains clear of our camp; we hold our side of z=600.",
+   "Gemini": "Western station acknowledged. Our main body stays around (680,640); Eye returns from the northeast to (710,680). No westward movement this turn.",
+   "Grok": "Eye is currently at (725,805) and now withdraws south to (710,680). Your proposed x580-640, z740-760 stop is clear of our camp. Please retain advance notice for descent and any subsequent approach."
+  },
+  "notes_to_self": "t375: All 52 units full HP, zero losses/kills. Main unchanged: Tusks672650, Guard685645, Bows676625, Javelins695625, hero684625; Surgeon guards Bows. Eye ordered725805->710680, destination radius81 inside final90 ring. Only visible White: one full-health skirmish cavalry647813; main roster unknown. All reciprocal neutral. Quiet advance may reach450. Pact: no first strike through450, then full25s public notice; immediate self-defence allowed. At450 reassess approaches and diplomacy before choosing any offensive notice. Orange plans595540, stays south600; Blue440-460/670-710; White crest542-642/z>=808, later announced stop580-640/740-760. Main centres inside final ring; watch formation spread.",
+  "explanation": "We preserve our central position and bring the scout inside the final ring. These orders remain safe if the quiet-turn rule advances directly to t=450, while maintaining the agreed notice period."
+ },
+ "warnings": []
+}

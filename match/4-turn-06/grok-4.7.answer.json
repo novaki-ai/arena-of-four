@@ -1,0 +1,119 @@
+{
+ "commander": "Grok",
+ "model": "Grok 4.7 · xhigh · Grok Build CLI",
+ "stage": "4-turn-06",
+ "attempts": [
+  {
+   "text": "{\"orders\":[{\"squad\":\"hero\",\"action\":\"guard\",\"protect\":\"sarissa\"},{\"squad\":\"sarissa\",\"action\":\"hold\"},{\"squad\":\"crete\",\"action\":\"hold\"},{\"squad\":\"volley\",\"action\":\"hold\"},{\"squad\":\"thessaly\",\"action\":\"hold\"},{\"squad\":\"odrysia\",\"action\":\"hold\"}],\"diplomacy\":{\"Claude\":\"neutral\",\"GPT\":\"neutral\",\"Gemini\":\"neutral\"},\"public_message\":\"White locks the same terms with Orange, Green, and Blue: mutual no-first-strike through t=450, then rolling neutrality that ends only after one full public turn of notice. An attack on us is answered the same turn. We hold Central Heights, keep every unit on the crest, and will not pursue scouts that stay in the lowland.\",\"private_messages\":{\"Claude\":\"Confirmed on the same terms through t=450 and one full public turn of notice after that. Crest only; your lowland scout will not be pursued.\",\"GPT\":\"Confirmed through t=450 with full-turn notice after. We will not engage your rider while it stays off the crest on its way north.\",\"Gemini\":\"Confirmed through t=450 with full-turn notice after. We remain on the Central Heights crest. Your stationary West Plateau posture is noted.\"},\"notes_to_self\":\"T6 t=125. Truce LOCKED with Claude, GPT, Gemini: no first strike to t=450, then 1 full public turn of notice. If attacked, set enemy same turn and fight. HOLD crest, no chase, no lowland. Posts: sarissa (568,812) S lip; crete (545,855); volley (600,842); thessaly (508,832) W gap; odrysia (658,825) E gap; hero guards sarissa. Intel: GPT camel last (740,841) t5, claims N to (740,960) off crest. Claude scout ~(670,600) lowland. Gemini claims West Plateau, no scouts (unverified). Ring: 900 to t=150, 420 at t=300, 220 at t=450, 90 at t=600. Dists 186-235m. At t=400 move ONLY crete and thessaly ~30m toward centre, stay on ^ north of cliff z~780. Others already inside 210m; do not walk them off the crest. Later focus: heroes, elephants, champions, ranged. Losses 0.\",\"explanation\":\"The truce is now explicit with all three commanders through t=450, so the army holds the Central Heights crest and does not chase the Ptolemaic rider last seen in the eastern lowland. Pikes stay on the southern lip, archers remain uphill, and the cavalry watch the side gaps. Only the two outermost squads need a short step toward the centre near t=400, before the ring shrinks to 220 m.\"}",
+   "seconds": 160.4,
+   "error": null,
+   "usage": {
+    "total_cost_usd": 0.02815812,
+    "usage": {
+     "input_tokens": 7923,
+     "cache_read_input_tokens": 1536,
+     "cache_creation_input_tokens": 0,
+     "output_tokens": 11034,
+     "reasoning_tokens": 10397,
+     "total_tokens": 20493
+    },
+    "num_turns": 1,
+    "modelUsage": {
+     "grok-4.7-build": {
+      "inputTokens": 7923,
+      "outputTokens": 11034,
+      "cacheReadInputTokens": 1536,
+      "cacheCreationInputTokens": 0,
+      "modelCalls": 1,
+      "costUSD": 0.02815812
+     }
+    }
+   }
+  }
+ ],
+ "parsed": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "guard",
+    "protect": "sarissa"
+   },
+   {
+    "squad": "sarissa",
+    "action": "hold"
+   },
+   {
+    "squad": "crete",
+    "action": "hold"
+   },
+   {
+    "squad": "volley",
+    "action": "hold"
+   },
+   {
+    "squad": "thessaly",
+    "action": "hold"
+   },
+   {
+    "squad": "odrysia",
+    "action": "hold"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "GPT": "neutral",
+   "Gemini": "neutral"
+  },
+  "public_message": "White locks the same terms with Orange, Green, and Blue: mutual no-first-strike through t=450, then rolling neutrality that ends only after one full public turn of notice. An attack on us is answered the same turn. We hold Central Heights, keep every unit on the crest, and will not pursue scouts that stay in the lowland.",
+  "private_messages": {
+   "Claude": "Confirmed on the same terms through t=450 and one full public turn of notice after that. Crest only; your lowland scout will not be pursued.",
+   "GPT": "Confirmed through t=450 with full-turn notice after. We will not engage your rider while it stays off the crest on its way north.",
+   "Gemini": "Confirmed through t=450 with full-turn notice after. We remain on the Central Heights crest. Your stationary West Plateau posture is noted."
+  },
+  "notes_to_self": "T6 t=125. Truce LOCKED with Claude, GPT, Gemini: no first strike to t=450, then 1 full public turn of notice. If attacked, set enemy same turn and fight. HOLD crest, no chase, no lowland. Posts: sarissa (568,812) S lip; crete (545,855); volley (600,842); thessaly (508,832) W gap; odrysia (658,825) E gap; hero guards sarissa. Intel: GPT camel last (740,841) t5, claims N to (740,960) off crest. Claude scout ~(670,600) lowland. Gemini claims West Plateau, no scouts (unverified). Ring: 900 to t=150, 420 at t=300, 220 at t=450, 90 at t=600. Dists 186-235m. At t=400 move ONLY crete and thessaly ~30m toward centre, stay on ^ north of cliff z~780. Others already inside 210m; do not walk them off the crest. Later focus: heroes, elephants, champions, ranged. Losses 0.",
+  "explanation": "The truce is now explicit with all three commanders through t=450, so the army holds the Central Heights crest and does not chase the Ptolemaic rider last seen in the eastern lowland. Pikes stay on the southern lip, archers remain uphill, and the cavalry watch the side gaps. Only the two outermost squads need a short step toward the centre near t=400, before the ring shrinks to 220 m."
+ },
+ "applied": {
+  "orders": [
+   {
+    "squad": "hero",
+    "action": "guard",
+    "protect": "sarissa"
+   },
+   {
+    "squad": "sarissa",
+    "action": "hold"
+   },
+   {
+    "squad": "crete",
+    "action": "hold"
+   },
+   {
+    "squad": "volley",
+    "action": "hold"
+   },
+   {
+    "squad": "thessaly",
+    "action": "hold"
+   },
+   {
+    "squad": "odrysia",
+    "action": "hold"
+   }
+  ],
+  "diplomacy": {
+   "Claude": "neutral",
+   "GPT": "neutral",
+   "Gemini": "neutral"
+  },
+  "public_message": "White locks the same terms with Orange, Green, and Blue: mutual no-first-strike through t=450, then rolling neutrality that ends only after one full public turn of notice. An attack on us is answered the same turn. We hold Central Heights, keep every unit on the crest, and will not pursue scouts that stay in the lowland.",
+  "private_messages": {
+   "Claude": "Confirmed on the same terms through t=450 and one full public turn of notice after that. Crest only; your lowland scout will not be pursued.",
+   "GPT": "Confirmed through t=450 with full-turn notice after. We will not engage your rider while it stays off the crest on its way north.",
+   "Gemini": "Confirmed through t=450 with full-turn notice after. We remain on the Central Heights crest. Your stationary West Plateau posture is noted."
+  },
+  "notes_to_self": "T6 t=125. Truce LOCKED with Claude, GPT, Gemini: no first strike to t=450, then 1 full public turn of notice. If attacked, set enemy same turn and fight. HOLD crest, no chase, no lowland. Posts: sarissa (568,812) S lip; crete (545,855); volley (600,842); thessaly (508,832) W gap; odrysia (658,825) E gap; hero guards sarissa. Intel: GPT camel last (740,841) t5, claims N to (740,960) off crest. Claude scout ~(670,600) lowland. Gemini claims West Plateau, no scouts (unverified). Ring: 900 to t=150, 420 at t=300, 220 at t=450, 90 at t=600. Dists 186-235m. At t=400 move ONLY crete and thessaly ~30m toward centre, stay on ^ north of cliff z~780. Others already inside 210m; do not walk them off the crest. Later focus: heroes, elephants, champions, ranged. Losses 0.",
+  "explanation": "The truce is now explicit with all three commanders through t=450, so the army holds the Central Heights crest and does not chase the Ptolemaic rider last seen in the eastern lowland. Pikes stay on the southern lip, archers remain uphill, and the cavalry watch the side gaps. Only the two outermost squads need a short step toward the centre near t=400, before the ring shrinks to 220 m."
+ },
+ "warnings": []
+}

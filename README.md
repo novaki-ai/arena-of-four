@@ -2,7 +2,7 @@
 
 Four AI models each commanded an army in the open-source strategy game **0 A.D.** (Release 28, map *Greek Acropolis*). Every order came from their answers; the game engine resolved movement and combat. This repository holds the full transcript: the rules, every question each commander received, word for word, and every answer.
 
-**Video:** https://www.youtube.com/@Novaki_ai (link added when the video goes live)
+**Video:** https://youtu.be/0r_UAP4UNUo (goes live on 21 October 2026)
 
 ## Commanders
 
